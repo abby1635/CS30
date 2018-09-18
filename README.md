@@ -80,13 +80,13 @@ Videos of Automated Groceries Stores and Warehouses
 ### Case Study and Object Information Flow Diagram
 
 Main Parts: see below for section descriptions
-- Grocery Objects, what a grocery item needs to know about itself, <a href="">Click Here for detailed notes</a>
-- Storing the grocery item on the shelf, <a href="">Click Here for detailed notes</a>
-- Consumer "Webpage", ordering (cost and item number), and communication with Warehouse, <a href="">Click Here for detailed notes</a>
-  - Also include the feedback to the consumer ($ and item confirmation), <a href="">Click Here for detailed notes</a>
-- Picking the grocery item off the shelf, delivering it to the packaging area (human, like Amazon's Warehouses, or robotic), <a href="">Click Here for detailed notes</a>
-- Delivering a Packing Guide to the human or robot, boxing multiple items, <a href="">Click Here for detailed notes</a>
-- Delivering the box to the customer, including a pre-paid invoice, <a href="">Click Here for detailed notes</a>
+- Grocery Objects, what a grocery item needs to know about itself, <a href="https://github.com/MercersKitchen/CS30#grocery-objects">Click Here for detailed notes</a>
+- Storing the grocery item on the shelf, <a href="https://github.com/MercersKitchen/CS30#grocery-objects">Click Here for detailed notes</a>
+- Consumer "Webpage", ordering (cost and item number), and communication with Warehouse, <a href="https://github.com/MercersKitchen/CS30#consumer-webpage">Click Here for detailed notes</a>
+  - Also include the feedback to the consumer ($ and item confirmation)
+- Picking the grocery item off the shelf, delivering it to the packaging area (human, like Amazon's Warehouses, or robotic), <a href="https://github.com/MercersKitchen/CS30#picking-grocery-item-off-the-shelf">Click Here for detailed notes</a>
+- Delivering a Packing Guide to the human or robot, boxing multiple items, <a href="https://github.com/MercersKitchen/CS30#box-packing-guide">Click Here for detailed notes</a>
+- Delivering the box to the customer, including a pre-paid invoice, <a href="https://github.com/MercersKitchen/CS30#mail-invoice-and-box-label">Click Here for detailed notes</a>
 
 #### Grocery Objects
 
