@@ -2,10 +2,12 @@
 Advanced High School Computer Science
 
 **Table of Content**
-- Main Projects:
-- Processing-Java Projects:
-- Pure Java Projects:
-- Groceries:
+- Main Projects, <a href="https://github.com/MercersKitchen/CS30#major-projects-planning-algorithms-and-semester-planning">Click Here</a>
+  - Processing-Java Projects, <a href="https://github.com/MercersKitchen/CS30#processing-java-lessons">Click Here</a>
+  - Pure Java Projects, <a href="https://github.com/MercersKitchen/CS30#pure-java-lessons">Click Here</a>
+- Groceries, <a href="https://github.com/MercersKitchen/CS30#groceries-lessons">Click Here</a>
+
+Note: each repository will have an HTML Promotional Page as bonus website review
 
 ---
 
@@ -39,7 +41,7 @@ See Creating a Repository in GitHub: https://github.com/MercersKitchen/Computer-
 
 ### Main Projects
 - Groceries: using pure Java to understand OOP with prototyping in a text-based environment
-   - See (for more details):
+   - See (for more details): <a href="https://github.com/MercersKitchen/CS30#groceries-lessons">Click Here for detailed notes</a>
 -
 
 ### Processing-JAVA Projects
@@ -48,7 +50,7 @@ See Creating a Repository in GitHub: https://github.com/MercersKitchen/Computer-
 
 ### Groceries
 - Case Study & Object Information Flow
-- To Do List reviewing GitHub Markdown, HTML, GitHub ReadMe.md files, and creating "To Do Lists" from 
+- To Do List reviewing GitHub Markdown, HTML, GitHub ReadMe.md files, and creating "To Do Lists" from
 
 ---
 
@@ -65,6 +67,7 @@ How to start a Pure JAVA Project Folder
 ---
 ## Groceries Lessons
 
+### Introduction to Code Controlling Robotic Interactions: Warehouses, Grocery Stores, and Grocery Items
 Videos of Automated Groceries Stores and Warehouses
 - Purpose: develop Ideas about what automation means
 - Amazon Go: https://www.youtube.com/watch?v=NrmMk1Myrxc
@@ -74,6 +77,33 @@ Videos of Automated Groceries Stores and Warehouses
 - All-in-one Warehouse, shipping to individuals, businesses, etc.: https://www.wsj.com/video/autonomous-robots-in-the-grocery-warehouse/52D0ECC8-C0F6-4E9A-B6CB-CD4AAD31E1D4.html
 - Option: discussion about all the videos point towards as an eventual reality
 
-Case Study and Object Information Flow Diagram
+### Case Study and Object Information Flow Diagram
+
+Main Parts: see below for section descriptions
+- Grocery Objects, what a grocery item needs to know about itself, <a href="">Click Here for detailed notes</a>
+- Storing the grocery item on the shelf, <a href="">Click Here for detailed notes</a>
+- Consumer "Webpage", ordering (cost and item number), and communication with Warehouse, <a href="">Click Here for detailed notes</a>
+  - Also include the feedback to the consumer ($ and item confirmation), <a href="">Click Here for detailed notes</a>
+- Picking the grocery item off the shelf, delivering it to the packaging area (human, like Amazon's Warehouses, or robotic), <a href="">Click Here for detailed notes</a>
+- Delivering a Packing Guide to the human or robot, boxing multiple items, <a href="">Click Here for detailed notes</a>
+- Delivering the box to the customer, including a pre-paid invoice, <a href="">Click Here for detailed notes</a>
+
+#### Grocery Objects
+
+#### Storing Grocery Items
+
+#### Consumer "Webpage"
+- List of Questions
+
+#### Picking Grocery Item off the Shelf
+- Address location
+
+#### Box Packing Guide
+
+#### Mail Invoice and Box Label
+
+### Ideas to include
+
+
 
 # Ideas to Include
