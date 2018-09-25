@@ -1,5 +1,4 @@
 # Creating the Ball
-Mr. Mercer's Advanced Course: a review of Processing-Java
 
 Creating the ball
 - Size (): key variables width & height
@@ -8,3 +7,13 @@ Creating the ball
 
 "When the Canvas is resized, the ball is resized automatically."
 - Ball remains "see-able" even on device screen like a phone ... very small pixels
+
+Additional Changes to the Code
+- Add Ball Variables like ...
+- BallX: where ball will be when printed to the screen, x-axis
+- BallY: where ball will be when printed to the screen, y-axis
+- BallStartX: starting position of ball at the beginning of a game, x-axis
+- BallStartY: starting position of ball at the beginning of a game, y-axis
+- BallDiameter: diameter of the ball
+
+CAUTION: using size key-variables means the declaration and assignemnt must happen in different places
