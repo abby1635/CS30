@@ -12,10 +12,15 @@ General Ideas
 
 ## What the ball knows about itself and related ideas
 
-Diameter, Radius and Formula to solve these ideas
-Where it starts on the Pong table
+- BallX: where ball will be when printed to the screen, x-axis
+- BallY: where ball will be when printed to the screen, y-axis
+- BallStartX: starting position of ball at the beginning of a game, x-axis
+- BallStartY: starting position of ball at the beginning of a game, y-axis
+- BallDiameter: diameter of the ball
 
-
+Other Ideas
+- Diameter, Radius and Formula to solve these ideas
+- Where it starts on the Pong table
 
 ---
 

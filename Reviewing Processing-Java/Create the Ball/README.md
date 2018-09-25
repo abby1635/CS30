@@ -16,4 +16,4 @@ Additional Changes to the Code
 - BallStartY: starting position of ball at the beginning of a game, y-axis
 - BallDiameter: diameter of the ball
 
-CAUTION: using size key-variables means the declaration and assignemnt must happen in different places
+CAUTION: using size key-variables means the declaration and assignment must happen in different places
