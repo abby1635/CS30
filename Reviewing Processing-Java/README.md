@@ -5,10 +5,18 @@ Creating a Pong Game
 
 Processing Resources
 - Processing Reference: https://processing.org/
--
+- Debugging line: hints for syntax and function parameter expectations
 
 General Ideas
 - What does the ball need to know about itself?
+- How does the ball move?
+- How do we debug where the ball is in the console?
+- How do we control the speed of the ball
+
+Built in Bugs that Should be Addressed
+- "On a square table, un-randomized ball movement bounces from corner to corner"
+  - Check to see if the table is square, change the ball movement in one dimension to 1.1 (just higher than 1)
+  - Might result in different speeds of ball on different bounces
 
 ## What the ball knows about itself and related ideas
 
@@ -78,6 +86,8 @@ Making a counter increment to illustrate score
 
 Processing.org: bounce html
 
-Google Search Youtube Pong Processing
+Google Search YouTube Pong Processing
 
+Dealing with Squish
+- will need method with both ellipse definitions of a deformed circle
 ---
