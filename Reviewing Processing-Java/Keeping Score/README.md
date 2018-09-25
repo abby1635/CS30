@@ -23,6 +23,9 @@ Console Only Notes
   }
   ```
 - randomize the ball starting position
+- see: https://processing.org/reference/random_.html
+- Picking either -1 or 1
+- Creating a New Program
 
 Screen - Text on the Screen
 -
