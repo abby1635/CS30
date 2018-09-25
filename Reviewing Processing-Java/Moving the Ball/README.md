@@ -32,6 +32,7 @@ General Ideas and Progression
 - Making Paddles
 - Making Goals
 - Making Ball bounce off paddles and not the goals
+- Making score board
 
 ---
 # Ideas to Include
