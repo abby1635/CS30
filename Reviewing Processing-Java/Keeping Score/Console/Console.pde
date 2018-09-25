@@ -23,17 +23,16 @@ void draw() {
   ballY += ballMoveY; //origonally x+1 operation
 
   //Ball Movement within Pong Table
-  if (ballX == 0) { //Score for Player 2, note the index
-    score[1] += 1;
-    println ("Score Board is: " + score[0] + "Player-1" + "     " + score[1] + " Player-2");
+  if (ballX == 0 || ballX == width) { //Score for Player 2, note the index
+    if (ballX == 0) { //Player 2 Score
+      score[1] += 1;
+    }
+    if (ballX == width) { //Player 1 Score
+      score[0] += 1;
+    }
     ballX = ballStartX;
     ballY = ballStartY;
-  }
-  if (ballX == width ) { //Score for Player 1, note the index
-    score[0] += 1;
     println ("Score Board is: " + score[0] + " Player-1" + "     " + score[1] + " Player-2");
-    ballX = ballStartX;
-    ballY = ballStartY;
   }
 
   // Code to bounce off of paddles, here
