@@ -3,6 +3,7 @@ int ballX, ballY;
 int ballStartX, ballStartY;
 int ballDiameter;
 int ballMoveX = 1, ballMoveY = 1;
+int [] score = {0, 0};
 
 void setup() {
   size(500, 600);
@@ -15,25 +16,38 @@ void setup() {
 
 void draw() {
   background(#E9FF03); //Yellow
-  
+
   //Calcualting "next" ball position
   //Section necessary when calling functions so passing current arguements
   ballX += ballMoveX; //origonally x+1 operation
   ballY += ballMoveY; //origonally x+1 operation
 
   //Ball Movement within Pong Table
-  if (ballX == width || ballX == 0) {
-    ballMoveX= ballMoveX * (-1);
+  if (ballX == 0) { //Score for Player 2, note the index
+    score[1] += 1;
+    println ("Score Board is: " + score[0] + "Player-1" + "     " + score[1] + " Player-2");
+    ballX = ballStartX;
+    ballY = ballStartY;
   }
+  if (ballX == width ) { //Score for Player 1, note the index
+    score[0] += 1;
+    println ("Score Board is: " + score[0] + " Player-1" + "     " + score[1] + " Player-2");
+    ballX = ballStartX;
+    ballY = ballStartY;
+  }
+
+  // Code to bounce off of paddles, here
+  // ballMoveX *= (-1); //Shorthand for previous x*-1
+
   if (ballY == height || ballY == 0) {
     ballMoveY = ballMoveY * (-1);
   }
-  
+
   //Printing Ball
   fill(0); //Black
   ellipse(ballX, ballY, ballDiameter, ballDiameter);
 
   //Debugging Ball Position
-  print ("Ball X-Value: " + ballX);
-  println (", Ball Y-Value: " + ballY);
+  //print ("Ball X-Value: " + ballX);
+  //println (", Ball Y-Value: " + ballY);
 }
