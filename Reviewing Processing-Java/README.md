@@ -12,7 +12,9 @@ General Ideas
 
 ## What the ball knows about itself and related ideas
 
-Diameter, Radius and Formula
+Diameter, Radius and Formula to solve these ideas
+Where it starts on the Pong table
+
 
 
 ---
@@ -32,6 +34,23 @@ General Ideas
 - Score and Restart
 
 Upload starter and example
+
+Making the ball move: students need to use the create ball code and add movement and stopping
+- starting code with errors
+  - review:
+  - Start Code has logic and variable naming errors
+- finished code without errors
+- Note: able to use x+1 but try to use +=1
+
+Making the ball stop at the edge so the edge of the ball stops
+
+Making the ball Bounces
+
+Making a counter increment to illustrate score
+
+Processing.org: bounce html
+
+Google Search YouTube Pong Processing
 
 
 ---
