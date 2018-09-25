@@ -17,6 +17,19 @@ Built in Bugs that Should be Addressed
 - "On a square table, un-randomized ball movement bounces from corner to corner"
   - Check to see if the table is square, change the ball movement in one dimension to 1.1 (just higher than 1)
   - Might result in different speeds of ball on different bounces
+- Adding Boolean as value checker, security feature
+  - For Example
+  ```Java
+  if (ballX == 500 | ballY == 500) { //Checks Value or Might Be a Boolean after value checked
+    if (ballX == 500) {
+      ballMoveX= ballMoveX * (-1);
+    }
+    if (ballY == 500) {
+      ballMoveY = ballMoveY * (-1);
+    }
+  }
+  ```
+-
 
 ## What the ball knows about itself and related ideas
 
@@ -25,6 +38,8 @@ Built in Bugs that Should be Addressed
 - BallStartX: starting position of ball at the beginning of a game, x-axis
 - BallStartY: starting position of ball at the beginning of a game, y-axis
 - BallDiameter: diameter of the ball
+- BallMoveX: number value that moves the ball each frame (default frame rate = 60/s), x-axis
+- BallMoveY: number value that moves the ball each frame (default frame rate = 60/s), y-axis
 
 Other Ideas
 - Diameter, Radius and Formula to solve these ideas
