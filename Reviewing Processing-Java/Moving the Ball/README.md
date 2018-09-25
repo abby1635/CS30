@@ -27,8 +27,12 @@ General Ideas and Progression
   - When changing canvas size, adjust any hardcoded numbers to ratio based numbers
   - Fun Fact: if you let the ball bounce for a while, it will create a pattern
     - How many bounces does it take to create the pattern on a 500 by 600 canvas?
-  - 
--
+  -
+- Dealing with the Ball "half off the screen" at each bounce
+- Making Paddles
+- Making Goals
+- Making Ball bounce off paddles and not the goals
+
 ---
 # Ideas to Include
 
