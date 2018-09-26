@@ -57,16 +57,17 @@ Program Progression
 2. Using Random with Casting, the computer changing a variable type from a decimal value to integer (float to int)
   - See CastingExample.pde
   - Will a computer's use of Truncating affect our Random Function?
-3. See 2 Programs Using Random, illsutrates how to use explicit casting
+3. See 2 Programs Using Random, illustrates how to use explicit casting
   - See UsingRandom_WithZero.pde
-    - Issue: Random Arguemnts need to be understood as implicit and explicit (refer to Processing Reference Sheet)
+    - Issue: Random Arguments need to be understood as implicit and explicit (refer to Processing Reference Sheet)
     - (-2, 2) will work as an argument when casting as an int, argument is explicit on both when casting to an int
     - Addtional Issue: Pong will not accept a zero, need to eliminate it
   - See UsingRandom_NoZero.pde: will only execute random again if zero is chosen
   - Write a quick program to check if using Casting from a float to an int will affect randomly chosen -1 and 1
     - See Solution Called IntCastingRandom.pde
+    - Requires FOR Loop: see https://processing.org/reference/for.html
 4. Turning Console into Program that randomly chooses which four directions to send ball
-  - Develop Algorotihm for this
+  - Develop Algorithm for this
   - Code into Console Copied Code, renaming program
 5. Instead of Console, print the score to the canvas
 
