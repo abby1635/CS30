@@ -105,4 +105,7 @@ Google Search YouTube Pong Processing
 
 Dealing with Squish
 - will need method with both ellipse definitions of a deformed circle
+
+Improvements to Game
+- Start ball in any direction, not original four
 ---
