@@ -108,4 +108,7 @@ Dealing with Squish
 
 Improvements to Game
 - Start ball in any direction, not original four
+
+HTML Promo Page
+- Use this lesson to develop ideas for Mentoring Kindergarten Students, Gr 5
 ---
