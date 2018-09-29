@@ -11,7 +11,12 @@ General Ideas
 - What does the ball need to know about itself?
 - How does the ball move?
 - How do we debug where the ball is in the console?
-- How do we control the speed of the ball
+- How do we bounce the ball off the sides
+  - Question to save: how to we bounce the ball when it is on the screen, not half off the screen?
+- How do we record scores and restart the ball in the center of the screen
+- How do we draw moving paddles, keep score, and have the ball bounce on the paddles, but not the screen?
+- Additional Questions
+  - How do we control the speed of the ball?
 
 Built in Bugs that Should be Addressed
 - "On a square table, un-randomized ball movement bounces from corner to corner"
@@ -40,10 +45,12 @@ Built in Bugs that Should be Addressed
 - BallDiameter: diameter of the ball
 - BallMoveX: number value that moves the ball each frame (default frame rate = 60/s), x-axis
 - BallMoveY: number value that moves the ball each frame (default frame rate = 60/s), y-axis
+- Score[]: when it scores and restarts
 
 Other Ideas
 - Diameter, Radius and Formula to solve these ideas
 - Where it starts on the Pong table
+- Which direction it moves in (note: sending the ball randomly to the four corners increases the paddle distance to travel if starting in the middle but does not increase player control of the paddle)
 
 ---
 
