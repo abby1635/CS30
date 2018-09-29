@@ -70,18 +70,20 @@ Program Progression
   - Develop Algorithm for this
   - Code into Console Copied Code, renaming program
   - See Solution called Console_RandomBallStart.pde
-5. Instead of Console, print the score to the canvas
-
-
-Screen - Text on the Screen
--
+5. Instead of Console, print the score to the canvas, See CanvasScore_OneBallStart.pde
+  - Printing happens after ball is drawn (ball drawn, then score drawn; seems reasonable sequence of events)
+  - Drawing happens with numbers first, then ratios are approximated to be on any screen
+    - font size is ratio
+    - position of score is ratio
+    - notice the starting point of the font is slightly off, so Player 1 score's starting point is subtracted from the font beginning
+  - Review Character escapes (printed to either console or canvas)
+    - Here, "Player 1" seems to busy
+    - Possible Solutions: do not include, decrease font, etc.
+  -
+6. Combine the Random Start with print the score to the canvas, See Canvas_RandomBallStart.pde
 
 ---
 
 # Ideas to Include
-CS30 Arrays
-score1 and score 2 renamed to arrays
 
-After Score, need to randomize if I choose negative or positive for the
-- ballMoveX & Y
-- this is the array students can practice with
+---
