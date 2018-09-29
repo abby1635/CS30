@@ -69,6 +69,7 @@ Program Progression
 4. Turning Console into Program that randomly chooses which four directions to send ball
   - Develop Algorithm for this
   - Code into Console Copied Code, renaming program
+  - See Solution called Console_RandomBallStart.pde
 5. Instead of Console, print the score to the canvas
 
 
