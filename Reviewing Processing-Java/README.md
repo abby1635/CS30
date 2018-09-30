@@ -118,4 +118,12 @@ Improvements to Game
 
 HTML Promo Page
 - Use this lesson to develop ideas for Mentoring Kindergarten Students, Gr 5
+
+Errors in PaddlesWorking Copy
+- After reset, values are different, not same values; need to make a reset values procedure so values are not all over the place
+- Try various table sizes, see results of the font and paddle sizes, similar errors to Square Error
+- Create AI Based on player 2 and mouseY
+- Order of calculations are important too, what gets drawn and when
+- player[0] not used a lot, try to include this
+
 ---
