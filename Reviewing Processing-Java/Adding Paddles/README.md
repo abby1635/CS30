@@ -4,27 +4,24 @@ Drawing Paddles and making the bounce happen
 **Start with Moving the Ball / Bounce Program**
 See https://github.com/MercersKitchen/CS30/tree/master/Reviewing%20Processing-Java/Moving%20the%20Ball/Bounce
 
+Progressions
+1. Draw Paddles: see DrawingPaddles.pde
+2. Add Movement to the Paddles: see AddingMovement.pde
+  - See AddingMovement_SinglePlayer.pde for an automatic opponent concept
+  - Player 2 moves according to the ball
+  - This program provides multiple ways of controlling a paddle
+3. Bouncing the Ball off one paddle, in single player mode
+  - NOTE: you must create the game for two players
 
+Concepts to Include
+  - Alternate Method to initialize array without values, null
+  - Filling colour and resetting colour to previous fill (black)
+  - Using key variable, keyPressed, instead of function, void keyPressed(){}
+  - Knowing to test keyPressed or key for active values, then to test what those values are
 
 ---
 
 # Ideas to Include
-- Drawing Paddles
-- Adding movement to the paddles
-- Making the bounce happen off the paddles but not the score area
-
-Concepts to Include
-- Alternate Method to initialize array without values, null
 - Read values into array using FOR Loop
-- Filling colour and resetting colour to previous fill (black)
-- Using key variable, keyPressed, instead of function, void keyPressed(){}
-- Using
 
-
-CONTINUE at figuring key, keyCoded, and keypressed
-
-Test a program to figure out keyPressed and MousePressed Interactions
-
-Errors in PaddlesWorking Copy
-- After reset, values are different, not same values; need to make a reset values procedure so values are not all over the place
 ---
