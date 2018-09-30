@@ -25,5 +25,6 @@ CONTINUE at figuring key, keyCoded, and keypressed
 
 Test a program to figure out keyPressed and MousePressed Interactions
 
-
+Errors in PaddlesWorking Copy
+- After reset, values are different, not same values; need to make a reset values procedure so values are not all over the place
 ---
