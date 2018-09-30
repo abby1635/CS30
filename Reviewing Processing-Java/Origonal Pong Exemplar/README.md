@@ -19,9 +19,9 @@ Completing a Case Study
 - Additions
   - Randomize the ball start a little better
 -
--
 
 See Exemplar
+
 ---
 
 # Ideas to Include

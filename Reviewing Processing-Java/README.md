@@ -51,79 +51,25 @@ Other Ideas
 - Diameter, Radius and Formula to solve these ideas
 - Where it starts on the Pong table
 - Which direction it moves in (note: sending the ball randomly to the four corners increases the paddle distance to travel if starting in the middle but does not increase player control of the paddle)
+- Dealing with different sized screens, especially square canvases and various ranged rectangle canvases
+
 
 ---
 
 # Ideas to Include
-General Ideas
-- Dealing with ratios when printing a ball
-- Dealing with the Ball off the Screen, half way
-  - how casting affects ball off screen error
-- Checking square vs. rectangle in moving ball
-- Randomizing who the ball starts
-- Bouncing off walls
-- Bouncing off paddle, not wall
-- Ball Squish
-- How casting affects mathematics
-- Score to console, then onto Screen
-- Score and Restart
+Dealing with the Ball off the Screen, half way
+  - Ball Squish
+  - how casting affects ball off screen error?
+  - Making the ball stop at the edge so the edge of the ball stops
+  - Dealing with Squish
+  - will need method with both ellipse definitions of a deformed circle
 
-Upload starter and example
-
-Making the ball move: students need to use the create ball code and add movement and stopping
-- starting code with errors
-  - review:
-  - Start Code has logic and variable naming errors
-- finished code without errors
-- Note: able to use x+1 but try to use +=1
-
-Making the ball stop at the edge so the edge of the ball stops
-
-Making the ball Bounces
-
-Making a counter increment to illustrate score
-
-Processing.org: bounce html
-
-Google Search YouTube Pong Processing
-
-Sandboxing Lessons
-
-Creating the ball
-- Size (): key variables width & height, also fullScreen() and displayWidth & displayHeight
-- Ratios for ball function
-
-Making the ball move: students need to use the create ball code and add movement and stopping
-- starting code with errors
-  - review:
-  - Start Code has logic and variable naming errors
-- finished code without errors
-- Note: able to use x+1 but try to use +=1
-
-Making the ball stop at the edge so the edge of the ball stops
-
-Making the ball Bounces
-
-Making a counter increment to illustrate score
-
-Processing.org: bounce html
-
-Google Search YouTube Pong Processing
-
-Dealing with Squish
-- will need method with both ellipse definitions of a deformed circle
+Checking square vs. rectangle in moving ball
 
 Improvements to Game
 - Start ball in any direction, not original four
 
 HTML Promo Page
 - Use this lesson to develop ideas for Mentoring Kindergarten Students, Gr 5
-
-Errors in PaddlesWorking Copy
-- After reset, values are different, not same values; need to make a reset values procedure so values are not all over the place
-- Try various table sizes, see results of the font and paddle sizes, similar errors to Square Error
-- Create AI Based on player 2 and mouseY
-- Order of calculations are important too, what gets drawn and when
-- player[0] not used a lot, try to include this
 
 ---
