@@ -38,6 +38,7 @@ Progression & Challenges
       - Perhaps "even the odds" for a player who is more than 2 or 3 goals ahead
     - Create sophisticated methods for Single Player so the "computer" can adjust how perfectly it plays, depending on the score
       - Might give written feedback to player based on score and "here I come" type messages
+    - Create more than one ball at a time, perhaps based on score, perhaps based on keyboard stokes answering questions about the level of difficult you intend to play with
 
 Processing Resources
 - Processing Reference: https://processing.org/
