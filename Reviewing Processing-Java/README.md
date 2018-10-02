@@ -16,11 +16,13 @@ Progression & Challenges
     - Making the ball stop at the edge, the edge of the ball touches the edge of the screen
     - Checking if the screen is square or rectangle, then making it automatically smarter for either shape of Canvas
 2. Procedural Program
-  - Rewrite the program into Procedures
+  - Rewrite the program into Procedures, <a href="https://github.com/MercersKitchen/CS30/tree/master/Reviewing%20Processing-Java#creating-procedural-processing-java-boilerplate-for-pong-leads-to-object-orientated-approach">Click Here for Boilerplate in Procedures</a>
     - void Procedures
     - return Procedures
     - Focus: Main File to "call" blocks of code; other files to group blocks of code
     - Intended Side-effect: decrease repeated code
+  - Minimum Effort: copy the code from your linear program into Procedural Methods
+    - Mercer's Kitchen Exemplar: <a href="">Click Here</a>
   - Unique Procedure Pieces, additional blocks of code to be written if code is repeated
     - Starting the Game
     - Resetting the Game
@@ -87,18 +89,36 @@ Use this lesson to develop ideas for Mentoring Kindergarten Students, Gr 5
 - BallDiameter: diameter of the ball
 - BallMoveX: number value that moves the ball each frame (default frame rate = 60/s), x-axis
 - BallMoveY: number value that moves the ball each frame (default frame rate = 60/s), y-axis
-- Score[]: when it scores and restarts
+
 
 Other Ideas
 - Diameter, Radius and Formula to solve these ideas
 - Where it starts on the Pong table
 - Which direction it moves in (note: sending the ball randomly to the four corners increases the paddle distance to travel if starting in the middle but does not increase player control of the paddle)
 - Dealing with different sized screens, especially square canvases and various ranged rectangle canvases
+- When the ball needs to squish and move in the opposite direction
+
+Related Ideas to the particular ball (when more than one ball exists)
+- Score[]: when it scores and restarts
 
 ---
 
 ## Creating Procedural Processing-JAVA Boilerplate for Pong (leads to Object Orientated Approach)
 
+Procedures to Code for In Pseudocode
+1. Global Variables (different from local variables, for example, Procedural-specific and iteration or array indices)
+2. Starting the Game, with user experienced pause to start the game with the space bar
+3. Playing the Game: ball movement, paddle movement
+4. Resetting the Game after a Goal (very similar to game start, so should be the same block of code)
+5. Scoring Method: arithmetic for checking the goal area, drawing the score-board
+. Ball Squish Procedure: highlighting the ball bouncing off the table sides (top and bottom) & paddles
+  - Advanced: highlighting these differently based on colour ... positive feedback for contacting the ball
+
+Concepts to Highlight
+- Focus: Main File to "call" blocks of code; other files to group blocks of code
+- Intended Side-effect: decrease repeated code
+- void Procedures: execute only blocks of code, repeatedly
+- return Procedures: calculate a value used in other places
 
 ---
 
