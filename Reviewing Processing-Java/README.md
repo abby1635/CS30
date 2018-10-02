@@ -22,7 +22,7 @@ Progression & Challenges
     - Focus: Main File to "call" blocks of code; other files to group blocks of code
     - Intended Side-effect: decrease repeated code
   - Minimum Effort: copy the code from your linear program into Procedural Methods
-    - Mercer's Kitchen Exemplar: <a href="">Click Here</a>
+    - Mercer's Kitchen Exemplar: <a href="https://github.com/MercersKitchen/CS30/tree/master/Reviewing%20Processing-Java#creating-procedural-processing-java-boilerplate-for-pong-leads-to-object-orientated-approach">Click Here</a>
   - Unique Procedure Pieces, additional blocks of code to be written if code is repeated
     - Starting the Game
     - Resetting the Game
@@ -111,7 +111,7 @@ Procedures to Code for In Pseudocode
 3. Playing the Game: ball movement, paddle movement
 4. Resetting the Game after a Goal (very similar to game start, so should be the same block of code)
 5. Scoring Method: arithmetic for checking the goal area, drawing the score-board
-. Ball Squish Procedure: highlighting the ball bouncing off the table sides (top and bottom) & paddles
+6. Ball Squish Procedure: highlighting the ball bouncing off the table sides (top and bottom) & paddles
   - Advanced: highlighting these differently based on colour ... positive feedback for contacting the ball
 
 Concepts to Highlight
