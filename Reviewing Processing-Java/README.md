@@ -23,14 +23,10 @@ Progression & Challenges
     - Intended Side-effect: decrease repeated code
   - Minimum Effort: copy the code from your linear program into Procedural Methods
     - Mercer's Kitchen Exemplar, from Processing-Java Sandbox: <a href="https://github.com/QEHS-ProcessingJava/Advanced-Review-Processing-Java/tree/master/Origonal%20Pong%20Exemplar/Pong">Click Here</a>
-  - Unique Procedure Pieces, additional blocks of code to be written if code is repeated
-    - Starting the Game
-    - Resetting the Game
-    - Playing the Game
   - Additional challenges meant for Procedures
     - Creating a "Ball Squish" to run every time a ball bounces off the screen
       - Note: will need method with both ellipse definitions of a deformed circle
-    - Create alternate methods for Single Player
+    - Create alternate methods for Single Player (not simply repeating the ball's y-axis variable)
 3. Object Orientated Program
   - Constructor
   - Ball Object
