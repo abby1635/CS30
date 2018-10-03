@@ -12,9 +12,8 @@ Progression & Challenges
   - Pathway: Moving the Ball
   - Pathway: Adding Paddles
   - Additional Challenges
-    - How do we check if the canvas is square or rectangle, before we play, and make the program smarter for the user
-    - Making the ball stop at the edge, the edge of the ball touches the edge of the screen
-    - Checking if the screen is square or rectangle, then making it automatically smarter for either shape of Canvas
+    - How do we check if the canvas is square or rectangle, before we play, and make the program smarter for the user?
+    - Making the ball stop at the edge, so the edge of the ball touches the edge of the screen?
 2. Procedural Program
   - Rewrite the program into Procedures, <a href="https://github.com/MercersKitchen/CS30/tree/master/Reviewing%20Processing-Java#creating-procedural-processing-java-boilerplate-for-pong-leads-to-object-orientated-approach">Click Here for Boilerplate in Procedures</a>
     - void Procedures
