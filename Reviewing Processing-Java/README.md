@@ -119,5 +119,9 @@ Concepts to Highlight
 
 # Ideas to Include
 
+BallMoveX&Y will control the speed in each dimension for a cumulative effect
+- for example: 1 and 1 moves ball in 45-degree angle
+- for example: 1 & 1 changes the angle based on X-Axis "speed"
+- Mimics Physics or Calculus Analysis of Motion
 
 ---
