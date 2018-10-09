@@ -9,13 +9,13 @@ void setup() {
 void draw() {
   //Code to change "Start" Boolean Variable to true
 
-  if (start == false) {
+  if (start == false) { //Demonstrating that Game is Still here
     println ("Game has not started yet.");
   }
 
-  if (start==true) { //Contains the entire Main File Code
+  if (start==true) { //Demonstrating that Game is now active
     println ("Game has Started");
   }
 
-  startStop();
+  startStop(); //No return call
 }
