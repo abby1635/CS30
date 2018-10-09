@@ -4,6 +4,7 @@ Boolean start = false;
 //This File is the main file
 //It calls each Procedure in either setup() or draw()
 void setup() {
+  size(500, 500);
   gameStart(); //arithemetic to calcaulte starting positions of paddles and ball
 }
 
@@ -15,6 +16,5 @@ void draw() {
     playGame(); //Also contains "ball squish" procedure, with change in frameRate
     // Also contains highlihgts for positive user feedback
     score(); //contains highlihgts for positive user feedback
-    
   }
 }
