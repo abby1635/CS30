@@ -8,13 +8,13 @@ int ballMoveX = 1, ballMoveY = 1;
 //This File is the main file
 //It calls each Procedure in either setup() or draw()
 void setup() {
-  size(500, 500);
+  size(500, 600);
 
   //Debug: square vs. rectangle code
   if (width == height) {
     println ("Full Screen Debugging: Width= " + displayWidth + "; Height= " + displayHeight); //Used to compare against manually entered canvas size
     println ("The Canvas is a Square causing problems with the ball bouncing. Width & Height are " + width + ", " + height); //Used to compare against manually entered canvas size
-    println ("Canvas size problem, please adjust");
+    print ("Please adjust on line, function 'size'.");
     exit(); //Used to exit the canvas, incorrectly puts the user reponsible for the coding
   }
 
