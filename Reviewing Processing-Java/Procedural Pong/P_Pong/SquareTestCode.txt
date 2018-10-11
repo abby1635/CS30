@@ -1,5 +1,6 @@
 NOTE: this needs to be debugged
-
+- Adjusting the Canvas Width and Height may be too much
+- Perhpas simply quite the screen and give feedback to the cansole
 
 if (width == height) {
     println ("Full Screen Debugging :", displayWidth, displayHeight);
