@@ -9,10 +9,10 @@ void playGame () {
 
   //Ball Movement within Pong Table
   //Debug: ball is half off the screen
-  if (ballX == width || ballX == 0) {
+  if (ballX == 0+ballDiameter || ballX == width-ballDiameter) {
     ballMoveX= ballMoveX * (-1);
   }
-  if (ballY == height || ballY == 0) {
+  if (ballY == 0+ballDiameter || ballY == height-ballDiameter ) {
     ballMoveY = ballMoveY * (-1);
   }
 

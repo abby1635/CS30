@@ -10,6 +10,17 @@ int ballMoveX = 1, ballMoveY = 1;
 void setup() {
   size(500, 500);
   //Debug: square vs. rectangle code
+  if (width == height) {
+    println ("Full Screen Debugging :", displayWidth, displayHeight);
+    if (width*1.1 < displayWidth) {
+      width = int (width*1.1);
+    }
+    if (height*1.1 < displayHeight) {
+      height = int (height*1.1);
+    }
+    if (width == height) {
+      println ("Canvas size problem, please adjust");
+  }
   gameStart(); //arithemetic to calcaulte starting positions of paddles and ball
 }
 
