@@ -1,0 +1,14 @@
+NOTE: this needs to be debugged
+
+
+if (width == height) {
+    println ("Full Screen Debugging :", displayWidth, displayHeight);
+    if (width*1.1 < displayWidth) {
+      width = int (width*1.1);
+    }
+    if (height*1.1 < displayHeight) {
+      height = int (height*1.1);
+    }
+    if (width == height) {
+      println ("Canvas size problem, please adjust");
+  }
