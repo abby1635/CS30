@@ -1,10 +1,10 @@
 NOTE: this needs to be debugged
-- Adjusting the Canvas Width and Height may be too much
+- Adjusting the Canvas Width and Height may be too much, automatically
 - Perhpas simply quite the screen and give feedback to the cansole
 
 Simipler Solution in P_Pong.pde
 
-Original Notes
+Original Notes, Solution 1
 
 if (width == height) {
     println ("Full Screen Debugging :", displayWidth, displayHeight);
@@ -17,3 +17,7 @@ if (width == height) {
     if (width == height) {
       println ("Canvas size problem, please adjust");
   }
+
+Origonal Notes, Solution 2
+- Change the incrementation of the ball so it does not bounce in a square
+- Seems like an odd solution, against physics of regular formed ball
