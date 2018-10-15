@@ -1,7 +1,7 @@
 void gameStart() {
-  
+
   //Arithmetic to play the start the game
-  
+
   ballStartX = width/2;
   ballStartY = height/2;
   ballX = ballStartX;
@@ -16,4 +16,16 @@ void gameStart() {
   int section = width / paddleWidthRatio; // Local Variable: calculate the divisions of the paddle and draw in the last one
   player[2] = width*(section-1)/section; // *(paddlewidthRatio-1)/paddlewidthRatio
   player[3] = height/2;
+
+  //This sets the random for the ball
+  /*
+  ballMoveX = int (random (-2, 2));
+  while (ballMoveX == 0) {
+    ballMoveX = int (random (-2, 2));
+  }
+  ballMoveY = int (random (-2, 2));
+  while (ballMoveY == 0) {
+    ballMoveY = int (random (-2, 2));
+  }
+  */
 }

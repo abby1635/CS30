@@ -1,4 +1,5 @@
 // Global Variables (Note: any variables at the beginning of Tabs, before "void" are considered Global Variables)
+Boolean start = false; //Variable for Game Starting
 int ballX, ballY;
 int ballStartX, ballStartY;
 int ballDiameter;
@@ -9,12 +10,13 @@ int paddleHeightRatio = 10;
 int [] paddle = {0, 0}; //Paddle width and height
 int [] player = new int [4]; //Alternate way of initializing an Array, for paddles
 //0: Player1_X, 1:Player1_Y, 2:Player2_X, 3:Player2_Y
+int [] score = {0, 0}; //Player score 1 & 2
 // End Global Variables
 
 //This File is the main file
 //It calls each Procedure in either setup() or draw()
 void setup() {
-  size(3000, 3000);
+  size(500, 600); //May need to change these variables
   
   screenSizeChecker ();
   
