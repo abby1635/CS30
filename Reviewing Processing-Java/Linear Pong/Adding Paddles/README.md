@@ -23,5 +23,6 @@ Concepts to Include
 
 # Ideas to Include
 - Read values into array using FOR Loop
+- 3 Conditions to make an arithmetic collision (X- Value, Y-Value lower than top of paddle, Y-Value Higher than bottom of the paddle)
 
 ---
