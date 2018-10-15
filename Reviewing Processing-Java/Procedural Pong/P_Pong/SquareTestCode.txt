@@ -1,23 +1,11 @@
-NOTE: this needs to be debugged
-- Adjusting the Canvas Width and Height may be too much, automatically
-- Perhpas simply quite the screen and give feedback to the cansole
+POSSIBLE SOLUTIONS (Needs to be coded)
+- Adjusting the Canvas Width and Height (using defined width and height variables instead of keywords)
 
-Simipler Solution in P_Pong.pde
+Simpler Solution in P_Pong.pde
+- Print Errors to console, quit game automatically
+- Compare canvas to full screen values, quit if canvas too big
+- Compare canvas width and height to establish "square-ness"
 
-Original Notes, Solution 1
-
-if (width == height) {
-    println ("Full Screen Debugging :", displayWidth, displayHeight);
-    if (width*1.1 < displayWidth) {
-      width = int (width*1.1);
-    }
-    if (height*1.1 < displayHeight) {
-      height = int (height*1.1);
-    }
-    if (width == height) {
-      println ("Canvas size problem, please adjust");
-  }
-
-Origonal Notes, Solution 2
+Original Notes, Possible Solution
 - Change the incrementation of the ball so it does not bounce in a square
 - Seems like an odd solution, against physics of regular formed ball

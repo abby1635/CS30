@@ -4,7 +4,7 @@ Focus on Boilerplate for Procedural Pong
 Creating a Procedure for Global Variables
 - Any variables at the beginning any tabs, before the first "void" are considered Global Variables)
 
-**CATUION**: the main Processing-Java File must have void setup(){} and void draw(){} for the Java Compiler
+**CAUTION**: the main Processing-Java File must have void setup(){} and void draw(){} for the Java Compiler
 
 Creating New TABS, which are separate files
 - Click Arrow / New table
@@ -43,6 +43,6 @@ Creating a RETURN Procedure
 ---
 
 # Ideas to Include
-
+Notes about Procedural Pong, inside program as notes
 
 ---
