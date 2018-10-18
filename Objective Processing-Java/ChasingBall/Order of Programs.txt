@@ -18,5 +18,3 @@ BouncingBall_Chase_Modifiers
 Continue with Static
 
 
-Ways to make this better
-- math to make ball movement smoother instead of like Pong Ball

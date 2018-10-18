@@ -15,12 +15,20 @@ Motivation for Learning Processing (Artists and Demonstration of Natural Phenomi
   - Google Image "particles around a magnet"
 
 ## Arithmetic of Moving a Ball & Creating a Driver and Classes
+Purpose of this Program
+1. Add imagination to Pong
+2. Introduction to Class Design and Case Studies
+
+OOP Java Concepts
 - Access Modifiers
 - Getters
+
+See: https://drive.google.com/drive/folders/1aZVCM8ODXvin7BXbjjgxsgvqTG2C1qOS
 
 ---
 
 # Ideas to Include
-
+Ways to Ball Chase better
+- math to make ball movement smoother instead of like Pong Ball
 
 ---
