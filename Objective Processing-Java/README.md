@@ -26,6 +26,19 @@ OOP Java Concepts
 - Access Modifiers
 - Getters
 
+Progression of Programs in the Pathway
+- BouncingBall_Start: boilerplate, creating Pure-Java Classes within .pde constructor
+  - Object creates instances
+  - "What does instance know about itself" ... referring to actual numbers, not actual numbers
+  - How is the processing accomplished on "what the instance knows about itself"
+  - Naming object variables, classes, procedures within classes
+  - "this.variable"
+  - passing parameters to class to construct the instance of the object
+
+- BouncingBall_Chase.pde: adding arithmetic to animate ball, adding mouse interactions and variables of target
+  - Finishing a Case Study about the arithmetic
+  - "Why does this work? Explore"
+
 See: https://drive.google.com/drive/folders/1aZVCM8ODXvin7BXbjjgxsgvqTG2C1qOS
 
 ---
