@@ -32,6 +32,9 @@ Unfinished
 - add way for instance not to need to pass variables before size, need array (students will not know this)
   - all variables assignments are calculated from size (), and passed into the class
 
+## Adding an Array
+
+
 # Original Star Problem Set
 
 ## Questions
