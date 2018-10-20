@@ -12,7 +12,8 @@ Order of Program Solutions
 
 Table of Contents
 1. Building a Basic Multi-ball Program, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#building-a-basic-multi-ball-program">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/BuildingBasicStar">Click Here for Programs</a>
-2. Adding an Array to change how arguments are passed to the constructor, <a href="">Click Here for More Details</a>
+2. Adding an Array to change how arguments are passed to the constructor, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#adding-an-array">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/Star_Single">Click Here for Programs</a>
+3. 
 <a href="">Click Here for More Details</a>
 
 ## Building a Basic Multi-ball Program
