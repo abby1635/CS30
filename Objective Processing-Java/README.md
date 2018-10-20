@@ -23,7 +23,7 @@ Purpose of this Program
 2. Introduction to Class Design and Case Studies
 
 OOP Java Concepts
-- Access Modifiers
+- Access Modifiers: public, private
 - Getters
 
 Case Study:
@@ -44,12 +44,14 @@ Progression of Programs in this Pathway
   - passing parameters to class to construct the instance of the object
 
 - BouncingBall_Chase.pde: adding arithmetic to animate ball, adding mouse interactions and variables of target
-  - Finishing a Case Study about the arithmetic
-  - "Why does this work? Explore"
 
+- BouncingBall_Chase_Private: modifying access to variables and creating getters for security
+  - Must fix the error before it runs properly
+  - Private & Public modifiers
+  - Creating Getter Functions for private access modifiers
+  - To fix the first error, run the Getter Function for X & Y: ```ball.x to ball.getX()```
 
-Adding Access Modifiers
-
+  - Note: BouncingBall_Chase_Getters.pde describes debugging
 
 See: https://drive.google.com/drive/folders/1aZVCM8ODXvin7BXbjjgxsgvqTG2C1qOS
 
@@ -59,8 +61,7 @@ See: https://drive.google.com/drive/folders/1aZVCM8ODXvin7BXbjjgxsgvqTG2C1qOS
 Ways to Ball Chase better
 - math to make ball movement smoother instead of like Pong Ball, not a 45-degree line and then 1D lines to "make up the distance"
 
-What if x & y was used instead of targetX & targetY?
-An easy mistake that breaks the design of the program
+
 
 
 ---
