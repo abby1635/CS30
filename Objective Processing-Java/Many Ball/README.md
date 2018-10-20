@@ -27,6 +27,10 @@ Problem Situation: build a program that draws one pong ball in the center of a 5
 
 Solution: this is very similar to the full solution of the "Moving Ball"
 
+Unfinihsed
+- add Canvas Checker
+- add start and stop button
+
 # Original Star Problem Set
 
 ## Questions
