@@ -16,6 +16,16 @@ Table of Contents
 <a href="">Click Here for More Details</a>
 
 ## Building a Basic Multi-ball Program
+Problem Situation: build a program that draws one pong ball in the center of a 500 by 500 canvas
+- include a method for Checking the Canvas Size compared to full screen (communication with display geometry)
+- include a method for Starting and Stopping the Canvas (Start-Stop Buttons)
+- include a Pure-Java Class that
+  - contains no numbers, only variables
+  - all variables assignments are calculated from size (), and passed into the class
+  - all variables are in the class are private with Getter Functions, when need to be shared
+- include a Processing Main Program with all variables and functions as private or public
+
+Solution: this is very similar to the full solution of the "Moving Ball"
 
 # Original Star Problem Set
 
