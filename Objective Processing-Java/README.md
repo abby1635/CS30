@@ -30,7 +30,11 @@ Case Study:
 - Problem Situation: if a ball starts from the center of a canvas, how will it move to a target arithmetically
 - Solution uses incrementation and a conditional
 
-Progression of Programs in the Pathway
+Creating a Processing-Java | Pure-Java Program
+- Folder and Name must match (issue of Java Compiler)
+- Creating new TABs within Processing-Java, including file extension of .java, allows Pure-Java Classes
+
+Progression of Programs in this Pathway
 - BouncingBall_Start: boilerplate, creating Pure-Java Classes within .pde constructor
   - Object creates instances
   - "What does instance know about itself" ... referring to actual numbers, not actual numbers
@@ -43,12 +47,20 @@ Progression of Programs in the Pathway
   - Finishing a Case Study about the arithmetic
   - "Why does this work? Explore"
 
+
+Adding Access Modifiers
+
+
 See: https://drive.google.com/drive/folders/1aZVCM8ODXvin7BXbjjgxsgvqTG2C1qOS
 
 ---
 
 # Ideas to Include
 Ways to Ball Chase better
-- math to make ball movement smoother instead of like Pong Ball
+- math to make ball movement smoother instead of like Pong Ball, not a 45-degree line and then 1D lines to "make up the distance"
+
+What if x & y was used instead of targetX & targetY?
+An easy mistake that breaks the design of the program
+
 
 ---
