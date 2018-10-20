@@ -12,7 +12,7 @@ Order of Program Solutions
 
 Table of Contents
 1. Building a Basic Multi-ball Program, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#building-a-basic-multi-ball-program">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/BuildingBasicStar">Click Here for Programs</a>
-2. <a href="">Click Here for More Details</a>
+2. Adding an Array to change how arguments are passed to the constructor, <a href="">Click Here for More Details</a>
 <a href="">Click Here for More Details</a>
 
 ## Building a Basic Multi-ball Program
@@ -20,16 +20,17 @@ Problem Situation: build a program that draws one pong ball in the center of a 5
 - include a method for Checking the Canvas Size compared to full screen (communication with display geometry)
 - include a method for Starting and Stopping the Canvas (Start-Stop Buttons)
 - include a Pure-Java Class that
-  - contains no numbers, only variables
-  - all variables assignments are calculated from size (), and passed into the class
+  - contains no numbers, only variables, passed from creating an instance
   - all variables are in the class are private with Getter Functions, when need to be shared
 - include a Processing Main Program with all variables and functions as private or public
 
 Solution: this is very similar to the full solution of the "Moving Ball"
 
-Unfinihsed
+Unfinished
 - add Canvas Checker
 - add start and stop button
+- add way for instance not to need to pass variables before size, need array (students will not know this)
+  - all variables assignments are calculated from size (), and passed into the class
 
 # Original Star Problem Set
 
