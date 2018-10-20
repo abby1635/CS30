@@ -1,9 +1,11 @@
 # Chasing Ball
 Order of Programs in Learning about Basic Class Design and Security
 
+**UNDER CONSTRUCTION**
+
 Table of Contents
 1. Moving Ball, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Moving%20Ball#moving-ball">Click Here</a>
-2. , <a href="">Click Here</a>
+2. Many Ball, <a href="">Click Here</a>
 
 ## Moving Ball
 (Also "Arithmetic of Moving a Ball & Creating a Driver and Classes")
@@ -12,9 +14,7 @@ Purpose of this Program
 1. Add imagination to Pong
 2. Introduction to Class Design and Case Studies
 
-OOP Java Concepts
-- Access Modifiers: public, private
-- Getters
+
 
 Case Study:
 - Problem Situation: if a ball starts from the center of a canvas, how will it move to a target arithmetically
@@ -42,6 +42,14 @@ Progression of Programs in this Pathway
   - To fix the first error, run the Getter Function for X & Y: ```ball.x to ball.getX()```
 
   - Note: BouncingBall_Chase_Getters.pde describes debugging
+
+---
+
+## Many Ball
+(Also "")
+
+
+---
 
 # Ideas
 
