@@ -36,12 +36,6 @@ Progression of Programs in this Pathway
 
 ---
 
-## Many Ball
-(Also "")
-
-
----
-
 # Ideas
 
 
