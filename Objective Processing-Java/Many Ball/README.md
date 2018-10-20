@@ -11,9 +11,11 @@ Order of Program Solutions
 - Prob4
 
 Table of Contents
-1. Building a Basic Multi-ball Program, <a href="">Click Here for More Details</a>, or see the program here <a href="">Click Here for Programs</a>
+1. Building a Basic Multi-ball Program, <a href="">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/BuildingBasicStar">Click Here for Programs</a>
 2. <a href="">Click Here for More Details</a>
 <a href="">Click Here for More Details</a>
+
+## Building a Basic Multi-ball Program
 
 # Original Star Problem Set
 
