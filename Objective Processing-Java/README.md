@@ -53,8 +53,6 @@ Progression of Programs in this Pathway
 
   - Note: BouncingBall_Chase_Getters.pde describes debugging
 
-See: https://drive.google.com/drive/folders/1aZVCM8ODXvin7BXbjjgxsgvqTG2C1qOS
-
 ---
 
 # Ideas to Include

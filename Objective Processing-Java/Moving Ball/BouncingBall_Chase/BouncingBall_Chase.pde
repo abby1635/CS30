@@ -1,4 +1,4 @@
-Ball ball = new Ball(250, 250);
+Ball ball = new Ball(250, 250, 25);
 
 void setup() {
   size(500, 500);
@@ -10,7 +10,7 @@ void draw() {
   ball.step();
 
   background(0);
-  ellipse(ball.x, ball.y, 25, 25);
+  ellipse(ball.x, ball.y, ball.diameter, ball.diameter);
 } //End of draw()
 
 void mouseClicked() {
