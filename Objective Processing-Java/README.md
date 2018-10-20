@@ -26,6 +26,10 @@ OOP Java Concepts
 - Access Modifiers
 - Getters
 
+Case Study:
+- Problem Situation: if a ball starts from the center of a canvas, how will it move to a target arithmetically
+- Solution uses incrementation and a conditional
+
 Progression of Programs in the Pathway
 - BouncingBall_Start: boilerplate, creating Pure-Java Classes within .pde constructor
   - Object creates instances
