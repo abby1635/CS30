@@ -124,4 +124,9 @@ BallMoveX&Y will control the speed in each dimension for a cumulative effect
 - for example: 1 & 1 changes the angle based on X-Axis "speed"
 - Mimics Physics or Calculus Analysis of Motion
 
+What if ...
+- What if the ball moved faster to handy-cap a player
+- What if the paddle moved slower to hand-cap a player
+- What if more pong-balls were added to the screen (will need object orientated coding)
+
 ---
