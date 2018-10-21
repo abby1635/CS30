@@ -7,7 +7,7 @@ class Star {
     this.x = x;
     this.y = y;
     this.radius = radius;
-  }
+  } //End of Constructor
 
   public float getX() {
     return x;
@@ -18,4 +18,4 @@ class Star {
   public float getRadius() {
     return radius;
   }
-}
+} //End of Start

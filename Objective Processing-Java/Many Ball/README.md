@@ -1,6 +1,8 @@
 # Drawing many Pong Balls or a "Star Problem Set"
 Order of Programs and Pathways
 
+**UNDER CONSTRUCTION**
+
 See: https://drive.google.com/drive/folders/1YC8FZz2gZjM9xQun6zXRzbwguzL2CvLq
 
 Order of Program Solutions
@@ -13,7 +15,7 @@ Order of Program Solutions
 Table of Contents
 1. Building a Basic Multi-ball Program, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#building-a-basic-multi-ball-program">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/BuildingBasicStar">Click Here for Programs</a>
 2. Adding an Array to change how arguments are passed to the constructor, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#adding-an-array">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/Star_Single">Click Here for Programs</a>
-3. 
+3.
 <a href="">Click Here for More Details</a>
 
 ## Building a Basic Multi-ball Program
@@ -27,13 +29,20 @@ Problem Situation: build a program that draws one pong ball in the center of a 5
 
 Solution: this is very similar to the full solution of the "Moving Ball"
 
-Unfinished
-- add Canvas Checker
-- add start and stop button
-- add way for instance not to need to pass variables before size, need array (students will not know this)
-  - all variables assignments are calculated from size (), and passed into the class
-
 ## Adding an Array
+Note: this program is using a variable, "how many stars to draw" coming from the Object
+- but it could come from another program or a sensor, etc.
+
+Problem Situation: Object is created before size() is communicated with display
+- include a way to create an instance before size, then create the ball on the screen
+
+Using Static Variables
+- static can be referenced
+- does not need garbage collection
+- variable does not belong to any single instance
+- "no single star determines the max radius of all stars, or the total number of star instances there are"
+
+
 
 
 # Original Star Problem Set
@@ -42,7 +51,7 @@ Unfinished
 
 Wondering: how are static and final similar, different?
 - final is constant and cannot be changed
-- static can be referenced
+- ,
 
 Purpose of Problem 1 & 2
 - Only use static variables when you need them
@@ -59,7 +68,6 @@ Main Program:
 Notes for Problem 1
 - Static Variables do not need to exist with all instances of objects
   Sometimes 1000 or 1000000 or more (lots of system resources)
-- Static Variables do not need to be garbage collected
 
 Problem 2:
 What happens if X & Y are made static
@@ -86,6 +94,14 @@ this function doesn't know which one to use
 
 
 # Ideas
+When Pong Balls, or stars, are printed to the screen, a chance exists by using random, that the star will be half off the screen
+- How can this be fixed?
 
+```java  
+for (int i = 0; i < stars.length; i++) {
+    stars[i] = new Star(random(width), random(height), random(Star.maxRadius));
+  }
+
+```
 
 ---

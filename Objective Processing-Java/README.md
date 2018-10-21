@@ -21,9 +21,14 @@ Here, we are drawing Pong Balls in different ways, and making them move in diffe
      - Access Modifiers: public, private
      - Getters
 2. Drawing many Pong Balls to the Canvas, changing them with Every Mouse Click, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball">Click Here</a>
-   - Note: this Problem Set is often seen as
-   - Processing-Java Concepts: mixing Pure-Java and Processing-Java Classes and Methods
+   - Note: this Problem Set is often seen as a "Star Problem", which exemplifies talking a similar problem and adapting it to met other ideas
+   - Processing-Java Concepts & Functions:
+     - mixing Pure-Java and Processing-Java Classes and Methods
+     - random()
    - OOP Java Concepts
+     - Using an Array to store objects
+     - Static variables
+     - Final Variables
 3. <a href="">Click Here</a>
 <a href="">Click Here</a>
 
