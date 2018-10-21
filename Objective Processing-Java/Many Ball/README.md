@@ -75,19 +75,21 @@ Note: without modifiers, program security is a concern since viruses can rewrite
 
 Problem Situation: change starCount and maxRadius to ```private``` and write Getter Functions for these
 
+Problem to test:
+- Change getRadius() to a static function
+- What is happening here? What is the error
+- Your answer should include,
+  - Static
+  - Memory location (on the hardrive)
+  - Association with object instances
+- Example Exit Slip Submission
+
 # Original Star Problem Set
 
 ## Questions
 
 Wondering: how are static and final similar, different?
 - final is constant and cannot be changed
-
-Problem 3: Static Methods, public variables are a security concern.
-Change the starCount and maxRadius to private variables and Create GETTER Functions for both
-
-Public variables are a security concern.
-Change the starCount and maxRadius to private variables and
-Create GETTER Functions for both
 
 Problem 4:
 Question: What would happen if getStarCount() was made static?
