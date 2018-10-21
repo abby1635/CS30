@@ -86,8 +86,8 @@ Problem to test:
 
 Note: <a href="https://docs.google.com/document/d/1Wi2Ibn6fGYjEh5C3zY2YkI3WiY1z3b9CRNunNCZAr80/edit?usp=sharing">Click Here for Teacher's Solution, if you are not a student :)</a>
 
-## Related Concept Questions
-Problem SItuation: change this program to include the final modifier
+## The FINAL Touches on this Program
+Problem Situation: change this program to include the final modifier
 - Research what final modifiers are
 - Add them to all future programs
 
