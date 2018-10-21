@@ -3,15 +3,6 @@ Order of Programs and Pathways
 
 **UNDER CONSTRUCTION**
 
-See: https://drive.google.com/drive/folders/1YC8FZz2gZjM9xQun6zXRzbwguzL2CvLq
-
-Order of Program Solutions
-- Star_Start
-- Prob1
-- Prob2
-- Prob3
-- Prob4
-
 Purpose:
 - Write and Learn coding techniques that increase security concepts and draw multiple Pong Balls to the Canvas
 - This should affect the Object Writing of your Pong Game, and the number of features it includes
