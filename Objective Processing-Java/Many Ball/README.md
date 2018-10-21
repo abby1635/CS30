@@ -84,7 +84,7 @@ Problem to test:
   - Association with object instances
 - Example Exit Slip Submission (or email your answer to your teacher)
 
-Note: <a href="https://docs.google.com/document/d/1Wi2Ibn6fGYjEh5C3zY2YkI3WiY1z3b9CRNunNCZAr80/edit">Click Here for Teacher's Solution, if you are not a student :)</a>
+Note: <a href="https://docs.google.com/document/d/1Wi2Ibn6fGYjEh5C3zY2YkI3WiY1z3b9CRNunNCZAr80/edit?usp=sharing">Click Here for Teacher's Solution, if you are not a student :)</a>
 
 # Original Star Problem Set
 
