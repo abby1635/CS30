@@ -1,6 +1,6 @@
 class Star {
-  private float x;
-  private float y;
+  private static float x;
+  private static float y;
   private float radius;
   
   public static int starCount = 50; // Number of stars or Pong Balls that will  be drawn
