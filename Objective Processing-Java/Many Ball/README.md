@@ -87,13 +87,16 @@ Problem to test:
 Note: <a href="https://docs.google.com/document/d/1Wi2Ibn6fGYjEh5C3zY2YkI3WiY1z3b9CRNunNCZAr80/edit?usp=sharing">Click Here for Teacher's Solution, if you are not a student :)</a>
 
 ## Related Concept Questions
-How are static and final modifiers similar and different?
+Problem SItuation: change this program to include the final modifier
+- Research what final modifiers are
+- Add them to all future programs
 
-When would a final modifier be used instead of a static modifier?
+Research Questions
+1. How are static and final modifiers similar and different?
+2. When would a final modifier be used instead of a static modifier?
+3. What declaration is similar to the final modifier?
 
-What declaration is similar to the final modifier?
-
-<a href="">Click here for some answers</a>
+<a href="">Click here for some answers from Mr. Mercer</a>
 
 ## Example Fixes for Above Problems
 
@@ -111,7 +114,6 @@ Static Variables are stored in one memory location and never changed, accessed b
 So, this Object Array is built on the same coordinate, repeated many times, making it similar to a single object instance
 
 ### Comparing Static Modifiers and Final Modifiers
-final is constant and cannot be changed
 
 How are static and final modifiers similar and different?
 - Static modifiers create one memory location for values and are not associated with an object instance
@@ -119,20 +121,12 @@ How are static and final modifiers similar and different?
 - In languages like Java, unlike dynamic languages like JavaScript, final modifiers allow any type of variable to be constant and never be changed
 
 When would a final modifier be used instead of a static modifier?
+- When a variable needed to be "constant" but associate with an object instance (or many)
 
-What declaration is similar to the final modifier?
-
+Which declaration is similar to Java's ```final``` modifier in JavaScript?
+- In JavaScript, constant (const) is similar
 
 # Ideas
-When Pong Balls, or stars, are printed to the screen, a chance exists by using random, that the star will be half off the screen
-- How can this be fixed?
 
-
-```java  
-for (int i = 0; i < stars.length; i++) {
-    stars[i] = new Star(random(width), random(height), random(Star.maxRadius));
-  }
-
-```
 
 ---
