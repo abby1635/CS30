@@ -97,14 +97,14 @@ Research Questions
 2. When would a final modifier be used instead of a static modifier?
 3. What declaration is similar to the final modifier?
 
-<a href="">Click here for some answers from Mr. Mercer</a>
+<a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#comparing-static-modifiers-and-final-modifiers">Click here for some answers from Mr. Mercer</a>
 
 ## Example Fixes for Above Problems
 
 Will fix when Pong Ball is draw half off the screen, but will draw all ellipses slightly off
 - will need to test when an ellipse is off the screen, and then redraw it
 ```java
-ellipse (stars[1-Star.starCount].getX()+stars[1-Star.starCount].getRadius(), stars[1-Star.starCount].getY()-stars[1-Star.starCount].getRadius(), stars[1-Star.starCount].getRadius(), );
+ellipse ( stars[1-Star.starCount].getX()+stars[1-Star.starCount].getRadius(), stars[1-Star.starCount].getY()-stars[1-Star.starCount].getRadius(), stars[1-Star.starCount].getRadius(), stars[1-Star.starCount].getRadius());
 ```
 
 ## Answers for Advanced Solutions
