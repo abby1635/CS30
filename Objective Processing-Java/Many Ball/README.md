@@ -16,6 +16,7 @@ Table of Contents
 1. Building a Basic Multi-ball Program, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#building-a-basic-multi-ball-program">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/BuildingBasicStar">Click Here for Programs</a>
 2. Adding an Array to change how arguments are passed to the constructor, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#adding-an-array">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/Star_Single">Click Here for Programs</a>
 3.
+Example Fixes and Starter Code of Advanced Problems, <a href="">Click Here for More Details</a>
 <a href="">Click Here for More Details</a>
 
 ## Building a Basic Multi-ball Program
@@ -36,14 +37,16 @@ Note: this program is using a variable, "how many stars to draw" coming from the
 Problem Situation: Object is created before size() is communicated with display
 - include a way to create an instance before size, then create the ball on the screen
 
+Advanced Problem:
+- Some Pong Balls or Stars cannot be seen on the canvas, why? Design a Fix
+- Some Pong Balls are half off the screen, why? Design a fix
+- How would you start to debug these problems?
+
 Using Static Variables
 - static can be referenced
 - does not need garbage collection
 - variable does not belong to any single instance
 - "no single star determines the max radius of all stars, or the total number of star instances there are"
-
-
-
 
 # Original Star Problem Set
 
@@ -91,11 +94,18 @@ is not associated with any particular instance of Star.
 But since each instance of Star can have a different radius,
 this function doesn't know which one to use
 
+## Example Fixes for Above Problems
 
+Will fix when Pong Ball is draw half off the screen, but will draw all ellipses slightly off
+- will need to test when an ellipse is off the screen, and then redraw it
+```java
+ellipse (stars[1-Star.starCount].getX()+stars[1-Star.starCount].getRadius(), stars[1-Star.starCount].getY()-stars[1-Star.starCount].getRadius(), stars[1-Star.starCount].getRadius(), );
+```
 
 # Ideas
 When Pong Balls, or stars, are printed to the screen, a chance exists by using random, that the star will be half off the screen
 - How can this be fixed?
+
 
 ```java  
 for (int i = 0; i < stars.length; i++) {
