@@ -89,6 +89,7 @@ Note: <a href="https://docs.google.com/document/d/1Wi2Ibn6fGYjEh5C3zY2YkI3WiY1z3
 ## The FINAL Touches on this Program
 Problem Situation: change this program to include the final modifier
 - Research what final modifiers are
+- Add them to this Program (see <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/Star_Final">Click Here for Star_Final</a>)
 - Add them to all future programs
 
 Research Questions
