@@ -1,5 +1,5 @@
 private Boolean start = false;
-private Star[] stars = new Star[Star.starCount]; //only varaibles is how many stars to draw
+private Star[] stars = new Star[Star.getStarCount()]; //only varaibles is how many stars to draw
 
 public void setup() {
   size(500, 600);

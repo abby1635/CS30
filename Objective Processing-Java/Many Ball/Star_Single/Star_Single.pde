@@ -7,7 +7,7 @@ public void setup() {
   ellipseMode(CENTER);
   
   //Need drawing of ball before mouseClick(), two lines of the same code
-  createStar();
+  createStars();
   
 } //End of setup()
 
@@ -26,5 +26,5 @@ public void draw() {
 } //End draw()
 
 public void mouseClicked() {
-  createStar();
+  createStars();
 } //End of mouseClicked()

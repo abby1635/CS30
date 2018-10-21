@@ -12,11 +12,16 @@ Order of Program Solutions
 - Prob3
 - Prob4
 
+Purpose:
+- Write and Learn coding techniques that increase security concepts and draw multiple Pong Balls to the Canvas
+- This should affect the Object Writing of your Pong Game, and the number of features it includes
+
 Table of Contents
 1. Building a Basic Multi-ball Program, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#building-a-basic-multi-ball-program">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/BuildingBasicStar">Click Here for Programs</a>
 2. Adding an Array to change how arguments are passed to the constructor, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#adding-an-array">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/Star_Single">Click Here for Programs</a>
 3. Slightly changing the Array to draw any number of Pong Balls or Stars, <a href="">Click Here for More Details</a>
-4. <a href="">Click Here for More Details</a>
+4. Adding Getter Functions for added variables, <a href="">Click Here for More Details</a>
+5. <a href="">Click Here for More Details</a>
 Example Fixes and Starter Code of Advanced Problems, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#example-fixes-for-above-problems">Click Here for More Details</a>
 <a href="">Click Here for More Details</a>
 
@@ -54,6 +59,7 @@ Problem to test: what if X & Y variables are made static? Is there any observabl
 
 ## Increasing the Index of the Array
 Note: this example repeats lessons of inputting and outputting array values with a FOR Loop
+Caution: systems resources are affected when large number of Pong Balls or Stars are drawn at 60 times per second
 
 Problem Situation: write a few extra lines of code to draw as many Pong Balls as you want
 
@@ -64,36 +70,17 @@ Problem to test: what if X & Y variables are made static? Is there any observabl
 - What is happening? <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#static-modifier-added-to-x--y-variables-of-pong-balls-or-stars-array-of-objects">Click Here for an Answer</a>
 - See <a href=="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/Star_Many_Static">Star_Many_Static</a> for the static modifier added to the Class's X & Y Variable
 
+## Adding Getter Functions for added variables
+Note: without modifiers, program security is a concern since viruses can rewrite values and cause issues
+
+Problem Situation: change starCount and maxRadius to ```private``` and write Getter Functions for these
+
 # Original Star Problem Set
 
 ## Questions
 
 Wondering: how are static and final similar, different?
 - final is constant and cannot be changed
-- ,
-
-Purpose of Problem 1 & 2
--
-
-Problem 1
-Star Class:
-
-Now let's say you want to decide how many stars are shown instead of hard- coding 25 in the array initialization (the first line of the program), as well as the maximum radius.
-You're only in charge of the Star class, so you want to add a variable called starCount and a variable called maxRadius.
-Main Program:
-- 25 = Star.starCount
-- 20 = Star.maxRadius
-
-Notes for Problem 1
-- Static Variables do not need to exist with all instances of objects
-  Sometimes 1000 or 1000000 or more (lots of system resources)
-
-Problem 2:
-What happens if X & Y are made static
-
-Solution: X & Y variables are chosen and remains constant for all
-this.x and this.y
-Thus, different memory locations all with the same values
 
 Problem 3: Static Methods, public variables are a security concern.
 Change the starCount and maxRadius to private variables and Create GETTER Functions for both
