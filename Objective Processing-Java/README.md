@@ -16,18 +16,20 @@ Motivation for Learning Processing (Artists and Demonstration of Natural Phenome
 
 Table of Contents
 Here, we are drawing Pong Balls in different ways, and making them move in different ways (with the mouse instead)
-1. Arithmetic of Moving a Ball & Creating a Driver and Classes, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Moving%20Ball#moving-ball">Click Here</a>
+1. Arithmetic of Moving a Ball, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Moving%20Ball#moving-ball">Click Here</a>
    - OOP Java Concepts:
+     - Creating a Pure-Java Class within Processing and Accessing Visual Information
+     - Passing arguments to create instances of objects where variable tracking is abstract (the computer does it, we do not, yet)
      - Access Modifiers: public, private
-     - Getters
+     - Getters, issues of security
 2. Drawing many Pong Balls to the Canvas, changing them with Every Mouse Click, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball">Click Here</a>
    - Note: this Problem Set is often seen as a "Star Problem", which exemplifies talking a similar problem and adapting it to met other ideas
    - Processing-Java Concepts & Functions:
      - mixing Pure-Java and Processing-Java Classes and Methods
      - random()
    - OOP Java Concepts
-     - Using an Array to store objects
-     - Static variables
+     - Using an Array to store objects: array syntax, array.length,
+     - Access Modifiers: static, variable
      - Final Variables
 3. <a href="">Click Here</a>
 <a href="">Click Here</a>

@@ -10,11 +10,9 @@ Purpose:
 Table of Contents
 1. Building a Basic Multi-ball Program, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#building-a-basic-multi-ball-program">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/BuildingBasicStar">Click Here for Programs</a>
 2. Adding an Array to change how arguments are passed to the constructor, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#adding-an-array">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/Star_Single">Click Here for Programs</a>
-3. Slightly changing the Array to draw any number of Pong Balls or Stars, <a href="">Click Here for More Details</a>
-4. Adding Getter Functions for added variables, <a href="">Click Here for More Details</a>
-5. <a href="">Click Here for More Details</a>
-Example Fixes and Starter Code of Advanced Problems, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#example-fixes-for-above-problems">Click Here for More Details</a>
-<a href="">Click Here for More Details</a>
+3. Slightly changing the Array to draw any number of Pong Balls or Stars, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#increasing-the-index-of-the-array">Click Here for More Details</a>
+4. Adding Getter Functions for added variables, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#adding-getter-functions-for-added-variables">Click Here for More Details</a>
+5. Example Fixes and Starter Code of Advanced Problems, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#example-fixes-for-above-problems">Click Here for More Details</a>
 
 ## Building a Basic Multi-ball Program
 Problem Situation: build a program that draws one pong ball in the center of a 500 by 500 canvas
@@ -81,6 +79,7 @@ Note: <a href="https://docs.google.com/document/d/1Wi2Ibn6fGYjEh5C3zY2YkI3WiY1z3
 Problem Situation: change this program to include the final modifier
 - Research what final modifiers are
 - Add them to this Program (see <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/Star_Final">Click Here for Star_Final</a>)
+  - CAUTION: only one variable is changed, happy looking :)
 - Add them to all future programs
 
 Research Questions
