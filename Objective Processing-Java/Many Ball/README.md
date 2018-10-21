@@ -68,7 +68,7 @@ Advanced Problem:
 
 Problem to test: what if X & Y variables are made static? Is there any observable change to the program?
 - What is happening? <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#static-modifier-added-to-x--y-variables-of-pong-balls-or-stars-array-of-objects">Click Here for an Answer</a>
-- See <a href=="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/Star_Many_Static">Star_Many_Static</a> for the static modifier added to the Class's X & Y Variable
+- See <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/Star_Many_Static">Star_Many_Static</a> for the static modifier added to the Class's X & Y Variable
 
 ## Adding Getter Functions for added variables
 Note: without modifiers, program security is a concern since viruses can rewrite values and cause issues
@@ -82,7 +82,9 @@ Problem to test:
   - Static
   - Memory location (on the hardrive)
   - Association with object instances
-- Example Exit Slip Submission
+- Example Exit Slip Submission (or email your answer to your teacher)
+
+Note: <a href="">Click Here for Teacher's Solution, if you are not a student :)</a>
 
 # Original Star Problem Set
 
