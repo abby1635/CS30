@@ -86,20 +86,14 @@ Problem to test:
 
 Note: <a href="https://docs.google.com/document/d/1Wi2Ibn6fGYjEh5C3zY2YkI3WiY1z3b9CRNunNCZAr80/edit?usp=sharing">Click Here for Teacher's Solution, if you are not a student :)</a>
 
-# Original Star Problem Set
+## Related Concept Questions
+How are static and final modifiers similar and different?
 
-## Questions
+When would a final modifier be used instead of a static modifier?
 
-Wondering: how are static and final similar, different?
-- final is constant and cannot be changed
+What declaration is similar to the final modifier?
 
-Problem 4:
-Question: What would happen if getStarCount() was made static?
-
-Answer: The getRadius() function, now that it's static,
-is not associated with any particular instance of Star.
-But since each instance of Star can have a different radius,
-this function doesn't know which one to use
+<a href="">Click here for some answers</a>
 
 ## Example Fixes for Above Problems
 
@@ -115,6 +109,19 @@ ellipse (stars[1-Star.starCount].getX()+stars[1-Star.starCount].getRadius(), sta
 Static Variables are stored in one memory location and never changed, accessed by either the public or private modifier affecting garbage collection
 
 So, this Object Array is built on the same coordinate, repeated many times, making it similar to a single object instance
+
+### Comparing Static Modifiers and Final Modifiers
+final is constant and cannot be changed
+
+How are static and final modifiers similar and different?
+- Static modifiers create one memory location for values and are not associated with an object instance
+- Final modifiers are constant and cannot be changed
+- In languages like Java, unlike dynamic languages like JavaScript, final modifiers allow any type of variable to be constant and never be changed
+
+When would a final modifier be used instead of a static modifier?
+
+What declaration is similar to the final modifier?
+
 
 # Ideas
 When Pong Balls, or stars, are printed to the screen, a chance exists by using random, that the star will be half off the screen
