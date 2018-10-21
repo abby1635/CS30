@@ -32,7 +32,8 @@ Here, we are drawing Pong Balls in different ways, and making them move in diffe
      - Access Modifiers: static, variable
      - Final Variables
 3. Potential Project: combine Moving Ball (target from mouseX & mouseY) and Many Ball (all object instances move to one location)
-
+   - Purpose: what you do not understand, but believe you do, will be illustrated clearly ... then you will have questions to ask
+4. Fireworks Project, <a href=""></a>
 
 <a href="">Click Here</a>
 <a href="">Click Here</a>
