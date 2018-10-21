@@ -31,7 +31,10 @@ Here, we are drawing Pong Balls in different ways, and making them move in diffe
      - Using an Array to store objects: array syntax, array.length,
      - Access Modifiers: static, variable
      - Final Variables
-3. <a href="">Click Here</a>
+3. Potential Project: combine Moving Ball (target from mouseX & mouseY) and Many Ball (all object instances move to one location)
+
+
+<a href="">Click Here</a>
 <a href="">Click Here</a>
 
 
