@@ -61,7 +61,7 @@ Advanced Problem:
 - Some Pong Balls or Stars are overlapping? Design a Fix
 
 Problem to test: what if X & Y variables are made static? Is there any observable change to the program?
-- What is happening? <a href="">Click Here for an Answer</a>
+- What is happening? <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#static-modifier-added-to-x--y-variables-of-pong-balls-or-stars-array-of-objects">Click Here for an Answer</a>
 
 # Original Star Problem Set
 
@@ -120,7 +120,9 @@ ellipse (stars[1-Star.starCount].getX()+stars[1-Star.starCount].getRadius(), sta
 ## Answers for Advanced Solutions
 
 ### Static Modifier added to X & Y Variables of Pong Balls or Stars Array of Objects
+Static Variables are stored in one memory location and never changed, accessed by either the public or private modifier affecting garbage collection
 
+So, this Object Array is built on the same coordinate, repeated many times, making it similar to a single object instance
 
 # Ideas
 When Pong Balls, or stars, are printed to the screen, a chance exists by using random, that the star will be half off the screen
