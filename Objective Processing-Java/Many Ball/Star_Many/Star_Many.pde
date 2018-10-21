@@ -5,23 +5,21 @@ public void setup() {
   size(500, 600);
   screenSizeChecker();
   ellipseMode(CENTER);
-  
+
   //Need drawing of ball before mouseClick(), two lines of the same code
   createStar();
-  
 } //End of setup()
 
 public void draw() {
   startStop();
 
   if (start==true) {
-    
+
     background(0);
-    
-    //Notice the array-code for drawing one
-    ellipse(stars[1-Star.starCount].getX(), stars[1-Star.starCount].getY(), stars[1-Star.starCount].getRadius(), stars[1-Star.starCount].getRadius());
-    //println ("Pong Ball Coordinates", stars[1-Star.starCount].getX(), stars[1-Star.starCount].getY(), stars[1-Star.starCount].getRadius());
-    
+
+    for (int i = 0; i < stars.length; i++) {
+      ellipse(stars[i].getX(), stars[i].getY(), stars[i].getRadius(), stars[i].getRadius());
+    }
   } //End of startStop
 } //End draw()
 

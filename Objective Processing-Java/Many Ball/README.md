@@ -15,8 +15,9 @@ Order of Program Solutions
 Table of Contents
 1. Building a Basic Multi-ball Program, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#building-a-basic-multi-ball-program">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/BuildingBasicStar">Click Here for Programs</a>
 2. Adding an Array to change how arguments are passed to the constructor, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#adding-an-array">Click Here for More Details</a>, or see the program here <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball/Star_Single">Click Here for Programs</a>
-3.
-Example Fixes and Starter Code of Advanced Problems, <a href="">Click Here for More Details</a>
+3. Slightly changing the Array to draw any number of Pong Balls or Stars, <a href="">Click Here for More Details</a>
+4. <a href="">Click Here for More Details</a>
+Example Fixes and Starter Code of Advanced Problems, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Many%20Ball#example-fixes-for-above-problems">Click Here for More Details</a>
 <a href="">Click Here for More Details</a>
 
 ## Building a Basic Multi-ball Program
@@ -30,7 +31,7 @@ Problem Situation: build a program that draws one pong ball in the center of a 5
 
 Solution: this is very similar to the full solution of the "Moving Ball"
 
-## Adding an Array
+## Adding an Array for one Pong Ball, or one Star
 Note: this program is using a variable, "how many stars to draw" coming from the Object
 - but it could come from another program or a sensor, etc.
 
@@ -47,6 +48,20 @@ Using Static Variables
 - does not need garbage collection
 - variable does not belong to any single instance
 - "no single star determines the max radius of all stars, or the total number of star instances there are"
+- only use static variables when you need them
+
+Problem to test: what if X & Y variables are made static? Is there any observable change to the program?
+
+## Increasing the Index of the Array
+Note: this example repeats lessons of inputting and outputting array values with a FOR Loop
+
+Problem Situation: write a few extra lines of code to draw as many Pong Balls as you want
+
+Advanced Problem:
+- Some Pong Balls or Stars are overlapping? Design a Fix
+
+Problem to test: what if X & Y variables are made static? Is there any observable change to the program?
+- What is happening? <a href="">Click Here for an Answer</a>
 
 # Original Star Problem Set
 
@@ -57,7 +72,7 @@ Wondering: how are static and final similar, different?
 - ,
 
 Purpose of Problem 1 & 2
-- Only use static variables when you need them
+-
 
 Problem 1
 Star Class:
@@ -101,6 +116,11 @@ Will fix when Pong Ball is draw half off the screen, but will draw all ellipses 
 ```java
 ellipse (stars[1-Star.starCount].getX()+stars[1-Star.starCount].getRadius(), stars[1-Star.starCount].getY()-stars[1-Star.starCount].getRadius(), stars[1-Star.starCount].getRadius(), );
 ```
+
+## Answers for Advanced Solutions
+
+### Static Modifier added to X & Y Variables of Pong Balls or Stars Array of Objects
+
 
 # Ideas
 When Pong Balls, or stars, are printed to the screen, a chance exists by using random, that the star will be half off the screen
