@@ -3,10 +3,13 @@ Exemplar
 
 **UNDER CONSTRUCTION**
 
+Pseudocode Each Type, perhaps here
 
 ---
 
 # Ideas to Include
+Pseudocode Each Type, perhaps here
+
 Concepts to Include
 - Access Modifiers: public, private, static, final
 - Inheritance
