@@ -16,7 +16,7 @@ void setup() {
 void draw() {
 
   startStop(); //Update Start Variable or Quit Program
-  
+
 
   //Must click on the Canvas to Start the Program
   if (startMouse == true) {
@@ -43,7 +43,10 @@ void mouseClicked() {
   //Listener for Keyboard Key to Start the Program
   if (startKeyboard == true) {
     createStars();
-    Star.targetX = mouseX; 
-    Star.targetY = mouseY;
+    for (int i = 0; i < stars.length; i++) {
+      stars[i].targetX = mouseX; 
+      stars[i].targetY = mouseY;
+    }
+
   }
 } //End of mouseClicked()

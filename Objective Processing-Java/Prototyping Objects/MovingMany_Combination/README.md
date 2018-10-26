@@ -13,6 +13,8 @@ Case Study Review
    - Fourth Image: when each ball arrives at the target, stop
    - Fifth Image: Mouse Click to create image one
 
+Note about End-user Experience of included program: first set of Pong Balls or Stars printed do not have any target associated with them, since a Boolean locks out when the Listener will populate the targetX and targetY variables
+
 OOP Concept Introduced
 - Setters are the same as Getters
 
