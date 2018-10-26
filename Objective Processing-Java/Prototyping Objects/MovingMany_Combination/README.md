@@ -31,4 +31,6 @@ There is a difference between referencing an Object and a Class
 - especially when in an array
 - Look up the for-each processing FOR Loop for arrays
 
+Add all Access Modifiers, Getters and Setters
+
 ---
