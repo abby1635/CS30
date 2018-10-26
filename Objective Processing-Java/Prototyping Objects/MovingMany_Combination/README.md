@@ -25,4 +25,8 @@ Notes about this Project
 # Ideas to Include
 Pseudocode this
 
+There is a difference between referencing an Object and a Class
+- especially when in an array
+- Look up the for-each processing FOR Loop for arrays
+
 ---
