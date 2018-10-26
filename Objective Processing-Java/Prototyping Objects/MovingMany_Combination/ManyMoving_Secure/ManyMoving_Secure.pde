@@ -1,8 +1,8 @@
-private Boolean startKeyboard = false;
-private Boolean startMouse = false;
-private Star[] stars = new Star[Star.getStarCount()]; //only varaibles is how many stars to draw
+Boolean startKeyboard = false;
+Boolean startMouse = false;
+Star[] stars = new Star[Star.starCount]; //only varaibles is how many stars to draw
 
-public void setup() {
+void setup() {
   size(500, 600);
   screenSizeChecker();
   ellipseMode(CENTER);
@@ -13,37 +13,36 @@ public void setup() {
   println ("Remember to press the SPACEBAR to start the program");
 } //End of setup()
 
-public void draw() {
-  
-  startStop(); //Update Start Variable or Quit Program
-  
+void draw() {
+
+  //Listener for Clicking on the Canvas to Activate Program
+  if (mousePressed == true) {
+    startMouse = true;
+  }
+
   //Must click on the Canvas to Start the Program
   if (startMouse == true) {
     background(0);
   }
-  
+
+  startStop(); //Update Start Variable or Quit Program
+
   //Must press the SPACEBAR to start the Program
   if (startKeyboard==true) {
-    Star.step();
     for (int i = 0; i < stars.length; i++) {
-      ellipse(stars[i].getX(), stars[i].getY(), stars[i].getRadius(), stars[i].getRadius());
+      stars[i].step();
+      ellipse(stars[i].x, stars[i].y, stars[i].radius, stars[i].radius);
     }
   } //End of startStop
-  
 } //End draw()
 
-public void mouseClicked() {
-  
-  //Listener for Clicking on the Canvas to Activate Program
-  if (mousePressed == True) {
-    startMouse = true;
-  }
-  
+void mouseClicked() {
   //Listener for Keyboard Key to Start the Program
   if (startKeyboard == true) {
     createStars();
-    Star.targetX = mouseX; 
-    Star.targetY = mouseY;
-  }
-  
+    for (int i = 0; i < stars.length; i++) {
+      stars[i].targetX = mouseX; 
+      stars[i].targetY = mouseY;
+    }
+  } //End of IF
 } //End of mouseClicked()
