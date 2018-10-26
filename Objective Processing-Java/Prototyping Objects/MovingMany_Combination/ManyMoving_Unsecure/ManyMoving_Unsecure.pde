@@ -1,6 +1,6 @@
 Boolean startKeyboard = false;
 Boolean startMouse = false;
-Star[] stars = new Star[50]; //only varaibles is how many stars to draw
+Star[] stars = new Star[Star.starCount]; //only varaibles is how many stars to draw
 
 void setup() {
   size(500, 600);
@@ -15,17 +15,20 @@ void setup() {
 
 void draw() {
 
-  startStop(); //Update Start Variable or Quit Program
-
+  //Listener for Clicking on the Canvas to Activate Program
+  if (mousePressed == true) {
+    startMouse = true;
+  }
 
   //Must click on the Canvas to Start the Program
   if (startMouse == true) {
     background(0);
   }
 
+  startStop(); //Update Start Variable or Quit Program
+
   //Must press the SPACEBAR to start the Program
   if (startKeyboard==true) {
-
     for (int i = 0; i < stars.length; i++) {
       stars[i].step();
       ellipse(stars[i].x, stars[i].y, stars[i].radius, stars[i].radius);
@@ -34,12 +37,6 @@ void draw() {
 } //End draw()
 
 void mouseClicked() {
-
-  //Listener for Clicking on the Canvas to Activate Program
-  if (mousePressed == true) {
-    startMouse = true;
-  }
-
   //Listener for Keyboard Key to Start the Program
   if (startKeyboard == true) {
     createStars();
@@ -47,6 +44,5 @@ void mouseClicked() {
       stars[i].targetX = mouseX; 
       stars[i].targetY = mouseY;
     }
-
-  }
+  } //End of IF
 } //End of mouseClicked()

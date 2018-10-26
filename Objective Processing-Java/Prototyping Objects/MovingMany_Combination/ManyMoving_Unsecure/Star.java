@@ -1,15 +1,15 @@
 class Star {
-  float x;
-  float y;
-  float radius;
+  int x;
+  int y;
+  int radius;
   
   int targetX; //Since mouseX keyword, should be public everywhere
   int targetY;
 
-  int starCount = 50; //Number of stars or Pong Balls that will be drawn
-  int maxRadius = 20; //can this be a ratio of width with error checking of different geometery
+  static int starCount = 50; //Number of stars or Pong Balls that will be drawn
+  static int maxRadius = 20; //can this be a ratio of width with error checking of different geometery
 
-  Star(float x, float y, float radius) {
+  Star(int x, int y, int radius) {
     this.x = x;
     this.y = y;
     this.radius = radius;
