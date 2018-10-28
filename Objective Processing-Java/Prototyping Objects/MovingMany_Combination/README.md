@@ -6,7 +6,7 @@ Emphasizing Object Understanding by Combining two programs
 Program Progression for MovingMany.pde
 1. Unsecure: working Pure Java Classes and .pde procedures
 2. Making Secure: add access modifiers to all variables and read debugger returns
-   - add Getters and Setters
+   - add Getters and Setters: private, public, static, final
    - NOTE: Star.java / int x is made private; returns Star.x is not visible; add a Getter Function; Change all variables until program works again
 3. Secure
 
@@ -21,6 +21,9 @@ Case Study Review
    - Fifth Image: Mouse Click to create image one
 
 Note about End-user Experience of included program: first set of Pong Balls or Stars printed do not have any target associated with them, since a Boolean locks out when the Listener will populate the targetX and targetY variables
+- CAUTION: ManyMoving_Secure.pde has this fix; uses a variable to randomly assign values to targetX & targetY
+- NOTE: this random is a true random loaded for each instance Star
+- This is very different than the Target MouseClick
 
 OOP Concept Introduced
 - Setters are the same as Getters

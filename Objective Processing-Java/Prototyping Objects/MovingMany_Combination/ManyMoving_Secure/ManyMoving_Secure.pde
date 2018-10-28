@@ -9,7 +9,10 @@ void setup() {
 
   //Need drawing of ball before mouseClick(), two lines of the same code
   createStars();
-
+  for (int i = 0; i < stars.length; i++) {
+    stars[i].targetX = int (random (width) ); 
+    stars[i].targetY = int (random (height) );
+  }
   println ("Remember to press the SPACEBAR to start the program");
 } //End of setup()
 
@@ -31,7 +34,7 @@ void draw() {
   if (startKeyboard==true) {
     for (int i = 0; i < stars.length; i++) {
       stars[i].step();
-      ellipse(stars[i].x, stars[i].y, stars[i].radius, stars[i].radius);
+      ellipse(stars[i].getX(), stars[i].getY(), stars[i].getRadius(), stars[i].getRadius());
     }
   } //End of startStop
 } //End draw()

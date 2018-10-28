@@ -1,8 +1,8 @@
 class Star {
-  int x;
-  int y;
-  int radius;
-  
+  private int x;
+  private int y;
+  private int radius;
+
   int targetX; //Since mouseX keyword, should be public everywhere
   int targetY;
 
@@ -33,4 +33,17 @@ class Star {
     }
   } //End of step
 
+  public int getX() {
+    return x;
+  }
+  
+  public int getY() {
+    return y;
+  }
+  
+  public int getRadius() {
+    return radius;
+  }
+  
+  
 } //End of Start Class

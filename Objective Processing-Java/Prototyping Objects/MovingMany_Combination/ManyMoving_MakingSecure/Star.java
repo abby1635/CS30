@@ -32,8 +32,11 @@ class Star {
       y--;
     }
   } //End of step
-
-  public int getX() {
+  
+  /*
+   public int getX() {
     return x;
   }
+  */
+  
 } //End of Start Class
