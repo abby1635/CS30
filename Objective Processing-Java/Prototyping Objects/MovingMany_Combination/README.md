@@ -24,6 +24,7 @@ Note about End-user Experience of included program: first set of Pong Balls or S
 - CAUTION: ManyMoving_Secure.pde has this fix; uses a variable to randomly assign values to targetX & targetY
 - NOTE: this random is a true random loaded for each instance Star
 - This is very different than the Target MouseClick
+- This random always for the setup() createStars() to function smoothly with the mouseClick
 
 OOP Concept Introduced
 - Setters are the same as Getters
