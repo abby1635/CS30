@@ -3,6 +3,13 @@ Emphasizing Object Understanding by Combining two programs
 
 **UNDER CONSTRUCTION**
 
+Program Progression for MovingMany.pde
+1. Unsecure: working Pure Java Classes and .pde procedures
+2. Making Secure: add access modifiers to all variables and read debugger returns
+   - add Getters and Setters
+   - NOTE: Star.java / int x is made private; returns Star.x is not visible; add a Getter Function; Change all variables until program works again
+3. Secure
+
 Case Study Review
 1. Moving Ball Image Summary
 2. Many Ball Image Summary
