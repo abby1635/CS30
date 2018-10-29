@@ -13,8 +13,8 @@ public class Star {
     this.x = x;
     this.y = y;
     this.radius = radius;
-    this. targetX = x; //starting value must match initial instance value
-    this. targetY = y; //starting value must match initial instance value
+    this.targetX = x; //starting value must match initial instance value
+    this.targetY = y; //starting value must match initial instance value
   } //End of Constructor
 
   //Moving Each Ball
@@ -43,10 +43,6 @@ public class Star {
   
   public int getRadius() {
     return radius;
-  }
-  
-  public int getTargetX() {
-    return targetX;
   }
    
 } //End of Start Class
