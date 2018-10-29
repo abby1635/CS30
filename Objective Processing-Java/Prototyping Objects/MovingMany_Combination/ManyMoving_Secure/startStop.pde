@@ -1,4 +1,4 @@
-void startStop() {
+private void startStop() {
   if (keyPressed) {
     if (key == ' ') {
       startKeyboard = true;

@@ -1,8 +1,8 @@
-Boolean startKeyboard = false;
-Boolean startMouse = false;
-Star[] stars = new Star[Star.starCount]; //only varaibles is how many stars to draw
+private Boolean startKeyboard = false;
+private Boolean startMouse = false;
+private Star[] stars = new Star[Star.starCount]; //only varaibles is how many stars to draw
 
-void setup() {
+public void setup() {
   size(500, 600);
   screenSizeChecker();
   ellipseMode(CENTER);
@@ -16,7 +16,7 @@ void setup() {
   println ("Remember to press the SPACEBAR to start the program");
 } //End of setup()
 
-void draw() {
+public void draw() {
 
   //Listener for Clicking on the Canvas to Activate Program
   if (mousePressed == true) {
@@ -39,7 +39,7 @@ void draw() {
   } //End of startStop
 } //End draw()
 
-void mouseClicked() {
+public void mouseClicked() {
   //Listener for Keyboard Key to Start the Program
   if (startKeyboard == true) {
     createStars();

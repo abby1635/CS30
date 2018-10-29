@@ -44,4 +44,7 @@ There is a difference between referencing an Object and a Class
 
 Add all Access Modifiers, Getters and Setters
 
+Changes to ManyMoving_Secure.pde
+1. ellipses have off the screen
+2. ellipses overlapping: when an ellipse is created, check to see that it is not the same any before it
 ---

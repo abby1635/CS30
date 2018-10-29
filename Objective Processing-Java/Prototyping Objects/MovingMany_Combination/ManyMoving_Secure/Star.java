@@ -1,15 +1,15 @@
-class Star {
+public class Star {
   private int x;
   private int y;
   private int radius;
 
-  int targetX; //Since mouseX keyword, should be public everywhere
-  int targetY;
+  public int targetX; //Since mouseX keyword, should be public everywhere
+  public int targetY;
 
-  static int starCount = 50; //Number of stars or Pong Balls that will be drawn
-  static int maxRadius = 20; //can this be a ratio of width with error checking of different geometery
+  public static int starCount = 50; //Number of stars or Pong Balls that will be drawn
+  public static int maxRadius = 20; //can this be a ratio of width with error checking of different geometery
 
-  Star(int x, int y, int radius) {
+  public Star(int x, int y, int radius) {
     this.x = x;
     this.y = y;
     this.radius = radius;
@@ -18,7 +18,7 @@ class Star {
   } //End of Constructor
 
   //Moving Each Ball
-  void step() {
+  public void step() {
 
     if (x < targetX) {
       x++;
@@ -45,5 +45,8 @@ class Star {
     return radius;
   }
   
-  
+  public int getTargetX() {
+    return targetX;
+  }
+   
 } //End of Start Class
