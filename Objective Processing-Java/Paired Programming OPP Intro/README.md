@@ -1,6 +1,12 @@
 # Paired Programming Introduction to OPP
 Rebuilding Bouncing Balls, Gravity, and Other Concepts
 
+**UNDER CONSTRUCTION**
+
+**Paired Programming Activity**
+- Focuses on Vocabulary and questions to guide program development
+- Goal: two ellipses functioning like Pong Balls in a box
+
 Progression: Create a Program with ...
 1. An Object "Ball" with the following Variables
    ```java
@@ -24,11 +30,13 @@ Progression: Create a Program with ...
        - NOTE: we have passed parameters for the constructor or we have assigned variables (hard-coded or through mouseClick)
        - Simplest is hard-coding
    - See "Constructor Is", <a href="">Click Here</a>
+   
 3.
 ---
 
 # Ideas to Include
 
+Paired Programming Notes
 
 What is the Arithemtic to move the ball, every frame (every "step")?
 - See "ArithmeticIs", <a href="">Click Here</a>
