@@ -60,7 +60,10 @@ What does it mean to create new Objects and each object knows about it's constru
 - Also see "ClassObjects_Alternate"
 - Note: "ClassObjects_Alternate" introduces how Arrays can hold all values after void setup()
 
+CONTINUE HERE
+
 Create all values of object based on Ratios of Display Geometry
+- See https://github.com/QEHS-ProcessingJava/Ideas-for-OPP
 
 Creating a second ball
 - With and Without an Array
