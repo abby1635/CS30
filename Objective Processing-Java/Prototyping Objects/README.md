@@ -9,6 +9,9 @@ These Programs illustrate
 - ball will bound on the table and go in a different direction
   - similar to the mouseClick'ed target element of "Bouncing Ball"
 
+Paired Programming Assignment
+- 
+
 ---
 
 # Ideas to Include

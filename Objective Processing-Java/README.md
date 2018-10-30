@@ -34,7 +34,10 @@ Here, we are drawing Pong Balls in different ways, and making them move in diffe
 3. Potential Project: combine Moving Ball (target from mouseX & mouseY) and Many Ball (all object instances move to one location)
    - Purpose: what you do not understand, but believe you do, will be illustrated clearly ... then you will have questions to ask
 4. Two x Work Periods: complete 3 (Potential Project) or return to the Object-based Pong Game
-5. Fireworks Project, <a href="">Click Here</a>
+5. Paired Partner Programming Assignment, Project (Review of all of OPP to Date)
+   - See <a href="https://github.com/QEHS-ProcessingJava/Ideas-for-OPP">For Teacher Only Files while writting this</a>
+   
+. Fireworks Project, <a href="">Click Here</a>
    - See <a href="https://drive.google.com/drive/folders/1k9ngeOc7PKoeylZj0whn8c-dA_Ehc80w">Teacher Files of Google Drive</a>
 
 <a href="">Click Here</a>
