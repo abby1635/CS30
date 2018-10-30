@@ -1,36 +1,34 @@
 # Paired Programming Introduction to OPP
 Rebuilding Bouncing Balls, Gravity, and Other Concepts
 
-Progression
+Progression: Create a Program with ...
+1. An Object "Ball" with the following Variables
+   ```java
+   float x;
+   float y;
+   float diameter;
+   color colour;
+   ```
+   - Illustrates minimum code for an Object & Java Compiler
+   - See "Object Is", <a href="">Click Here</a>
 
-
+2. A Constructor with the following functions to draw an ellipse
+   ```java
+   fill(); //gray scale, RGB, or Hexidecimal
+   ellipse(); //x-value, y-value, diameter-X-Value, diameter-X-Value
+   ```
+   - Considerations
+     - Create Class-type Variable, as a Global Variable (accessible to everywhere)
+     - Create a new File (TAB) for the Object
+     - Assign values to the variables within the program
+       - NOTE: we have passed parameters for the constructor or we have assigned variables (hard-coded or through mouseClick)
+       - Simplest is hard-coding
+   - See "Constructor Is", <a href="">Click Here</a>
+3.
 ---
 
 # Ideas to Include
-What is an Object? OPP Parts
-- See "Object Is", <a href="">Click Here</a>
-- Illustrates minimum code for an Object & Java Compiler
-- Variables to include are:
-  ```java
-  float x;
-  float y;
-  float radius;
-  color colour;
-  ```
 
-What is a Constructor? OPP Parts
-- See "Constructor Is", <a href="">Click Here</a>
-- Create Class-type Variable, as a Global Variable (accessible to everywhere)
-- Create a new File (TAB) for the Object
-- Assign values to the variables within the program
-  - NOTE: we have passed parameters for the constructor or we have assigned variables (hard-coded or through mouseClick)
-  - Simplest is hard-coding
-- Use the Variables to fill and draw an ellipse
-- Two Functions to Draw an Ellipse:
-  ```java
-  fill(); //gray scale, RGB, or Hexidecimal
-  ellipse(); //x-value, y-value, diameter-X-Value, diameter-X-Value
-  ```
 
 What is the Arithemtic to move the ball, every frame (every "step")?
 - See "ArithmeticIs", <a href="">Click Here</a>

@@ -13,7 +13,6 @@ void setup() {
 
 void draw() {
   background(0);
-
   fill(myBall.colour);
   ellipse(myBall.x, myBall.y, myBall.diameter, myBall.diameter);
 } //Empty void Draw()

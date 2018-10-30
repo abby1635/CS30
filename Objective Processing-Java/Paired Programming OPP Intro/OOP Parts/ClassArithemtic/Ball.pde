@@ -9,8 +9,8 @@ class Ball {
 
   void step () {
     //Next Step of Ball
-    myBall.x += myBall.xSpeed;
-    myBall.y += myBall.ySpeed;
+    x += xSpeed;
+    y += ySpeed;
 
     //Collision with Canvas Boundaries
     if (x+xSpeed < 0 || x+xSpeed > width) { 
