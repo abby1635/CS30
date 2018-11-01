@@ -14,7 +14,7 @@ Purpose of Repo: Create Firework in a Jar
 
 Files Included, in order & notes follow
 - Bouncing Ball, review and introduction
-- Particle Explosion Program, in arrays
+- Introduction to Arrays Holding Objects, Particle Explosion Program
   - Gravity
   - Gravity Copy
   - GravityCopyRandom
