@@ -11,9 +11,23 @@ Review ...
 - Firework Images
 - Bouncing Ball, review and introduction
 
-Create the Object or Objects in the class first, then modify and add items (arrays and arrayLists)
+**Purpose**: Create the Object or Objects in the class first, then modify and add items (arrays and arrayLists)
+
+See ClassDesign
+- Create the Object or Objects in the class first
 - Comment the following sections: variables, constructor, procedures or functions, getters and setters
 - Create a basic processing-java file
+- Declare Variables
+- Assign Variables in the "Constructor", modify with ```this.```
+  - Make choices about arguments, parameters, randomly chosen values, and constants (final variables)
+- Declare an instance of Class Firework, then create the array to hold many
+- Assign the class with width and height arguments (adjust to only passing width and height)
+- Create a draw() procedure for drawing each object, and tracking it with arithmetic
+- Create collision procedures
+-
+
+- Add access modifiers: (public, private, static, final)
+
 
 ---
 
