@@ -3,8 +3,8 @@ Ball myBall = new Ball( 50, 100); // Initiatlizing the Class
 Ball yourBall = new Ball (75, 75);
 
 void setup() {
-  //size (100, 200);
-  fullScreen ();
+  size (500, 600);
+  //fullScreen ();
   print ("Screen Dimensions" +"\n  My width is " + displayWidth + "\n  My height is " + displayHeight);
 }
 

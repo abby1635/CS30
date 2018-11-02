@@ -1,8 +1,8 @@
 class Ball {
-  float radius;
   float x;
   float y;
   color c;
+  float radius;
   float xSpeed;
   float ySpeed;
   

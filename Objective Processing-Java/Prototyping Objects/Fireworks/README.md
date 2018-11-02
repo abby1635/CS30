@@ -3,15 +3,23 @@ Another way of creating ellipses but using the ellipses, not as Pong Balls, but 
 
 **UNDER CONSTRUCTION**
 
-Create the Object or Objects in the class first, then modify and add items (arrays and arrayLists)
-
----
-
-## Partial Rewriting of Processing Order
 Purpose of Repo: Create Firework in a Jar
 - Use Class Hierarchy to rewrite Program to create a hierarchy
 - What can students do with Class Hierarchy before lessons
 
+Review ...
+- Firework Images
+- Bouncing Ball, review and introduction
+
+Create the Object or Objects in the class first, then modify and add items (arrays and arrayLists)
+- Comment the following sections: variables, constructor, procedures or functions, getters and setters
+- Create a basic processing-java file
+
+---
+
+## Partial Rewriting of Processing Order
+
+Summary of files and what needs to be rewritten
 Files Included, in order & notes follow
 - Bouncing Ball, review and introduction
 - "Arrays" Holding Objects, Particle Explosion Program
