@@ -34,6 +34,7 @@ See ClassDesign, contains the Firework Class
   -
 
 When Combining Procedural Pong into Object Pong
+- Basic Classes: classes: ball, firework, paddle-left, paddle-right, scoreboard
 - Write with separate objects: prototype each one
 - Combine into make objects talk with each other
 - create a splash screen to make the various behaviors of the game user-defined
