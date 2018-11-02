@@ -8,12 +8,12 @@ Purpose of Repo: Create Firework in a Jar
 - What can students do with Class Hierarchy before lessons
 
 Review ...
-- Firework Images
+- Firework Images, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Prototyping%20Objects/Fireworks/Introduction%20Images">Click Here</a>
 - Bouncing Ball, review and introduction
 
 **Purpose**: Create the Object or Objects in the class first, then modify and add items (arrays and arrayLists)
 
-See ClassDesign
+See ClassDesign, contains the Firework Class
 - Create the Object or Objects in the class first
 - Comment the following sections: variables, constructor, procedures or functions, getters and setters
 - Create a basic processing-java file
