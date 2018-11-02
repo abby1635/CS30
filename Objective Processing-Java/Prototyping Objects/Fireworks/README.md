@@ -37,6 +37,7 @@ When Combining Procedural Pong into Object Pong
 - Write with separate objects: prototype each one
 - Combine into make objects talk with each other
 - create a splash screen to make the various behaviors of the game user-defined
+- Types of Classes: basic, abstract (intro) & inheritance, Extended & Inheritance, Interfaces (One & Many), abstract classes (specifics: anonymous & final)
 
 ---
 
