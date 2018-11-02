@@ -28,6 +28,15 @@ See ClassDesign
 
 - Add access modifiers: (public, private, static, final)
 
+- Bring over following procedures
+  - StartStop: remember need the code to deal with first mouse click
+  - ScreenSizeChecker
+  -
+
+When Combining Procedural Pong into Object Pong
+- Write with separate objects: prototype each one
+- Combine into make objects talk with each other
+- create a splash screen to make the various behaviors of the game user-defined
 
 ---
 
