@@ -22,14 +22,14 @@ class Firework {
     this.xSpeed = random(-5, 5);
     this.ySpeed = random(-5, 5);
     gravity = 0.5;
-  }
+  } //End of Constructor
 
   //Procedures or Functions
-  //void ClassDraw() {
+  //void draw() {
     //fill(c);
     //ellipse(x, y, diameter, diameter);
   //}
 
   //Getter and Setters
-  //Getters: x, y, diameter
+  
 }
