@@ -5,19 +5,21 @@ Firework[] fireworks = new Firework[25]; //Needs to include static variable
 
 void setup() {
   size(500, 600);
-  for () {
-    fireworks = new Firework(width, height);
+  for (int i=0; i < fireworks.length; i++) {
+    fireworks[i] = new Firework(width, height);
   }
-
-  
 }
 
 void draw() {
   background(255);
-  firework.step();
-  firework.draw();
+  for (int i=0; i < fireworks.length; i++) {
+    fireworks[i].step(); //Calculate Arithmetic
+    fireworks[i].draw(); //Draw to the Canvas
+  }
 }
 
 void mouseClicked() {
-  firework = new Firework (width, height);
+  for (int i=0; i < fireworks.length; i++) {
+    fireworks[i] = new Firework (width, height);
+  }
 }

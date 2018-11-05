@@ -7,7 +7,7 @@ class Firework {
   float xSpeed;
   float ySpeed;
   float gravity;
-  static int count = 25; //Static number for amount of firworks
+  //static int count = 25; //Static number for amount of firworks
 
   //Constructor
   Firework (float width, float height) {
