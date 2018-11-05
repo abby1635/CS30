@@ -23,10 +23,19 @@ See ClassDesign, contains the Firework Class
 - Declare an instance of Class Firework, then create the array to hold many
 - Assign the class with width and height arguments (adjust to only passing width and height)
 - Create a draw() procedure for drawing each object, and tracking it with arithmetic
-- Create collision procedures
--
 
-- Add access modifiers: (public, private, static, final)
+See Firework_Single.pde for a summary of above, working with visual data and a Processing-Java Class
+
+See Firework_Array.pde for a summary of adding an array for the
+- Adding an array
+- Filling the X & Y Variables with (0,0), then with mouseX&Y
+- Locking out the first (0,0) with the mouseClick Activation and Spacebar (See MovingMany_Combination)
+
+Additional details to code for ...
+
+- Create collision procedures
+
+- Add access modifiers: (public, private, static, final) to Firework
 
 - Bring over following procedures
   - StartStop: remember need the code to deal with first mouse click
