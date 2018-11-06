@@ -5,9 +5,11 @@ Firework[] fireworks = new Firework[25]; //Needs to include static variable
 
 void setup() {
   size(500, 600);
+  /*
   for (int i=0; i < fireworks.length; i++) {
     fireworks[i] = new Firework(width, height);
   }
+  */
 }
 
 void draw() {

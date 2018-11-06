@@ -8,7 +8,7 @@ void setup() {
   StartStop.screenSizeChecker();
   Ball.gameStart(); 
   LeftPaddle.gameStart();
-  RightPaddle.gameStart(): 
+  RightPaddle.gameStart();
 }
 
 void draw() {
