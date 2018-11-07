@@ -22,7 +22,6 @@ void score () {
     ballY = ballStartY;
     
     //Randomizing the initial ball movement in four directions, commented out as an intentional mistake
-    /*
     ballMoveX = int (random (-2, 2)); //Notice: this is copied code, would be better as a procedure
     while (ballMoveX == 0) { //Notice: this is copied code, would be better as a procedure
       ballMoveX = int (random (-2, 2)); //Notice: this is copied code, would be better as a procedure
@@ -31,7 +30,6 @@ void score () {
     while (ballMoveY == 0) { //Notice: this is copied code, would be better as a procedure
       ballMoveY = int (random (-2, 2)); //Notice: this is copied code, would be better as a procedure
     }
-    */
     
     //Resetting the ARROW Controlled Paddle to the center
     player[1] = height/2 - height/paddleHeightRatio/2;

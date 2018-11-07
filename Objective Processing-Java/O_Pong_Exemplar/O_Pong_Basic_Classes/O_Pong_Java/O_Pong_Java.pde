@@ -6,9 +6,7 @@ private Ball[] balls = new Ball[Ball.getBallCount()]; //only variable to start i
 void setup() {
   size(500, 600); //May need to change these variables
   StartStop.screenSizeChecker();
-  Ball.gameStart(); 
-  LeftPaddle.gameStart();
-  RightPaddle.gameStart();
+  Ball.gameStart();
 }
 
 void draw() {
@@ -19,20 +17,17 @@ void draw() {
   if ( StartStop.getStart() == true ) {
     background(#E9FF03); //Yellow
     fill(0); //Black
-    ellipse (ballX, ballY, ballDiameter, ballDiameter);
-    rect();
-    rect();
-    
+    ellipse (ball.getBallX(), ball.getBallY(), ballDiameter, ballDiameter);
+    //rect();
+    //rect();
+
     //playGame(); //Also contains "ball squish" procedure, with change in frameRate
     //score(); //contains highlihgts for positive user feedback
   }
 }
 
-
 //Code that need to be moved and copied elsewhere
 void playGame () {
-
-  
 
   //Calcualting "next" ball position
   //Section necessary when calling functions so passing current arguements
@@ -87,12 +82,12 @@ void playGame () {
   if (mouseY >= height - paddle[1]) {
     player[3] = height - paddle[1] - 1;
   }
-  
+
   // Old Debugging Code
   //println (mouseY);
 
   //Draws the ball
-  
+
   ellipse();
 
   //Drawing Paddles

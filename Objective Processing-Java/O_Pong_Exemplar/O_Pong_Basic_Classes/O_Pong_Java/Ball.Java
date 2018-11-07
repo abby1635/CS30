@@ -7,6 +7,10 @@ class Ball () {
   private final int ballDiameter;
   private int ballMoveX;
   private int ballMoveY;
+  private int directionX;
+  private int directionY;
+  private int xSpeed;
+  private int ySpeed;
 
   private static int ballCount=5; //Only variable that needs to be coded first
 
@@ -25,25 +29,41 @@ class Ball () {
     ballX = ballStartX;
     ballY = ballStartY;
     ballDiameter = width/70; //Must pick one dimension for both ellipse diameters, for a circle
+    ballSpeedX = 1;
+    ballSpeedY = 1;
 
     //This sets the random for the ball, commented out as an intentional mistake
     //Change this to be a ball speed
-    ballMoveX = int (random (-2, 2));
-    while (ballMoveX == 0) {
-      ballMoveX = int (random (-2, 2));
+    directionX = int (random (-2, 2));
+    while (directionX == 0) {
+      directionX = int (random (-2, 2));
     }
-    ballMoveY = int (random (-2, 2));
-    while (ballMoveY == 0) {
-      ballMoveY = int (random (-2, 2));
+    directionY = int (random (-2, 2));
+    while (directionY == 0) {
+      directionY = int (random (-2, 2));
     }
   } //End gameStart
 
-
+  void gamePlay() {
+    ballMoveX = ballSpeedX*directionX;
+    ballMoveY = ballSpeedY*directionY;
+    ballx += ballMoveX;
+    ballY += ballMoveY;
+  }
 
   //Ball Squish
 
   //Getters and Setters
-  pubic static int getBallCount() {
+  public static int getBallCount() {
     return ballCount;
+  }
+  public int getBallX() {
+    return ballX;
+  }
+  public int getBallY() {
+    return ballY;
+  }
+  public int getBallDiameter() {
+    return ballDiameter;
   }
 } //End of Class
