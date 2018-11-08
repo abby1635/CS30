@@ -1,1 +1,1 @@
-class RightPaddle () {}
+class RightPaddle {}

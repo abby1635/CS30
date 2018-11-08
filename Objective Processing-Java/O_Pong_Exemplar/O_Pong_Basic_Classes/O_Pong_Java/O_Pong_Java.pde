@@ -1,7 +1,7 @@
 //Questions
 //Where and how are new balls initiated
 
-private Ball[] balls = new Ball[Ball.getBallCount()]; //only variable to start is how many Pong Balls will be in play
+Ball[] balls = new Ball[5]; //Ball.getBallCount() //only variable to start is how many Pong Balls will be in play
 
 void setup() {
   size(500, 600); //May need to change these variables

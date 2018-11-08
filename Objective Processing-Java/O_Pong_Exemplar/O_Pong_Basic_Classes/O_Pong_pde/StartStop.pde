@@ -1,4 +1,4 @@
-class StartStop () {
+void startStop() {
 
   private static Boolean start = false; //Variable for Game Starting
   

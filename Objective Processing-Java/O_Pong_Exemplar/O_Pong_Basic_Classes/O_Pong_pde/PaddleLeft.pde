@@ -1,4 +1,4 @@
-class LeftPaddle () {
+class LeftPaddle {
 }
 
 int paddleWidthRatio; //Variable is being re peated in setup() figuring good width of paddle, half of ballDiameter

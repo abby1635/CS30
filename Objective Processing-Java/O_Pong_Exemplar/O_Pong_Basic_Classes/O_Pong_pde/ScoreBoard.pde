@@ -1,4 +1,4 @@
-class ScoreBoard () {
+class ScoreBoard {
   
   //Printing to Console
   

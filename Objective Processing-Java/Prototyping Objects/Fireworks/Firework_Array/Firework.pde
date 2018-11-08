@@ -27,15 +27,15 @@ class Firework {
 
   //Procedures or Functions
   void draw() {
-  fill(c);
-  ellipse(x, y, diameter, diameter);
+    fill(c);
+    ellipse(x, y, diameter, diameter);
   }
 
   void step() {
     //Increasing x & y by their speeds so the ball moves
     x += xSpeed;
     y += ySpeed;
-    
+
     //Changing Gravity of the firework, not changing the origonal position
     //Important concept, even though math works
     ySpeed += gravity;

@@ -11,24 +11,30 @@ class Ball {
   int directionY;
   int ballSpeedX;
   int ballSpeedY;
-  
-  static int ballCount=5; //Only variable that needs to be coded first
+  color c;
+
+  int ballCount = 5; //Only variable that needs to be coded first
 
   //Constructor
-  Ball () {
-    this.ballX = ballX;
-    this.ballY = ballY;
+  Ball(float width, float height) {
+    ballStartX = int(width/2);
+    ballStartY = int(height/2);
+    this.ballX = ballStartX;
+    this.ballY = ballStartY;
+    ballDiameter = int(width/70); //Must pick one dimension for both ellipse diameters, for a circle
     this.ballSpeedX = ballSpeedX;
     this.ballSpeedY = ballSpeedY;
+    this.c = color(int(random(255)), int(random(255)), int(random(255)));
   } //End of Constructor
+
+  void draw() {
+    fill(c);
+    ellipse(ballX, ballY, ballDiameter, ballDiameter);
+  }
+
 
   //Game Start
   void gameStart () {
-    ballStartX = width/2;
-    ballStartY = height/2;
-    ballX = ballStartX;
-    ballY = ballStartY;
-    ballDiameter = width/70; //Must pick one dimension for both ellipse diameters, for a circle
     ballSpeedX = 1;
     ballSpeedY = 1;
 

@@ -1,18 +1,18 @@
-class Ball () {
+class Ball {
 
-  private int ballX;
-  private int ballY;
-  private final int ballStartX;
-  private final int ballStartY;
-  private final int ballDiameter;
-  private int ballMoveX;
-  private int ballMoveY;
-  private int directionX;
-  private int directionY;
-  private int xSpeed;
-  private int ySpeed;
+  int ballX;
+  int ballY;
+  final int ballStartX;
+  final int ballStartY;
+  final int ballDiameter;
+  int ballMoveX;
+  int ballMoveY;
+  int directionX;
+  int directionY;
+  int xSpeed;
+  int ySpeed;
 
-  private static int ballCount=5; //Only variable that needs to be coded first
+  static int ballCount = 5; //Only variable that needs to be coded first
 
   //Constructor
   Ball () {
@@ -54,16 +54,16 @@ class Ball () {
   //Ball Squish
 
   //Getters and Setters
-  public static int getBallCount() {
+  static int getBallCount() {
     return ballCount;
   }
-  public int getBallX() {
+  int getBallX() {
     return ballX;
   }
-  public int getBallY() {
+  int getBallY() {
     return ballY;
   }
-  public int getBallDiameter() {
+  int getBallDiameter() {
     return ballDiameter;
   }
 } //End of Class

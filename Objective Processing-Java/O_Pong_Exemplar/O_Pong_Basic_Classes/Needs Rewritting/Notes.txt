@@ -1,0 +1,5 @@
+Prototype each class before combining
+- ball bounces and scores
+- paddles bounde and move
+- firework goes at goal and bounce of other team
+- scoreboard prints score
