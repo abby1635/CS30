@@ -3,3 +3,6 @@ Prototype each class before combining
 - paddles bounde and move
 - firework goes at goal and bounce of other team
 - scoreboard prints score
+
+constructor assignment to itself
+

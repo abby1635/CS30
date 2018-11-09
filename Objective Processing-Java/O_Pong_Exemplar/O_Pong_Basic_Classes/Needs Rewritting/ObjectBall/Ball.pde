@@ -13,7 +13,7 @@ class Ball {
   int ballSpeedY;
   color c;
 
-  int ballCount = 5; //Only variable that needs to be coded first
+  //int ballCount = 5; //Only variable that needs to be coded first
 
   //Constructor
   Ball(float width, float height) {
@@ -22,8 +22,8 @@ class Ball {
     this.ballX = ballStartX;
     this.ballY = ballStartY;
     ballDiameter = int(width/70); //Must pick one dimension for both ellipse diameters, for a circle
-    this.ballSpeedX = ballSpeedX;
-    this.ballSpeedY = ballSpeedY;
+    this.ballSpeedX = int (random (1, 5));
+    this.ballSpeedY = int (random (1, 5));
     this.c = color(int(random(255)), int(random(255)), int(random(255)));
   } //End of Constructor
 
@@ -34,10 +34,8 @@ class Ball {
 
 
   //Game Start
-  void gameStart () {
-    ballSpeedX = 1;
-    ballSpeedY = 1;
-
+  void gameStart() {
+    
     //This sets the random for the ball, commented out as an intentional mistake
     //Change this to be a ball speed
     directionX = int (random (-2, 2));
@@ -53,14 +51,15 @@ class Ball {
   void gamePlay() {
     ballMoveX = ballSpeedX*directionX;
     ballMoveY = ballSpeedY*directionY;
-    ballx += ballMoveX;
+    ballX += ballMoveX;
     ballY += ballMoveY;
   }
 
   //Ball Squish
 
   //Getters and Setters
-  static int getBallCount() {
+  /*
+  int getBallCount() {
     return ballCount;
   }
   int getBallX() {
@@ -72,4 +71,5 @@ class Ball {
   int getBallDiameter() {
     return ballDiameter;
   }
+  */
 } //End of Class

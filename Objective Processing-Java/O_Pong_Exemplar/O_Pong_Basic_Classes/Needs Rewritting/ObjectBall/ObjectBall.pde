@@ -1,23 +1,34 @@
 //Questions
 //Where and how are new balls initiated
 
-Ball[] balls = new Ball[Ball.getBallCount()]; //only variable to start is how many Pong Balls will be in play
+Ball[] balls = new Ball[4]; //only variable to start is how many Pong Balls will be in play
+
+int ballCount = 0;
 
 void setup() {
   size(500, 600); //May need to change these variables
-  for (int i=0; i < balls.length; i++) {
-    balls[i] = new Ball(width, height);
-  }
+  balls[0] = new Ball(width, height);
+  balls[0].gameStart();
+  ballCount = 1;
 }
 
 void draw() {
-  if ( StartStop.getStart() == true ) {
-    background(#E9FF03); //Yellow
-    for (int i=0; i < balls.length; i++) {
-      balls[i].draw;
-    }
+  background(255);
+  for (int i=0; i<ballCount; i++) {
+    balls[i].gamePlay();
+    balls[i].draw();
   }
 }
 
 
-//Code that need to be moved and copied elsewhere
+void mouseClicked() {
+  ballCount++;
+  if (ballCount == balls.length) {
+    ballCount = balls.length;
+  } else {
+    for (int i=(ballCount-1); i<ballCount; i++) {
+      balls[i] = new Ball(width, height);
+      balls[0].gameStart();
+    }
+  }
+}
