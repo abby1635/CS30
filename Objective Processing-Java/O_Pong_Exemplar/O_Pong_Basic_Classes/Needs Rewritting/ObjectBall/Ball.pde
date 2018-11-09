@@ -30,10 +30,10 @@ class Ball {
   } //End of Constructor
 
   void draw() {
+    //In Pure-Java these variables will need Getters and Setters
     fill(c);
     ellipse(ballX, ballY, ballDiameter, ballDiameter);
   }
-
 
   //Game Start
   void gameStart() {
@@ -54,31 +54,32 @@ class Ball {
     //Top and Bottom Boundary Bounce, accounting for increased ball movement per "step"
     if (ballY <= 0 || ballY >= height) { //Empty IF to skip ball arithmetic when score happens
     } else {
-      if (ballY <= 0+(ballDiameter/2) || ballY >= height-(ballDiameter/2) ) {
+      if ( (ballY > 0 && ballY <= 0+(ballDiameter) ) || ( ballY < height && ballY >= height-(ballDiameter) )   ) { //BallMoveX & Y are too big for radii measure
         directionY = directionY * (-1);
       }
-      if (ballY <= 0+(ballDiameter/2) ) {
+      if (ballY <= 0+(ballDiameter/2) ) { //Redraw bounce when score has not happened
         ballY = 0+(ballDiameter/2);
       }
-      if (ballY >= height-(ballDiameter/2) ) {
+      if (ballY >= height-(ballDiameter/2) ) { //Redraw bounce when score has not happened
         ballY = height-(ballDiameter/2);
       }
     }
 
     //Scoring on Left and Right, reseting variables to decrease system resources
-    if (ballX < 0-(ballDiameter/2)) {
+    //See Notes for how to operate goal area
+    if (ballX < 0) { //BallMoveX & Y are too big for radii measure
       scorePlayer1++;
       ballX = 0;
-      ballY = 0;
+      ballY = ballY; //Assignment to itself, in the scoring area that becomes a marker for Fireworks and Scoreboard
     }
-    if (ballX >= width+(ballDiameter/2)) {
+    if (ballX > width) {
       scorePlayer2++;
       ballX = width;
       ballY = height;
     }
 
     //Ball "Step"
-    if (ballX <= 0 || ballX >= height) { //Empty IF to skip ball arithmetic, when score happens
+    if (ballX <= 0) { //Empty IF to skip ball arithmetic, when score happens // Code cut || ballX >= width
     } else {
       ballMoveX = ballSpeedX*directionX;
       ballMoveY = ballSpeedY*directionY;
@@ -90,19 +91,4 @@ class Ball {
 
   //Ball Squish
 
-  //Getters and Setters
-  /*
-  int getBallCount() {
-   return ballCount;
-   }
-   int getBallX() {
-   return ballX;
-   }
-   int getBallY() {
-   return ballY;
-   }
-   int getBallDiameter() {
-   return ballDiameter;
-   }
-   */
 } //End of Class
