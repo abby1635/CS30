@@ -4,5 +4,7 @@ Prototype each class before combining
 - firework goes at goal and bounce of other team
 - scoreboard prints score
 
-constructor assignment to itself
-
+Ball Class: direction, speed, colour, bounces ... scores
+- speed set at beginning, meant to increase
+- all balls start in center, final variable
+- all diameters are same
