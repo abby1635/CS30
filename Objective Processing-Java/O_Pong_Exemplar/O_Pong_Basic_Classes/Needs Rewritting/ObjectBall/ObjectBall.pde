@@ -4,6 +4,7 @@
 Ball[] balls = new Ball[4]; //only variable to start is how many Pong Balls will be in play
 
 int ballCount = 0;
+Boolean endGame = false; //Game will end when Fifth Ball is attempted
 
 void setup() {
   size(500, 600); //May need to change these variables
@@ -14,21 +15,29 @@ void setup() {
 
 void draw() {
   background(255);
+  if (ballCount == balls.length) { //Array out of Bounds
+    ballCount = balls.length;
+  }
   for (int i=0; i<ballCount; i++) {
     balls[i].gamePlay();
     balls[i].draw();
   }
+  if (endGame == true) {
+    println("Game is over");
+    exit();
+  }
 }
+
 
 
 void mouseClicked() {
   ballCount++;
-  if (ballCount == balls.length) {
+  if (ballCount > balls.length) { //Array out of Bounds
     ballCount = balls.length;
-  } else {
-    for (int i=(ballCount-1); i<ballCount; i++) {
-      balls[i] = new Ball(width, height);
-      balls[0].gameStart();
-    }
+    endGame = true;
+  } 
+  for (int i=(ballCount-1); i<ballCount; i++) {
+    balls[i] = new Ball(width, height);
+    balls[i].gameStart();
   }
 }
