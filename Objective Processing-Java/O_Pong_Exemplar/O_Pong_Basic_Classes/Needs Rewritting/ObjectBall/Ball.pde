@@ -52,14 +52,13 @@ class Ball {
   void gamePlay() {
 
     //Top and Bottom Boundary Bounce, accounting for increased ball movement per "step"
-
     if ( (ballY > 0 && ballY <= 0+(ballDiameter) ) || ( ballY < height && ballY >= height-(ballDiameter) )   ) { //ballY bounce area
       directionY = directionY * (-1);
     }
-    if (ballY <= 0+(ballDiameter/2) ) { //Redraw to catch when the bounce has not happened in previous IF
+    if (ballY < 0+(ballDiameter/2) ) { //Redraw to catch when the bounce has not happened in previous IF
       ballY = 0+(ballDiameter/2);
     }
-    if (ballY >= height-(ballDiameter/2) ) { //Redraw to catch when the bounce has not happened in first IF
+    if (ballY > height-(ballDiameter/2) ) { //Redraw to catch when the bounce has not happened in first IF
       ballY = height-(ballDiameter/2);
     }
 
@@ -84,8 +83,11 @@ class Ball {
     ballX += ballMoveX;
     ballY += ballMoveY;
   }
+  
+  //Console Log tracking Scoring and BallX & BallY Positions
   println("\nPlayer 1:", scorePlayer1, "\tPlayer 2:", scorePlayer2);
   print("\tBall X:", ballX, "\t Ball Y:", ballY);
+  
 }
 
 //Ball Squish

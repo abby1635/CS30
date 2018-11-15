@@ -4,6 +4,7 @@
 Ball[] balls = new Ball[4]; //only variable to start is how many Pong Balls will be in play
 
 int ballCount = 0;
+int Score1=0, Score2=0; //Placeholder variables until ScoreBoard Class created, FOR Loop using these should move to ScoreBoard Class
 Boolean endGame = false; //Game will end when Fifth Ball is attempted
 //int score1, score2; //Tracking scorePlayer1 & 2
 
@@ -26,7 +27,12 @@ void draw() {
     //score2 += ball[i].scorePlayer2; //Future Code
   }
   if (endGame == true) {
-    println("Game is over");
+    println("\n\nGame is over"); //Escapes because Console log happens in other classes
+    for( int i=0; i>balls.length; i++ ) {
+      Score1 += balls[i].scorePlayer1;
+      Score2 += balls[i].scorePlayer2;
+    }
+    println("Player 1:", Score1, "\tPlayer 2:", Score2); //Escapes because Console log happens in other classes
     exit();
   }
   //println("Player 1:", score1, "\tPlayer 2:", score2);
