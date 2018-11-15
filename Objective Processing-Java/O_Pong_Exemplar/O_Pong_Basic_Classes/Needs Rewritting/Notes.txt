@@ -12,9 +12,10 @@ Ball Class: direction, speed, colour, bounces ... scores
 - all balls start in center, final variable
 - all diameters are same
 - Bounce is not half off the screen
-- Goal area
+- Goal area (redo this)
   - in paddle area, before goal ... bounce
-  - just before 0 or width, missing paddle ... score
+  - past paddle, anywhere, score, based on ball-diameter ratio
+  - think about drawing rect() for net area
   - if in net, redraw so stuck in net ... communication with Firework and Scoreboard Objects
 - Ball Squish needs to be written
 - Bug: ScorePlayer1 & 2 is not incrementing for all goals, only if the ball knows it scores
