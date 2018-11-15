@@ -86,7 +86,9 @@ class Ball {
       ballX += ballMoveX;
       ballY += ballMoveY;
     }
-    println("Player 1:", scorePlayer1, "\tPlayer 2:", scorePlayer2);
+    println("\nPlayer 1:", scorePlayer1, "\tPlayer 2:", scorePlayer2);
+    print("\tBall X:", ballX, "\t Ball Y:", ballY);
+    
   }
 
   //Ball Squish
