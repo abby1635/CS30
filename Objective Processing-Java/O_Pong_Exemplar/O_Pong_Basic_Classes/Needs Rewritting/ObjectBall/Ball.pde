@@ -33,7 +33,7 @@ class Ball {
     //In Pure-Java these variables will need Getters and Setters
     fill(c);
     ellipse(ballX, ballY, ballDiameter, ballDiameter);
-  }
+  } //End of draw()
 
   //Game Start
   void gameStart() {
@@ -51,6 +51,21 @@ class Ball {
 
   void gamePlay() {
 
+    //Scoring on Left and Right, reseting variables to decrease system resources
+    //See Notes for how to operate goal area
+    if (ballX < 0+1 || ballX > width-1) {
+      if (ballX < 0) { //BallMoveX & Y are too big for radii measure
+        scorePlayer1 = scorePlayer1 + 1;
+        ballX = 0;
+        ballY = ballY; //Assignment to itself, in the scoring area that becomes a marker for Fireworks and Scoreboard
+      }
+      if (ballX > width) {
+        scorePlayer2++;
+        ballX = width;
+        ballY = height;
+      }
+    }
+
     //Top and Bottom Boundary Bounce, accounting for increased ball movement per "step"
     if ( (ballY > 0 && ballY <= 0+(ballDiameter) ) || ( ballY < height && ballY >= height-(ballDiameter) )   ) { //ballY bounce area
       directionY = directionY * (-1);
@@ -62,34 +77,20 @@ class Ball {
       ballY = height-(ballDiameter/2);
     }
 
-  //Scoring on Left and Right, reseting variables to decrease system resources
-  //See Notes for how to operate goal area
-  if (ballX < 0) { //BallMoveX & Y are too big for radii measure
-    scorePlayer1++;
-    ballX = 0;
-    ballY = ballY; //Assignment to itself, in the scoring area that becomes a marker for Fireworks and Scoreboard
-  }
-  if (ballX > width) {
-    scorePlayer2++;
-    ballX = width;
-    ballY = height;
-  }
+    //Ball "Step"
+    if (ballX == 0) { //Empty IF to skip ball arithmetic, when score happens // Code cut || ballX >= width
+    } else {
+      ballMoveX = ballSpeedX*directionX;
+      ballMoveY = ballSpeedY*directionY;
+      ballX += ballMoveX;
+      ballY += ballMoveY;
+    }
 
-  //Ball "Step"
-  if (ballX <= 0) { //Empty IF to skip ball arithmetic, when score happens // Code cut || ballX >= width
-  } else {
-    ballMoveX = ballSpeedX*directionX;
-    ballMoveY = ballSpeedY*directionY;
-    ballX += ballMoveX;
-    ballY += ballMoveY;
-  }
+    //Console Log tracking Scoring and BallX & BallY Positions
+    println("\nPlayer 1:", scorePlayer1, "\tPlayer 2:", scorePlayer2);
+    print("\tBall X:", ballX, "\t Ball Y:", ballY);
+  } //End of gamePlay()
+
+  //Ball Squish
   
-  //Console Log tracking Scoring and BallX & BallY Positions
-  println("\nPlayer 1:", scorePlayer1, "\tPlayer 2:", scorePlayer2);
-  print("\tBall X:", ballX, "\t Ball Y:", ballY);
-  
-}
-
-//Ball Squish
-
 } //End of Class

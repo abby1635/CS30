@@ -28,9 +28,12 @@ void draw() {
   }
   if (endGame == true) {
     println("\n\nGame is over"); //Escapes because Console log happens in other classes
-    for( int i=0; i>balls.length; i++ ) {
+    for (int i=0; i<balls.length; i++) {
+      println("Inside Loop");
       Score1 += balls[i].scorePlayer1;
       Score2 += balls[i].scorePlayer2;
+      println("Player 1:", balls[i].scorePlayer1);
+      println("Player 2:", balls[i].scorePlayer2);
     }
     println("Player 1:", Score1, "\tPlayer 2:", Score2); //Escapes because Console log happens in other classes
     exit();
