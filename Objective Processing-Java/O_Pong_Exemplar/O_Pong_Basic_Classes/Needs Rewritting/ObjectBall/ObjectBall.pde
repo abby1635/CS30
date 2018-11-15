@@ -16,7 +16,7 @@ void setup() {
 
 void draw() {
   background(255);
-  if (ballCount == balls.length) { //Array out of Bounds
+  if (ballCount > balls.length) { //Array out of Bounds
     ballCount = balls.length;
   }
   for (int i=0; i<ballCount; i++) {
