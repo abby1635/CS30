@@ -24,8 +24,8 @@ class Ball {
     this.ballX = ballStartX;
     this.ballY = ballStartY;
     ballDiameter = int(width/70); //Must pick one dimension for both ellipse diameters, for a circle
-    this.ballSpeedX = int (random (2, 6));
-    this.ballSpeedY = int (random (2, 6));
+    this.ballSpeedX = int (random (1, 5));
+    this.ballSpeedY = int (random (1, 5));
     this.c = color(int(random(50, 200)), int(random(50, 200)), int(random(50, 200)));
   } //End of Constructor
 
@@ -53,19 +53,16 @@ class Ball {
 
     //Scoring on Left and Right, reseting variables to decrease system resources
     //See Notes for how to operate goal area
-    if (ballX < 0 || ballX > width) {
-      println("Inside Score", ballX);
+    if (ballX < 0+1 || ballX > width-1) {
       if (ballX < 0) { //BallMoveX & Y are too big for radii measure
-        println("Inside Score Before", scorePlayer1);
         scorePlayer1 = scorePlayer1 + 1;
-        println("Inside Score After", scorePlayer1);
         ballX = 0;
         ballY = ballY; //Assignment to itself, in the scoring area that becomes a marker for Fireworks and Scoreboard
       }
       if (ballX > width) {
         scorePlayer2++;
         ballX = width;
-        ballY = ballY;
+        ballY = height;
       }
     }
 
@@ -81,7 +78,7 @@ class Ball {
     }
 
     //Ball "Step"
-    if (ballX == 0 || ballX == width) { //Empty IF to skip ball arithmetic, when score happens // Code cut || ballX >= width
+    if (ballX == 0) { //Empty IF to skip ball arithmetic, when score happens // Code cut || ballX >= width
     } else {
       ballMoveX = ballSpeedX*directionX;
       ballMoveY = ballSpeedY*directionY;
@@ -95,4 +92,5 @@ class Ball {
   } //End of gamePlay()
 
   //Ball Squish
+  
 } //End of Class
