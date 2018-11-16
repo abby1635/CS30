@@ -2,6 +2,7 @@ class Ball {
 
   int ballX;
   int ballY;
+  float ballXGoal;
   final int ballStartX;
   final int ballStartY;
   final int ballDiameter;
@@ -23,9 +24,10 @@ class Ball {
     ballStartY = int(height/2);
     this.ballX = ballStartX;
     this.ballY = ballStartY;
+    this.ballXGoal = 0;
     ballDiameter = int(width/70); //Must pick one dimension for both ellipse diameters, for a circle
-    this.ballSpeedX = int (random (2, 6));
-    this.ballSpeedY = int (random (2, 6));
+    this.ballSpeedX = int (random (1, 5));
+    this.ballSpeedY = int (random (1, 5));
     this.c = color(int(random(50, 200)), int(random(50, 200)), int(random(50, 200)));
   } //End of Constructor
 
@@ -53,24 +55,22 @@ class Ball {
 
     //Scoring on Left and Right, reseting variables to decrease system resources
     //See Notes for how to operate goal area
-    if (ballX < 0 || ballX > width) {
-      println("Inside Score", ballX);
-      if (ballX < 0) { //BallMoveX & Y are too big for radii measure
-        println("Inside Score Before", scorePlayer1);
+    if (ballX < 0+(ballDiameter/4) || ballX > width) { //Error: -(ballDiameter/2)
+      if (ballX < 0+(ballDiameter/4)) {
         scorePlayer1 = scorePlayer1 + 1;
-        println("Inside Score After", scorePlayer1);
-        ballX = 0;
+        ballX = 0+(ballDiameter/4);
+        ballXGoal = int(ballDiameter/2)+0.1; //required integer, not float
         ballY = ballY; //Assignment to itself, in the scoring area that becomes a marker for Fireworks and Scoreboard
       }
       if (ballX > width) {
         scorePlayer2++;
         ballX = width;
-        ballY = ballY;
+        ballY = height;
       }
     }
 
     //Top and Bottom Boundary Bounce, accounting for increased ball movement per "step"
-    if ( (ballY > 0 && ballY <= 0+(ballDiameter) ) || ( ballY < height && ballY >= height-(ballDiameter) )   ) { //ballY bounce area
+    if ( (ballY > 0 && ballY <= 0+(ballDiameter) ) || ( ballY < height && ballY >= height-(ballDiameter) )   ) { //ballY bounce area wider than below
       directionY = directionY * (-1);
     }
     if (ballY < 0+(ballDiameter/2) ) { //Redraw to catch when the bounce has not happened in previous IF
@@ -81,7 +81,7 @@ class Ball {
     }
 
     //Ball "Step"
-    if (ballX == 0 || ballX == width) { //Empty IF to skip ball arithmetic, when score happens // Code cut || ballX >= width
+    if (ballXGoal == int(ballDiameter/2)+0.1) { //Empty IF to skip ball arithmetic, when score happens // Code cut || ballX >= width
     } else {
       ballMoveX = ballSpeedX*directionX;
       ballMoveY = ballSpeedY*directionY;
@@ -95,4 +95,5 @@ class Ball {
   } //End of gamePlay()
 
   //Ball Squish
+  
 } //End of Class

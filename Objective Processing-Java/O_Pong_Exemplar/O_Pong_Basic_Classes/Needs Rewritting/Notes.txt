@@ -14,7 +14,7 @@ Ball Class: direction, speed, colour, bounces ... scores
 - Bounce is not half off the screen
 - Goal area (redo this)
   - in paddle area, before goal ... bounce
-  - past paddle, anywhere, score, based on ball-diameter ratio
+  - past paddle, anywhere, score, based on ball-diameter/2 ratio
   - think about drawing rect() for net area
   - if in net, redraw so stuck in net ... communication with Firework and Scoreboard Objects
 - Ball Squish needs to be written
