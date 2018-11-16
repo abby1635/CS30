@@ -17,15 +17,18 @@ void setup() {
 
 void draw() {
   background(255);
+  
   if (ballCount > balls.length) { //Array out of Bounds
     ballCount = balls.length;
   }
+  
   for (int i=0; i<ballCount; i++) {
     balls[i].gamePlay();
     balls[i].draw();
     //score1 += balls[i].scorePlayer1;
     //score2 += ball[i].scorePlayer2; //Future Code
   }
+  
   if (endGame == true) {
     println("\n\nGame is over"); //Escapes because Console log happens in other classes
     for (int i=0; i<balls.length; i++) {
@@ -38,6 +41,7 @@ void draw() {
     println("Player 1:", Score1, "\tPlayer 2:", Score2); //Escapes because Console log happens in other classes
     exit();
   }
+
   //println("Player 1:", score1, "\tPlayer 2:", score2);
 }
 
