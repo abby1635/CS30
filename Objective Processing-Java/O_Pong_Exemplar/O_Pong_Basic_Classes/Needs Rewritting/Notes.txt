@@ -18,9 +18,7 @@ Ball Class: direction, speed, colour, bounces ... scores
   - think about drawing rect() for net area
   - if in net, redraw so stuck in net ... communication with Firework and Scoreboard Objects
 - Ball Squish needs to be written
-- Bug: ScorePlayer1 & 2 is not incrementing for all goals, only if the ball knows it scores
-- Bug: ScorePlayer1 not adding goals for all balls "stuck"
-  - works for the first one
+- Bug: ScorePlayer1 & 2 incrementing but not summing into next Score1 & 2 Varaible
 
 CAUTION: Scoring not done
 - Scoring needs to be written to activate Firework in certain area
