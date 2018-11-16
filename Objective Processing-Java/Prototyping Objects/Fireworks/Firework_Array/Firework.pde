@@ -37,7 +37,7 @@ class Firework {
     y += ySpeed;
 
     //Changing Gravity of the firework, not changing the origonal position
-    //Important concept, even though math works
+    //Important concept of spawning, even though math works
     ySpeed += gravity;
   }
 
