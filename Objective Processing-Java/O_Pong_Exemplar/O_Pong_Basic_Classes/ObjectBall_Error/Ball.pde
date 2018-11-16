@@ -2,7 +2,7 @@ class Ball {
 
   int ballX;
   int ballY;
-  float ballXGoal;
+  Boolean ballXGoal;
   final int ballStartX;
   final int ballStartY;
   final int ballDiameter;
@@ -24,7 +24,7 @@ class Ball {
     ballStartY = int(height/2);
     this.ballX = ballStartX;
     this.ballY = ballStartY;
-    this.ballXGoal = 0;
+    this.ballXGoal = false;
     ballDiameter = int(width/70); //Must pick one dimension for both ellipse diameters, for a circle
     this.ballSpeedX = int (random (1, 5));
     this.ballSpeedY = int (random (1, 5));
@@ -59,7 +59,7 @@ class Ball {
       if (ballX < 0+(ballDiameter/4)) {
         scorePlayer1 = scorePlayer1 + 1;
         ballX = 0+(ballDiameter/4);
-        ballXGoal = int(ballDiameter/2)+0.1; //required integer, not float
+        ballXGoal = true; //required integer, not float
         ballY = ballY; //Assignment to itself, in the scoring area that becomes a marker for Fireworks and Scoreboard
       }
       if (ballX > width) {
@@ -81,7 +81,7 @@ class Ball {
     }
 
     //Ball "Step"
-    if (ballXGoal == int(ballDiameter/2)+0.1) { //Empty IF to skip ball arithmetic, when score happens // Code cut || ballX >= width
+    if (ballXGoal == true) { //Empty IF to skip ball arithmetic, when score happens // Code cut || ballX >= width
     } else {
       ballMoveX = ballSpeedX*directionX;
       ballMoveY = ballSpeedY*directionY;
