@@ -38,7 +38,7 @@ class Ball {
   } //End of draw()
 
   //Game Start
-  void gameStart() {
+  void gameStart() { //Completes the Ball Constructor
     //This sets the random for the ball, commented out as an intentional mistake
     //Change this to be a ball speed
     directionX = int (random (-2, 2));

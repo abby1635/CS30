@@ -3,6 +3,7 @@ class Ball {
   int ballX;
   int ballY;
   Boolean ballXGoal;
+  Boolean ballXGoalOnce;
   final int ballStartX;
   final int ballStartY;
   final int ballDiameter;
@@ -25,6 +26,7 @@ class Ball {
     this.ballX = ballStartX;
     this.ballY = ballStartY;
     this.ballXGoal = false;
+    this.ballXGoalOnce = false;
     ballDiameter = int(width/70); //Must pick one dimension for both ellipse diameters, for a circle
     this.ballSpeedX = int (random (1, 5));
     this.ballSpeedY = int (random (1, 5));
@@ -38,7 +40,7 @@ class Ball {
   } //End of draw()
 
   //Game Start
-  void gameStart() {
+  void gameStart() { //Completes the Ball Constructor
     //This sets the random for the ball, commented out as an intentional mistake
     //Change this to be a ball speed
     directionX = int (random (-2, 2));
@@ -60,24 +62,18 @@ class Ball {
         scorePlayer1 = scorePlayer1 + 1;
         ballX = 0+(ballDiameter/4);
         ballXGoal = true;
+        ballXGoalOnce = true;
         ballY = ballY; //Assignment to itself, in the scoring area that becomes a marker for Fireworks and Scoreboard
-        Firework[] fireworks = new Firework[4*5]; //Ratio of Max Pong Balls (related to Ball List), copied for other side too
-        for (int i=0; i < fireworks.length; i++) {
-          fireworks[i] = new Firework(ballX, ballY);
-          fireworks[i].draw();
-        }
+        println ("Ball is struck");
       }
-      if (ballX > width-(ballDiameter/4)) {
-        scorePlayer2++;
-        ballX = width-(ballDiameter/4);
-        ballXGoal = true;
-        ballY = ballY;
-        Firework[] fireworks = new Firework[4*5]; //Ratio of Max Pong Balls (related to Ball List), copied for other side too
-        for (int i=0; i < fireworks.length; i++) {
-          fireworks[i] = new Firework(ballX, ballY);
-          fireworks[i].draw();
-        }
-      }
+    }
+    if (ballX > width-(ballDiameter/4)) {
+      scorePlayer2++;
+      ballX = width-(ballDiameter/4);
+      ballXGoal = true;
+      ballXGoalOnce = true; //Passing to Fireworks
+      ballY = ballY;
+      println ("Ball is struck");
     }
 
     //Top and Bottom Boundary Bounce, accounting for increased ball movement per "step"

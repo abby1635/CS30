@@ -13,11 +13,8 @@ class Firework {
   Firework (float width, float height) {
     //X&Y are values when Pong Ball scores
     this.x = mouseX; //random (width); actually needs to be the X&Y of the score
-    println(x);
     this.y = mouseY; //random (height); actually needs to be the X&Y of the score
-    println(y);
     this.c = color( int(random(255)), int(random(255)), int(random(255)) );
-    println(c);
     this.diameter = random(width*1/25);
     println (diameter);
     this.xSpeed = random(-5, 5);
