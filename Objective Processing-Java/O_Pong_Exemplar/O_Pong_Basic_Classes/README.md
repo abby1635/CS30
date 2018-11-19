@@ -21,13 +21,13 @@ Progression
    - Unique Coding Concepts
      - Empty IF, similar to Empty draw(): used to skip arithmetic code of next ball steps
    -
-2.
+2. Build a Firework Class
 
 ## Prototyping Ideas and Concepts
 Prototype each class before combining
 - ball bounces and scores
-- paddles bounce and move
 - firework goes at goal and bounce of other team
+- paddles bounce and move
 - scoreboard prints score
 
 ---
@@ -36,8 +36,6 @@ Prototype each class before combining
 ---
 
 # Ideas to Include
-
-
 Making Fireworks work
 - Main program, variable to draw a ball's fireworks once
 
