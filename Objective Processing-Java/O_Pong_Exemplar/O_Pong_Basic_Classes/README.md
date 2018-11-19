@@ -3,6 +3,18 @@ Rewriting the Procedure Pong Game, but in Object-based format
 
 **UNDER CONSTRUCTION**
 
+Organization of Main & Classes
+- Main:
+  - Creates Pong Balls with Ball Class
+  - 
+- Ball Class
+  -
+- Firework Class
+  -
+- Left-Paddle Class
+- Right Paddle Class
+- Scoreboard Class
+
 Progression
 1. Build a Ball Class
    - General Summary
