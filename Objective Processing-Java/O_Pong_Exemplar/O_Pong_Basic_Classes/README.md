@@ -3,10 +3,51 @@ Rewriting the Procedure Pong Game, but in Object-based format
 
 **UNDER CONSTRUCTION**
 
+Progression
+1. Build a Ball Class
+   - General Summary
+     - direction, speed, colour, bounces ... scores
+     - speed set at beginning, meant to increase
+     - all balls start in center, final variable
+     - all diameters are same
+     - Bounce is not half off the screen
+     - Goal area (redo this)
+       - in paddle area, before goal ... bounce
+       - past paddle, anywhere, score, based on ball-diameter/2 ratio
+       - think about drawing rect() for net area
+       - if in net, redraw so stuck in net ... communication with Firework and Scoreboard Objects
+     - Ball Squish needs to be written
+     - Bug: ScorePlayer1 & 2 incrementing but not summing into next Score1 & 2 Variable
+   - Unique Coding Concepts
+     - Empty IF, similar to Empty draw(): used to skip arithmetic code of next ball steps
+   -
+2.
+
+## Prototyping Ideas and Concepts
+Prototype each class before combining
+- ball bounces and scores
+- paddles bounce and move
+- firework goes at goal and bounce of other team
+- scoreboard prints score
+
+---
+
 
 ---
 
 # Ideas to Include
+
+
+Making Fireworks work
+- Main program, variable to draw a ball's fireworks once
+
+CAUTION: Scoring not done
+- Scoring needs to be written to activate Firework in certain area
+
+Pure-Java
+- Needs Security, Getters and Setters
+
+
 
 
 ---
