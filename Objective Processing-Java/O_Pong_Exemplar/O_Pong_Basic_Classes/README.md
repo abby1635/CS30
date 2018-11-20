@@ -14,6 +14,7 @@ Organization of Main & Classes
 - Ball Class
   - Splits ball object creation between declare, assign in constructor, and assign in gameStart()
   - Uses Empty-IF to make ball stick in goal or do arithmetic on ball steps
+  - Creates the next ball if listener not present
 - Firework Class
   -
 - Left-Paddle Class
