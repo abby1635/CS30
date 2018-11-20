@@ -11,7 +11,7 @@ int fireworkX, fireworkY; //New memory location for Class Ball varaibles (ballX 
 
 void setup() {
   size(500, 600); //May need to change these variables
-  frameRate(30);
+  frameRate(30); //Attempt to adjust frame rate so visual data shown consistently, doesn't work
   balls[0] = new Ball(width, height);
   balls[0].gameStart();
   ballCount = 1;
@@ -29,15 +29,16 @@ void draw() {
     Firework[] fireworks = new Firework[1]; //Ratio of Max Pong Balls (related to Ball List), copied for other side too
     fireworkX = balls[ballCount-1].ballX; //address null pointer exception if trying to run Firework directly with ballX&Y
     fireworkY = balls[ballCount-1].ballY;
+    println("Y Value in Ball Class:", balls[ballCount-1].ballY); 
     for (int i=0; i<fireworks.length; i++) {
       fireworks[i] = new Firework( fireworkX, fireworkY );
-      println("inside fireworkcreation");
+      println("inside firework creation");
     }
     //Not working
     while (fireworks[0].y < height  ) { //|| fireworks[1].y < height || fireworks[2].y < height
       println("inside firework while");
-      println("Y Value:", fireworks[0].y);
-      //frameRate(1);
+      println("Y Value in Firework Class:", fireworks[0].y); //Verify with above balls[ballCount-1].ballY
+      //frameRate(1); //Doesn't work, see previous comment
       for (int i=0; i<fireworks.length; i++) {
         println("inside firework step");
         fireworks[i].fireWorkStep();
@@ -47,22 +48,8 @@ void draw() {
         println("inside firework draw");
         fireworks[i].fireWorkDraw();
       }
-      //frameRate(30);
+      //frameRate(30); //doesn't work, see previous comment
     }
-    /*
-     fireworks[1].fireWorkStep();
-     fireworks[2].fireWorkStep();
-     fireworks[3].fireWorkStep();
-     for (int i=0; i<fireworks.length; i++) {
-     println("inside firework for");
-     {
-     println("inside firework step");
-     fireworks[i].fireWorkStep();
-     fireworks[i].fireWorkDraw();
-     }
-     }
-     */
-    //End of not working
     balls[ballCount-1].ballXGoalOnce = false;
   }
 
