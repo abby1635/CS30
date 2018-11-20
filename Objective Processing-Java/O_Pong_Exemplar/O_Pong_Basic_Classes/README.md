@@ -6,6 +6,8 @@ Rewriting the Procedure Pong Game, but in Object-based format
 Organization of Main & Classes
 - Main:
   - Creates Pong Balls with Ball Class
+  - draws ball
+  - draws firework, single
   - ...Starts game immediately
   - Checks for Ball-array out of bounds loop
   - draws ball and steps
@@ -24,6 +26,7 @@ Organization of Main & Classes
 Errors about Programs
 . Object Ball: One side works, the other side doesn't freeze the ball
 . Object Ball Firework: listener disengages void draw() like noLoop()
+. Visual data for Ball & Firework broken, illustrating console works with prototyping program
 
 Progression
 1. Build a Ball Class
