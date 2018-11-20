@@ -24,11 +24,6 @@ void draw() {
   }
 
   for (int i=0; i<ballCount; i++) {
-    balls[i].gamePlay();
-    balls[i].draw();
-  }
-
-  for (int i=0; i<ballCount; i++) {
     if (balls[i].ballXGoalOnce == true) { //Ball Scores connected to Firework Class
       println("\nInside Fireworks loop");
       Firework[] fireworks = new Firework[20]; //Ratio of Max Pong Balls (related to Ball List), copied for other side too
@@ -43,7 +38,16 @@ void draw() {
       println ("Resetting Printing Once");
       balls[i].ballXGoalOnce = false;
     }
+    println("\ninside ball goal");
   }
+
+  for (int i=0; i<ballCount; i++) {
+    balls[i].gamePlay();
+    balls[i].ballDraw();
+    println("\ninside ball draw");
+  }
+
+
 
   //score1 += balls[i].scorePlayer1;
   //score2 += ball[i].scorePlayer2; //Future Code
@@ -61,7 +65,7 @@ void draw() {
     exit();
   }
 
-  //println("Player 1:", score1, "\tPlayer 2:", score2);
+  println("\ndraw loop");
 } //End of void draw
 
 void mouseClicked() {

@@ -6,14 +6,23 @@ Rewriting the Procedure Pong Game, but in Object-based format
 Organization of Main & Classes
 - Main:
   - Creates Pong Balls with Ball Class
-  - 
+  - ...Starts game immediately
+  - Checks for Ball-array out of bounds loop
+  - draws ball and steps
+  - adds the score and prints it to the console
+  - starts new ball with mouse click
 - Ball Class
-  -
+  - Splits ball object creation between declare, assign in constructor, and assign in gameStart()
+  - Uses Empty-IF to make ball stick in goal or do arithmetic on ball steps
 - Firework Class
   -
 - Left-Paddle Class
 - Right Paddle Class
 - Scoreboard Class
+
+Errors about Programs
+. Object Ball: One side works, the other side doesn't freeze the ball
+. Object Ball Firework: listener disengages void draw() like noLoop()
 
 Progression
 1. Build a Ball Class
@@ -57,7 +66,8 @@ CAUTION: Scoring not done
 Pure-Java
 - Needs Security, Getters and Setters
 
-
+Note: having a mouseClick Listener stops the void draw() loop automatically
+- Listener
 
 
 ---
