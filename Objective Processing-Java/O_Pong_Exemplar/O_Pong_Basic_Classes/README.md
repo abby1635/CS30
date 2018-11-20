@@ -21,7 +21,6 @@ Organization of Main & Classes
 - Firework Class
   - Creates a firework through declaration and assignment
   - Uses ballX&Y values when stuck in the goal
-  - 
 - Left-Paddle Class
 - Right Paddle Class
 - Scoreboard Class
