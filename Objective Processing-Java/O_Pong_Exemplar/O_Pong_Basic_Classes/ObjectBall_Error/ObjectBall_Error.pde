@@ -22,7 +22,7 @@ void draw() {
   }
   for (int i=0; i<ballCount; i++) {
     balls[i].gamePlay();
-    balls[i].draw();
+    balls[i].ballDraw();
     //score1 += balls[i].scorePlayer1;
     //score2 += ball[i].scorePlayer2; //Future Code
   }

@@ -31,7 +31,7 @@ class Ball {
     this.c = color(int(random(50, 200)), int(random(50, 200)), int(random(50, 200)));
   } //End of Constructor
 
-  void draw() {
+  void ballDraw() {
     //In Pure-Java these variables will need Getters and Setters
     fill(c);
     ellipse(ballX, ballY, ballDiameter, ballDiameter);
