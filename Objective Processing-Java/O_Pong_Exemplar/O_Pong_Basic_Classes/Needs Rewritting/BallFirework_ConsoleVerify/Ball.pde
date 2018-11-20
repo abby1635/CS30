@@ -4,6 +4,7 @@ class Ball {
   int ballY;
   Boolean ballXGoal;
   Boolean ballXGoalOnce;
+  Boolean createNextBall;
   final int ballStartX;
   final int ballStartY;
   final int ballDiameter;
@@ -27,6 +28,7 @@ class Ball {
     this.ballY = ballStartY;
     this.ballXGoal = false;
     this.ballXGoalOnce = false;
+    this.createNextBall = false;
     ballDiameter = int(width/70); //Must pick one dimension for both ellipse diameters, for a circle
     this.ballSpeedX = int (random (1, 5));
     this.ballSpeedY = int (random (1, 5));
@@ -63,8 +65,8 @@ class Ball {
         ballX = 0+(ballDiameter/4);
         ballXGoal = true;
         ballXGoalOnce = true;
+        createNextBall = true;
         ballY = ballY; //Assignment to itself, in the scoring area that becomes a marker for Fireworks and Scoreboard
-        println ("Ball is struck");
       }
     }
     if (ballX > width-(ballDiameter/4)) {
@@ -72,8 +74,8 @@ class Ball {
       ballX = width-(ballDiameter/4);
       ballXGoal = true;
       ballXGoalOnce = true; //Passing to Fireworks
+      createNextBall = true;
       ballY = ballY;
-      println ("Ball is struck");
     }
 
     //Top and Bottom Boundary Bounce, accounting for increased ball movement per "step"
@@ -97,8 +99,8 @@ class Ball {
     }
 
     //Console Log tracking Scoring and BallX & BallY Positions
-    println("\nPlayer 1:", scorePlayer1, "\tPlayer 2:", scorePlayer2);
-    print("\tBall X:", ballX, "\t Ball Y:", ballY);
+    //println("\nPlayer 1:", scorePlayer1, "\tPlayer 2:", scorePlayer2);
+    //print("\tBall X:", ballX, "\t Ball Y:", ballY);
   } //End of gamePlay()
 
   //Ball Squish

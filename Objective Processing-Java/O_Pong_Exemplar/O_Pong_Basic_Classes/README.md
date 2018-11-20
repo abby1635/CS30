@@ -14,11 +14,14 @@ Organization of Main & Classes
   - adds the score and prints it to the console
   - starts new ball with mouse click
 - Ball Class
+  - Creates a ball through declaration and assignment
   - Splits ball object creation between declare, assign in constructor, and assign in gameStart()
   - Uses Empty-IF to make ball stick in goal or do arithmetic on ball steps
   - Creates the next ball if listener not present
 - Firework Class
-  -
+  - Creates a firework through declaration and assignment
+  - Uses ballX&Y values when stuck in the goal
+  - 
 - Left-Paddle Class
 - Right Paddle Class
 - Scoreboard Class
