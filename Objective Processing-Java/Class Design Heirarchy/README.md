@@ -8,6 +8,7 @@ Abstract Classes and Extending Classes
 
 # Ideas to Include
 Progression
+1. Building an Abstract Class
 - Main Program: name, void setup(), draw()
 - Abstract Class & Extending Rectangle Class: flip between these for declaration, assignment through constructor
 - Add to setup() and draw()
@@ -22,6 +23,11 @@ Progression
 - Try executing to the CANVAS: notice something simple is using class design and heirarchy
 - Reuse the code to draw another rect(), using the random RGB colours
 - Assignment: create a circle class and load it to the shapes-ArrayList
+  - Notice: Abstract_OneExtendedClass.pde will not work since Abstract Procedures are not referenced ( abstract void draw() )
+-
+
+Order
+- See Kevin Workman for explanations
 
 
 ---
