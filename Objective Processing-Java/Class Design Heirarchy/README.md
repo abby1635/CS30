@@ -29,5 +29,7 @@ Progression
 Order
 - See Kevin Workman for explanations
 
+See Kevin Workman, Object Orientated Programming, Objects, Inheritance, Advanced Inheritance
+Rework this
 
 ---

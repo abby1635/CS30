@@ -37,7 +37,7 @@ Here, we are drawing Pong Balls in different ways, and making them move in diffe
 5. Paired Partner Programming Assignment, Project (Review of all of OPP to Date)
    - See <a href="https://github.com/QEHS-ProcessingJava/Ideas-for-OPP">For Teacher Only Files while writting this</a>
 6. Full Fireworks Project, <a href="https://github.com/MercersKitchen/CS30/tree/master/Objective%20Processing-Java/Prototyping%20Objects/Fireworks">Click Here</a>
-   - 
+   -
 7.
 
 . Fireworks Project, <a href="">Click Here</a>
@@ -52,5 +52,8 @@ Here, we are drawing Pong Balls in different ways, and making them move in diffe
 # Ideas to Include
 Ways to Ball Chase better
 - math to make ball movement smoother instead of like Pong Ball, not a 45-degree line and then 1D lines to "make up the distance"
+
+See Kevin Workman, Object Orientated Programming, Objects, Inheritance, Advanced Inheritance
+Rework this
 
 ---
