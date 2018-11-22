@@ -1,5 +1,5 @@
 # Class Design and Hierarchy
-Abstracting
+Abstract Classes and Extending Classes
 
 **UNDER CONSTRUCTION**
 
