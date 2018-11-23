@@ -25,8 +25,18 @@ Progression
 - Assignment: create a circle class and load it to the shapes-ArrayList
   - Notice: Abstract_OneExtendedClass.pde will not work since Abstract Procedures are not referenced ( abstract void draw() )
 
-2. Abstract_TwoExtendedClass.pde will illustrate ```class Circle extends Shape {} ```
-   - 
+2. Abstract_TwoExtendedClass.pde will illustrate ```class Circle extends Shape {}```
+   - Create a Circle Class:
+   - Add unique procedure, step()
+   - Ensure Object created is instantiated as a Global Object (to use unique procedure)
+     - Caution: careful of passing parameters based on Geometry
+   - Assignment: add access modifiers (public, private, static, final, getters and setters)
+
+3. Review all access modifiers
+
+4. Create unique Classes
+   - final class (cannot be extended)
+   - anonymous class (one time creation, more of a shortcut)
 
 Order
 - See Kevin Workman for explanations
