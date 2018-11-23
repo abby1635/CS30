@@ -24,7 +24,9 @@ Progression
 - Reuse the code to draw another rect(), using the random RGB colours
 - Assignment: create a circle class and load it to the shapes-ArrayList
   - Notice: Abstract_OneExtendedClass.pde will not work since Abstract Procedures are not referenced ( abstract void draw() )
--
+
+2. Abstract_TwoExtendedClass.pde will illustrate ```class Circle extends Shape {} ```
+   - 
 
 Order
 - See Kevin Workman for explanations
