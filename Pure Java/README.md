@@ -11,7 +11,7 @@ Review of Object Orientated Programming (Processing-Java) through Pure Java
 ## Note Taking App
 
 See: https://github.com/QEHS-PureJava/Ideas-and-Notes
-See Groceries Project for a List of Concepts and Ideas: 
+See Groceries Project for a List of Concepts and Ideas:
 
 See Article: https://www.makeuseof.com/tag/use-browser-notepad/
 - ```data:text/html, <html contenteditable>```
@@ -98,5 +98,10 @@ class Square extends Rectangle {
 }
 
 ```
+
+---
+
+Private notes
+- https://github.com/QEHS-PureJava
 
 ---
