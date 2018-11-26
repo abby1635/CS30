@@ -6,6 +6,16 @@ Review of Object Orientated Programming (Processing-Java) through Pure Java
 
 ---
 
+# Projects to Explore
+
+## Note Taking App
+
+## Groceries
+
+Connected to ATABotics
+
+---
+
 # Ideas to Include
 
 Objects are:
@@ -23,7 +33,7 @@ Objects are:
   - Interfaces: methods that subclass must override
   - Abstract Class: common code between more than one class
   - Anonymous Classes: create a one-time extension of class that completes a behaviour one time
-  - Final Classes: access modifier final, cannot be extended 
+  - Final Classes: access modifier final, cannot be extended
 
 
 Inheritance
