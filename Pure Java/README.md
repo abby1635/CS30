@@ -10,6 +10,20 @@ Review of Object Orientated Programming (Processing-Java) through Pure Java
 
 ## Note Taking App
 
+See: https://github.com/QEHS-PureJava/Ideas-and-Notes
+See Groceries Project for a List of Concepts and Ideas: 
+
+See Article: https://www.makeuseof.com/tag/use-browser-notepad/
+- ```data:text/html, <html contenteditable>```
+- instant notepad in the active tab
+- The code works with most browsers and the notepad itself works offline. It’s best to use this one as a temporary solution because your notes will disappear when you close the tab.
+
+10 best texting games and text-based games for Android
+- https://www.androidauthority.com/best-texting-games-text-based-games-android-926860/
+- Project for building a paragraph, resume, using character escapes, and all String Functions
+- Might be able to use client and Server functions in Processing.org
+
+
 ## Groceries
 
 Connected to ATABotics
