@@ -32,7 +32,7 @@ Progression
      - Caution: careful of passing parameters based on Geometry
    - Assignment: add access modifiers (public, private, static, final, getters and setters)
 
-3. Review all access modifiers
+3. Review all access modifiers: (names)
 
 4. Create unique Classes
    - final class (cannot be extended)
