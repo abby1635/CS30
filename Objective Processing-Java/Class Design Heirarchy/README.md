@@ -39,6 +39,8 @@ Progression
    - final
    - abstract?
 
+   - Change Abstract_TwoExtendedClass.pde access modifiers to see if the program still work, discuss reasons why it might not work 
+
 4. Create unique Classes
    - final class (cannot be extended)
    - anonymous class (one time creation, more of a shortcut)
