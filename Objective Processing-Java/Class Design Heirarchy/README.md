@@ -39,16 +39,12 @@ Progression
    - final
    - abstract?
 
-   - Change Abstract_TwoExtendedClass.pde access modifiers to see if the program still work, discuss reasons why it might not work 
+   - Change Abstract_TwoExtendedClass.pde access modifiers to see if the program still work, discuss reasons why it might not work
 
 4. Create unique Classes
    - final class (cannot be extended)
+     - see FinalEtAll.pde and describe errors
    - anonymous class (one time creation, more of a shortcut)
-
-Order
-- See Kevin Workman for explanations
-
-See Kevin Workman, Object Orientated Programming, Objects, Inheritance, Advanced Inheritance
-Rework this
+     - see Abstract_AnonymousEtAll.pde and recognize that the one time class can change (like a scoreboard in Pong) but is only a one-time-creation
 
 ---
