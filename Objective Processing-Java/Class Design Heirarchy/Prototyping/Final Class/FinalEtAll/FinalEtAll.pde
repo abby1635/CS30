@@ -30,7 +30,7 @@ public void draw() {
   shapes.get(2).draw(); //Actually moves the object, does not need previous style animation
 }
 
-abstract class Shape {
+final class Shape { //Changed abstract to final
   public float x;
   public float y;
 
@@ -39,5 +39,5 @@ abstract class Shape {
     this.y = y;
   }
 
-  abstract void draw();
+  public void draw() {} //changed abstract to public, get rid of ;
 }
