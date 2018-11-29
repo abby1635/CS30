@@ -47,4 +47,6 @@ Progression
    - anonymous class (one time creation, more of a shortcut)
      - see Abstract_AnonymousEtAll.pde and recognize that the one time class can change (like a scoreboard in Pong) but is only a one-time-creation
 
+Rewrite Pong to include access modifiers and class hierarchy
+
 ---
