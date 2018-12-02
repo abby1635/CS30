@@ -3,7 +3,8 @@ Review of Object Orientated Programming (Processing-Java) through Pure Java
 
 **UNDER CONSTRUCTION**
 
-
+Textbooks and Example Websites, Recommended to Mr. Mercer and That I am still exploring, <a href="">Click </a>
+-
 ---
 
 # Projects to Explore
@@ -101,7 +102,41 @@ class Square extends Rectangle {
 
 ---
 
+
 Private notes
 - https://github.com/QEHS-PureJava
+
+---
+
+# Ideas to Include
+
+---
+
+# Textbooks and Example Websites, Recommended to me that I am still exploring
+
+Baron's Computer Science Workbook, on Amazon
+
+
+From Kevin: kevin@happycoding.io
+- Wayback machine here: https://web.archive.org/web/20160130200217/staticvoidgames.com
+- GitHub Here: https://github.com/KevinWorkman/StaticVoidGames/tree/master/StaticVoidGames/src/main/webapp/WEB-INF/tutorialsContent
+- Using Processing as a Java Library: http://happycoding.io/tutorials/java/processing-in-java
+
+Other Website Resources (<a href="https://docs.google.com/document/d/1GjSR17zMEtzMe21LDCEV2QBjewUdOYbfHDaXf33Mlk8/edit">Click Here for more information</a>)
+- http://www.apbythesea.com/sessions/computer-science-iii
+- http://thecubscientist.com/APCS/Planner/APCS_FallPlanner.pdf
+- https://gotjava2.thecubscientist.com/
+- http://thecubscientist.com/APCS/indexAPCS_HW_Version2.html
+- http://apsi.thecubscientist.com/
+
+Using JOptionPane
+https://www.youtube.com/watch?v=jD-Lv_izino
+
+Converting Strings to Ints using JOptionPane
+https://www.youtube.com/watch?v=8JOp5yeQoJ4
+
+Getting User Input using the Scanner Class
+https://www.youtube.com/watch?time_continue=14&v=BHHeXdb47qQ
+
 
 ---
