@@ -123,6 +123,7 @@ From Kevin: kevin@happycoding.io
 - Using Processing as a Java Library: http://happycoding.io/tutorials/java/processing-in-java
 
 Other Website Resources (<a href="https://docs.google.com/document/d/1GjSR17zMEtzMe21LDCEV2QBjewUdOYbfHDaXf33Mlk8/edit">Click Here for more information</a>)
+- <a href="https://drive.google.com/drive/folders/1-lRvlQv0H8N2XlJwnwJ_QXb0wskXrLhG">Click here for Google Drive with More information</a>
 - http://www.apbythesea.com/sessions/computer-science-iii
 - http://thecubscientist.com/APCS/Planner/APCS_FallPlanner.pdf
 - https://gotjava2.thecubscientist.com/
