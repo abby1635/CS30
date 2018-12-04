@@ -139,5 +139,9 @@ https://www.youtube.com/watch?v=8JOp5yeQoJ4
 Getting User Input using the Scanner Class
 https://www.youtube.com/watch?time_continue=14&v=BHHeXdb47qQ
 
+Learning Objectives:
+- Case Study Essay Grader: end user functions, algorithm for grading
+- Note: the functions and algorithm will match searching algorithms and other string functions in pure java
+
 
 ---
