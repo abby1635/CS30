@@ -3,8 +3,12 @@ Review of Object Orientated Programming (Processing-Java) through Pure Java
 
 **UNDER CONSTRUCTION**
 
-Textbooks and Example Websites, Recommended to Mr. Mercer and That I am still exploring, <a href="">Click </a>
--
+Progressions
+1. Note Taking App in Pure Java (Interacting with Java Compiler through Console using CMD.exe)
+   - Case Study
+   - Hello World: .java, bytecode, and the javac compiler
+   
+
 ---
 
 # Projects to Explore
@@ -101,7 +105,6 @@ class Square extends Rectangle {
 ```
 
 ---
-
 
 Private notes
 - https://github.com/QEHS-PureJava

@@ -20,3 +20,8 @@ Purpose:
 - Expanding on ideas that were left "for thinking to be returned to"
 
 ---
+
+# Previous Student ideas
+
+
+---
