@@ -116,7 +116,6 @@ Private notes
 
 Baron's Computer Science Workbook, on Amazon
 
-
 From Kevin: kevin@happycoding.io
 - Wayback machine here: https://web.archive.org/web/20160130200217/staticvoidgames.com
 - GitHub Here: https://github.com/KevinWorkman/StaticVoidGames/tree/master/StaticVoidGames/src/main/webapp/WEB-INF/tutorialsContent
