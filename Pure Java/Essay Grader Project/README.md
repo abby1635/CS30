@@ -13,5 +13,10 @@ Purpose:
 # Ideas to Include
 
 1/2 Period: brainstorm behaviors of an essay grader (meta literacy about essay pieces)
+- See image of sections and example behaviors
+
+1/2 Period: brainstorm behaviors of an essay grader (meta literacy about essay pieces)
+- Adding Ideas
+- Expanding on ideas that were left "for thinking to be returned to"
 
 ---
