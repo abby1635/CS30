@@ -143,5 +143,10 @@ Learning Objectives:
 - Case Study Essay Grader: end user functions, algorithm for grading
 - Note: the functions and algorithm will match searching algorithms and other string functions in pure java
 
+Organize String Functions and learn how they work
+
+Write Search Algorithms for Essay Grader
+
+Put together in lessons for this project
 
 ---
