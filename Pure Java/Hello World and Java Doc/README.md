@@ -125,6 +125,7 @@ public class HelloWorld{
 
 - Review Basics of Array
 - Add Try-Catch
+  - https://beginnersbook.com/2013/04/try-catch-in-java/
 - Review ArrayIndexOutOfBoundsException
 - Review System Exit 0 & 1 (Similar to Quit Button)
 
