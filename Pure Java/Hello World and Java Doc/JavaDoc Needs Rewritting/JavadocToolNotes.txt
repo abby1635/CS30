@@ -1,0 +1,77 @@
+What is Javadoc?
+Javadoc is a tool which comes with JDK and 
+it is used for generating Java code documentation in HTML format 
+from Java source code, which requires documentation in a predefined format.
+
+Tracking Variables is very difficult, especially as programs get longer
+For example, proffesional developers deal with millions of lines of code
+Javadoc creates external documentation and helps to read internal documentation
+
+Example Comments
+- Single Line: //
+- Mutli-line: /* text */
+- Javadoc: /** documentation */
+
+Documentation Beginning Template (using HTML Tags and CSS Style Sheet)
+Note: tags below are minimum tags
+/**<h1>Project Title: Hello World</h1>
+*<b>Purpose of Project:</b><br>
+*<p>To create a folder, interact with CMD, interact with WYSIWYG</p>
+*<b>How to start the project instructions:</b><br>
+*<p>In CMD: $javac [ClassName].java; then $ java [CalssName]</p>
+*<b>User Instructions:<b/><br>
+*<p>Familiarize with routines of executing JAVA from CMD</P>
+*<br>
+*@author Mark Mercer
+*@version 1
+*@since 2017-11-15
+*/
+
+Class Documentation Beginning Template
+Note: Class Description is necessary, use others as needed
+/**<b>Class Description: Beginning Template</b><br>
+*<p>Outputs message</p>
+*@param args unused
+*@return void
+*@throws
+*/
+
+Method Documentation Beginning Template
+/**<b>Method Description: Driver</b><br>
+*<p>Outputs message</p>
+*@param args unused
+*@return void
+*@throws
+*/
+
+Details of javadoc tags
+@author name-text
+- Adds the author of a class
+- Example: @author Mark Mercer 
+
+@version version-text
+- Adds a "Version" subheading with the specified version-text 
+  to the generated docs when the -version option is used
+- Example: @version 1.0
+
+@since release
+- Adds a "Since" heading with the specified since-text to the 
+  generated documentation
+- International Standard for date
+- Example: @since 2017-11-31
+
+
+@param parameter-name description
+- Adds a parameter with the specified parameter-name followed 
+  by the specified description to the "Parameters" section
+- Example: @param num This is the sum for all numbers
+
+@return description
+- Adds a "Returns" section with the description text
+- Example: @return int This returns num
+
+@throws class-name description
+- The @throws and @exception tags are synonyms
+- @exception Adds a Throws subheading to the generated documentation, 
+  with the classname and description text
+- Syntax: @exception class-name description

@@ -3,11 +3,14 @@ Review of Object Orientated Programming (Processing-Java) through Pure Java
 
 **UNDER CONSTRUCTION**
 
+Guiding Student Documents
+- Java Quick Reference, methods from the Java Library, <a href="https://secure-media.collegeboard.org/digitalServices/pdf/ap/explore-ap/ap-computer-science-a-2014-java-quick-reference.pdf">Click Here</a>
+
 Progressions
 1. Note Taking App in Pure Java (Interacting with Java Compiler through Console using CMD.exe)
    - Case Study
    - Hello World: .java, bytecode, and the javac compiler
-   
+
 
 ---
 
@@ -132,6 +135,14 @@ Other Website Resources (<a href="https://docs.google.com/document/d/1GjSR17zMEt
 - http://thecubscientist.com/APCS/indexAPCS_HW_Version2.html
 - http://apsi.thecubscientist.com/
 
+Learning Objectives:
+- Case Study Essay Grader: end user functions, algorithm for grading
+- Note: the functions and algorithm will match searching algorithms and other string functions in pure java
+- Behaviours: console feedback, user feedback
+- Questions from User
+
+Organize String Functions and learn how they work
+
 Using JOptionPane
 https://www.youtube.com/watch?v=jD-Lv_izino
 
@@ -141,14 +152,44 @@ https://www.youtube.com/watch?v=8JOp5yeQoJ4
 Getting User Input using the Scanner Class
 https://www.youtube.com/watch?time_continue=14&v=BHHeXdb47qQ
 
-Learning Objectives:
-- Case Study Essay Grader: end user functions, algorithm for grading
-- Note: the functions and algorithm will match searching algorithms and other string functions in pure java
-
-Organize String Functions and learn how they work
-
 Write Search Algorithms for Essay Grader
 
 Put together in lessons for this project
 
 ---
+
+# Other Notes to Include
+
+Future Assignments to include here
+(CAUTION: these do not include HelloWorld or AddNum Programs)
+- Introduction to Outputs
+  Example IntroToStrings Program
+  IntroToOutput
+  IntroToOutput_Variables
+
+IntroStrings - two programs
+- first automatically splits an argument using information
+  Teaching Lesson
+- second asks for that information using arguments, scanner class, and / or JOptionPane
+  See Introduction to Strings Assignment
+
+Introduction to Strings Assignment
+- Paper and Pencil Coding, alrogithm guidance
+
+Introduction to Arithemtic Assignment
+- Paper and Pencil Coding, alrogithm guidance
+
+Quadratics Coding as inclass Assignment with Arithmetic Assignment done as
+HW
+
+Throwing Number Format Exception
+Typing Decimal Values into a Scanner or JOptionPane
+- Separete out the decimal using substrings
+- Divide the decimal value by it's placevalue to get the "decimal value"
+  as an integer
+- Concatenate the integer and the decimal value
+Put this in the Intro to Airthemtic Assignments
+Also put this into a lesson about how to deal with Doubles
+Also test Double.parseDouble(string)
+Example: Boolean.parseBoolean("True") returns true.
+Example: Boolean.parseBoolean("yes") returns false.
