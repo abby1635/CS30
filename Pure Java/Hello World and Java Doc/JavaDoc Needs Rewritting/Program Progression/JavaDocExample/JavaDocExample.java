@@ -59,6 +59,7 @@ public class JavaDocExample{ //AddNum
   }
   catch(NumberFormatException nfe){
     //input is not a number, gently tell user to use a number in Args
+    //can provide smarter feedback if parsing is separated
     System.out.println ("Your argument is not a number. \nPlease use a number.");
     System.exit(1);
   }

@@ -33,6 +33,7 @@ public class Exception_TwoTypes {
     int a = 4;
     int b = 0;
     if (b==0) {
+      //Comment out throw to see program flow 
       throw new ArithmeticException ("Cannot Divide by Zero, Change the B Value");
       //all lines following in the IF are "unreachable" and debuggd by compiler
     }

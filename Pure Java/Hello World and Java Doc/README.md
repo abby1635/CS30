@@ -117,28 +117,138 @@ public class HelloWorld{
 
 ```
 
-
+---
 
 ## Hello World CMD (starting a program with Command Line Arguments)
 
 **Rewrite**
 
+Program Basics
 - Review Basics of Array
 - Add Try-Catch
   - https://beginnersbook.com/2013/04/try-catch-in-java/
 - Review ArrayIndexOutOfBoundsException
 - Review System Exit 0 & 1 (Similar to Quit Button)
 
+### Using ARGS[]
+
 Two Types of CMD Java, Hello World
 - Hard coding variables
-- Supplying code through CMD Window (args is always strings)
-  Passing integers and parsing them
-  Passing Strings and dealing with them
+- Supplying code through CMD Window (Args is always strings)
+  - Passing integers or other data types and parsing them
+  - Passing Strings and dealing with them
+
+Examples of Primitive Data Types included in above website
+1. Boolean - http://java.sun.com/javase/6/docs/api/java/lang/Boolean.html#parseBoolean(java.lang.String)
+2. int - http://java.sun.com/javase/6/docs/api/java/lang/Integer.html#parseInt(java.lang.String)
+3. long - http://java.sun.com/javase/6/docs/api/java/lang/Long.html#parseLong(java.lang.String)
+4. float - http://java.sun.com/javase/6/docs/api/java/lang/Float.html#parseFloat(java.lang.String)
+5. double - http://java.sun.com/javase/6/docs/api/java/lang/Double.html#parseDouble(java.lang.String)
+
+Note: Website also saved to folder
+
+### Using System.exit
+The Integer from System.exit(int) can be evaluated and used as a debugging issue
+
+System.exit(0): normal exit
+
+System.exit(-1): abnormal exit
+
+Note: any number not zero means an abnormal exit
+
+---
 
 ## Exploring Java Documentation within a Program, Adding Two Numbers
 
+Program Progression
+- See working case study for two numbers
+- See adding javadoc to case study
+- Getting Ready to add ARGS[] to input
+  - See Exception of Two Types
+    1. Direct output and program exit
+    2. Smarter reassignment, then continue program execution
+- See JavaDocExample
+- See JavaDocToString
+- assignment: combine all
+
+**NEEDS REWRITTING**
+
 Create a case study for adding two numbers, input through CMD Arguments
 - Note: this will be on way to prototype (input through CMD arguments)
+
+Creating an Instant of a Class means we use variables, assignment of variables (constructor), and toString() to for printing purposes (like debugging)
+- through Driver or main program, if println an object, it will give the memory location of the object or the toString() when toString() overrides the default printing of memory location
+
+What is Javadoc? Javadoc is a tool which comes with JDK and it is used for generating Java code documentation in HTML format from Java source code, which requires documentation in a predefined format.
+
+Tracking Variables is very difficult, especially as programs get longer. For example, professional developers deal with millions of lines of code Javadoc creates external documentation and helps to read internal documentation.
+
+Example Comments
+- Single Line: ```//```
+- Mutli-line: ```/* text */```
+- Javadoc: ```/** documentation */```
+
+### Example Template
+
+Documentation Beginning Template (using HTML Tags and CSS Style Sheet)
+
+Note: tags below are minimum tags
+
+```java
+/**<h1>Project Title: </h1>
+*<b>Purpose of Project: </b><br>
+*<p>Description: </p>
+*<b>How to start the project instructions: </b><br>
+*<p>In CMD: $javac [ClassName].java; then $ java [ClassName]</p>
+*<b>User Instructions: <b/><br>
+*<p>[Can be ordered or unordered list]]</P>
+*<br>
+*@author Mark Mercer
+*@version 1
+*@since 2017-11-15
+*/
+
+/**<b>Class Description: </b><br>
+*<p>Outputs: </p>
+*@param args unused //only example answer
+*@return void //only example answer
+*@throws
+*/
+
+/**<b>Method Description: Driver</b><br> //Only example answer
+*<p>Outputs message</p> //Only example answer
+*@param args unused //Only example answer
+*@return void //Only example answer
+*@throws
+*/
+```
+
+Details of javadoc tags
+@author name-text
+- Adds the author of a class
+- Example: @author Mark Mercer
+
+@version version-text
+- Adds a "Version" subheading with the specified version-text to the generated docs when the -version option is used
+- Example: @version 1.0
+
+@since release
+- Adds a "Since" heading with the specified since-text to the generated documentation
+- International Standard for date
+- Example: @since 2017-11-31
+
+@param parameter-name description
+- Adds a parameter with the specified parameter-name followed by the specified description to the "Parameters" section
+- Example: @param num This is the sum for all numbers
+
+@return description
+- Adds a "Returns" section with the description text
+- Example: @return int This returns num
+
+@throws class-name description
+- The @throws and @exception tags are synonyms
+- @exception Adds a Throws subheading to the generated documentation, with the ClassName and description text
+- Syntax: @exception class-name description
 
 ## Hello World Possible Exercises
 

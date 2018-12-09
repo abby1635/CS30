@@ -1,4 +1,4 @@
-public class JavaDocExample{ //AddNum
+public class JavaDocExample { //AddNum
 
   public int addNum (int numA, int numB) {
     return numA + numB;
@@ -9,4 +9,5 @@ public class JavaDocExample{ //AddNum
     int sum = obj.addNum(10, 20);
     System.out.println("Sum of 10 and 20 is: " + sum);
   }
+  
 }
