@@ -33,6 +33,13 @@ Using the JAVAC Compiler: compiling Java, creating Bytecode, executing Bytecode
 - NOTE: Bytecode will run on multiple platforms (Windows, Mac, and various microcontrollers like alarm clocks) ... Java is everywhere
 . Create GitHub repository and add a .txt document, extension changed to .java
 1. SHIFT-LeftClick on Folder
+   - OR
+   - Open CMD.exe
+   - Open Window and Copy Pathway to Program intended
+     - For Example: C:\Users\mmercer\Documents\GitHub\CS30\Pure Java\Hello World and Java Doc\HelloWorld
+   - Changing Drive letters, type ```c:```
+   - Adding pathway: type ```cd C:\Users\mmercer\Documents\GitHub\CS30\Pure Java\Hello World and Java Doc\HelloWorld```
+   - Then should be able to run the javac and java commands below
 2. Run CMD: "Open Command Window Here"
 3. Creating Bytecode: type ```javac [program name, exact spelling].java```
    - Compiles Java
