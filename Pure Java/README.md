@@ -1,6 +1,10 @@
 # Pure Java
 Review of Object Orientated Programming (Processing-Java) through Pure Java
 
+Purpose of Using Pure Java directly with the Java Compiler through a Command Terminal ...
+- introduction to terminal work for developing (navigating pathways, working with bytecode)
+- develop an interesting text-only program using pure java's built-in args array
+
 **UNDER CONSTRUCTION**
 
 Guiding Student Documents
