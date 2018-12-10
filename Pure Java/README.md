@@ -5,6 +5,8 @@ Review of Object Orientated Programming (Processing-Java) through Pure Java
 
 Guiding Student Documents
 - Java Quick Reference, methods from the Java Library, <a href="https://secure-media.collegeboard.org/digitalServices/pdf/ap/explore-ap/ap-computer-science-a-2014-java-quick-reference.pdf">Click Here</a>
+- Full Java 7 Reference API, <a href="https://docs.oracle.com/javase/7/docs/api/">Click Here</a>
+  - Note: change to other versions of Java by switching the number in the URL
 
 Progressions
 1. Note Taking App in Pure Java (Interacting with Java Compiler through Console using CMD.exe)
@@ -143,15 +145,6 @@ Learning Objectives:
 
 Organize String Functions and learn how they work
 
-Using JOptionPane
-https://www.youtube.com/watch?v=jD-Lv_izino
-
-Converting Strings to Ints using JOptionPane
-https://www.youtube.com/watch?v=8JOp5yeQoJ4
-
-Getting User Input using the Scanner Class
-https://www.youtube.com/watch?time_continue=14&v=BHHeXdb47qQ
-
 Write Search Algorithms for Essay Grader
 
 Put together in lessons for this project
@@ -193,3 +186,26 @@ Also put this into a lesson about how to deal with Doubles
 Also test Double.parseDouble(string)
 Example: Boolean.parseBoolean("True") returns true.
 Example: Boolean.parseBoolean("yes") returns false.
+
+Zero and Mutli Argument Constructors
+
+Other Review Material (Leading to Advanced Placement, copy these links there)
+- http://thecubscientist.com/index.html
+- http://thecubscientist.com/APCS/indexAPCS.html
+- https://gotjava.thecubscientist.com/
+- https://gotjava2.thecubscientist.com/
+- Review of Inheritance: http://thecubscientist.com/APCS/03_LewTube/index07_Inheritance.html
+  - http://thecubscientist.com/APCS/03_LewTube/index05_InheritanceInterfaces_Version2.html
+- MyDevice Project III Creating abstract methods: https://www.youtube.com/watch?v=Hw5PF_8F55A
+- MyDevice Project IV What's an "Interface?": https://www.youtube.com/watch?v=It0tNXf1kSs
+- Review of Interfaces: http://thecubscientist.com/APCS/03_LewTube/index08_Interfaces
+
+Creating Various Projects using Processing-Java, Object Orientated
+- https://web.archive.org/web/20160403130201/http://staticvoidgames.com/tutorials/basicJava/strings
+- Using Swing: https://web.archive.org/web/20160403191025/http://staticvoidgames.com/tutorials/swing/index
+- Rock, Paper, Scissors
+- Building a Twitter Bot
+- Building a Clock
+
+
+Formatting Doubles: ```String s = String.format ("This is how %.3f and %.2f ... Nice", float1, float2)```

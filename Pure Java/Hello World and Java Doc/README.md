@@ -286,4 +286,13 @@ Write a program that prints out "Hello World"
 - What happens if you forget the String[] args argument?
 - What happens if you run a class that doesn't have a main method?
 
+Using JOptionPane
+https://www.youtube.com/watch?v=jD-Lv_izino
+
+Converting Strings to Ints using JOptionPane
+https://www.youtube.com/watch?v=8JOp5yeQoJ4
+
+Getting User Input using the Scanner Class
+https://www.youtube.com/watch?time_continue=14&v=BHHeXdb47qQ
+
 ---
