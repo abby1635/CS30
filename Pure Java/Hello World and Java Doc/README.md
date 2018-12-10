@@ -295,4 +295,6 @@ https://www.youtube.com/watch?v=8JOp5yeQoJ4
 Getting User Input using the Scanner Class
 https://www.youtube.com/watch?time_continue=14&v=BHHeXdb47qQ
 
+Formatting Doubles: ```String s = String.format ("This is how %.3f and %.2f ... Nice", float1, float2)```
+
 ---

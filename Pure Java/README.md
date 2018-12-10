@@ -207,5 +207,4 @@ Creating Various Projects using Processing-Java, Object Orientated
 - Building a Twitter Bot
 - Building a Clock
 
-
-Formatting Doubles: ```String s = String.format ("This is how %.3f and %.2f ... Nice", float1, float2)```
+---
