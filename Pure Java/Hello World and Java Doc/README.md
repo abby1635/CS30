@@ -26,6 +26,7 @@ Review of JAVAC Complier
 
 Using the JAVAC Compiler: compiling Java, creating Bytecode, executing Bytecode
 - NOTE: Bytecode will run on multiple platforms (Windows, Mac, and various microcontrollers like alarm clocks) ... Java is everywhere
+. Create GitHub repository and add a .txt document, extension changed to .java
 1. SHIFT-LeftClick on Folder
 2. Run CMD: "Open Command Window Here"
 3. Creating Bytecode: type ```javac [program name, exact spelling].java```
