@@ -10,6 +10,11 @@ Tools will be using
   - Similar to Terminal in Linux (Raspberry Pi Computer) and utilizing devices built for Internet of Things
 - WYSIWYG: Atom (students are able to use text editor of their choice as long as multiple files open concurrently, like Notepad++)
 - JDK (use most recent version unless using EPS-Schoolzone, See BYOD, <a href="https://github.com/MercersKitchen/BYOD#for-computers-using-schoolzone-all-or-powerteacher">Click Here</a>)
+- Verify the Environmental Variables (My Computer / Properties / Advanced System Settings (System Properties) / Environmental / User Variables / Path / Edit)
+  - Find the JDK bin and the JRE bin
+  - For Example
+    - C:\Program Files\Java\jdk1.8.0_121\bin
+    - C:\Program Files\Java\jre1.8.0_121\bin
 
 Review of JAVAC Complier
 - Reads Java using 3 locators
