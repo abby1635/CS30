@@ -23,5 +23,9 @@ Purpose:
 
 # Previous Student ideas
 
+Case Study Ideas
+- Spelling Specific: last letter of previous word is first letter of current work, space in wrong place
+  - remove first letter, check spelling of previous word with removed letter; if true ... replace automatically
+  - after removed letter, check spelling of rest of word; if true ... fix immediately
 
 ---
