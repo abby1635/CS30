@@ -52,7 +52,9 @@ Using the JAVAC Compiler: compiling Java, creating Bytecode, executing Bytecode
 
 Progressions
 1. Create a simple Hello World Program, <a href="">Click Here for Descriptions</a>, <a href="">Click Here for Exemplar Program Files</a>
-2.
+   - Adding the Java Documentation
+2. Case Study Adding Two Numbers from ARGS[]
+
 <a href="">Click Here for Descriptions</a>, <a href="">Click Here for Exemplar Program Files</a>
 
 ## Simple Hello World Program
@@ -73,7 +75,8 @@ Progressions
 - What is created in the folder
 - Template for Hello World Program
 
-Breakdown of Hello World Program'
+Breakdown of Hello World Program
+```java
 //Writing your first class
 //Break down each line of code - Review Processing Java
 
@@ -87,7 +90,7 @@ public class HelloWorld{
 //class: blueprint for objects, all information should be encapuslated
 //static: do not need to instanciate an object
 //void: does not return anything
-```java
+
 /*main(String[] args): method named main, which takes one argument named args,
                        which is an array of Strings
   - Looks for this method, like Processing looks for void setup & draw
