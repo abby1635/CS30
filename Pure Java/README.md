@@ -211,4 +211,7 @@ Creating Various Projects using Processing-Java, Object Orientated
 - Building a Twitter Bot
 - Building a Clock
 
+https://www.androidauthority.com/best-texting-games-text-based-games-android-926860/
+
+
 ---
