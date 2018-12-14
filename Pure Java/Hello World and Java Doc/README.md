@@ -54,6 +54,9 @@ Progressions
 1. Create a simple Hello World Program, <a href="">Click Here for Descriptions</a>, <a href="">Click Here for Exemplar Program Files</a>
    - Adding the Java Documentation
 2. Case Study Adding Two Numbers from ARGS[]
+3. Building the Error Catching and basic "Adding Two Numbers from ARGS[]" Program
+   -
+.
 
 <a href="">Click Here for Descriptions</a>, <a href="">Click Here for Exemplar Program Files</a>
 

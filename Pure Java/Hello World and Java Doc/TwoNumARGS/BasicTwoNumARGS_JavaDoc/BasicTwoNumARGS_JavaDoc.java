@@ -13,7 +13,7 @@ import java.io.*;
 * @version 1.0
 * @since   2014-03-31
 */
-public class AddNum {
+public class BasicTwoNumARGS_JavaDoc {
    /**
    * This method is used to add two integers. This is
    * a the simplest form of a class method, just to

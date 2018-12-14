@@ -11,7 +11,8 @@
 *@since 2017-11-15
 */
 
-public class HelloWorld {
+public class HelloWorldJavaDoc
+{
   /**<b>Class Description: Beginning Template</b><br>
   *<p>Outputs message</p>
   *@param args unused
@@ -26,7 +27,9 @@ public class HelloWorld {
   *@throws
   */
 
-   public static void main(String[] args) {
+   public static void main(String[] args)
+   {
       System.out.println("Hello World!");
    }
+   
 }
