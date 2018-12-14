@@ -1,4 +1,4 @@
-public class One
+public class EmptyARGS
 {
   public static void main (String[] args)
   throws ArrayIndexOutOfBoundsException

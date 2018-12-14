@@ -14,3 +14,5 @@ Additional Exceptions
 IllegalStateException (Barons P75, 249)
 NoSuchElementException (Barons P75, 247, 248)
 StringIndexOutOfBoundsException (Barons P180)
+
+Useful Extras: isNAN
