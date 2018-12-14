@@ -1,6 +1,5 @@
 import java.io.*;
 
-
 public class AddNum
 {
 
@@ -15,6 +14,7 @@ public class AddNum
       AddNum obj = new AddNum();
       int sum = obj.addNum(10, 20);
 
-      System.out.println("Sum of 10 and 20 is :" + sum);
+      System.out.println("\nSum of 10 and 20 is: " + sum);
    }
+
  }
