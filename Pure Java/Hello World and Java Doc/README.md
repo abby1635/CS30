@@ -204,7 +204,7 @@ Tracking Variables is very difficult, especially as programs get longer. For exa
 
 Example Comments
 - Single Line: ```//```
-- Mutli-line: ```/* text */```
+- Multi-line: ```/* text */```
 - Javadoc: ```/** documentation */```
 
 ### Example Template

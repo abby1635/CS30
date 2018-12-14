@@ -37,4 +37,9 @@ Ideas to include
 - Using toString()
 - Using Character Escapes
 
+String toString() calling toString(): https://www.youtube.com/watch?v=TmEpfNOpfZ0
+- method
+- uses concatenation (comman or plus)
+- Uses character escapes
+
 ---
