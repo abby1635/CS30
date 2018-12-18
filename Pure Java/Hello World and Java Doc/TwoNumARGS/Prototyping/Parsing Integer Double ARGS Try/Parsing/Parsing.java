@@ -10,11 +10,25 @@ public class Parsing
   {
     try
     {
-      args[0]="2"; //Without arguement, throws ArrayIndexOutOfBoundsException
-    }
+      input[0] = args[0]; //Without arguement, throws ArrayIndexOutOfBoundsException
+      //If Error thrown, next line will not execute
+      System.out.println("Congrats ... I am using your ARGS[0].");
+      }
     catch (ArrayIndexOutOfBoundsException e)
     {
       input[0] ="2"; //Change to "two" for illustration
+      System.out.println("You did not enter a first arguement. \nI did it for you.");
+    }
+    try
+    {
+      // Throws ArrayIndexOutOfBoundsException if no second ARGS entered
+      input[1] = args[1];
+      System.out.println("Congrats ... I am using your ARGS[1].");
+    }
+    catch (ArrayIndexOutOfBoundsException e)
+    {
+      input[1] = "5"; //Change to "two" for illustration
+      System.out.println("You did not enter a second arguement. \nI did it for you.");
     }
 
     try
