@@ -4,6 +4,12 @@ public class Parsing
   static int[] num = new int[2];
   static String[] input = new String[2];
 
+  String parsingMethod (String[] string)
+  {
+   //continue with parsing the string in order with specific feedback
+    return ; //Must be a String Varaible returning into
+  }
+
   //Notation for mutliple exceptions
   public static void main (String[] args)
   throws ArrayIndexOutOfBoundsException, NumberFormatException
@@ -30,10 +36,10 @@ public class Parsing
       input[1] = "5"; //Change to "two" for illustration
       System.out.println("You did not enter a second arguement. \nI did it for you.");
     }
-
     try
     {
-      num[0] = Integer.parseInt(input[0]);
+      //Need to change this line, eventually
+      num[0] = parsingMethod(input[0]); // Memory of ARGS[0]
     }
     catch (NumberFormatException e) {
       System.out.println("You must enter digits \n" +
