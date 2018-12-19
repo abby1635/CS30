@@ -7,6 +7,29 @@ public class Parsing
   String parsingMethod (String[] string)
   {
    //continue with parsing the string in order with specific feedback
+    String returnString;
+    int returnInt; //Input is small, thus int, not long
+    float returnFloat; //Input is small, thus float, not double
+    try
+    {
+      returnInt = Integer.parseInt(string[0]);
+      System.out.println("Please restart the program and type digits");
+    }
+    catch (NumberFormatException e)
+    {
+      try
+      {
+        System.out.println("Let's see if you typed a decimal.");
+        returnFloat = Float.parseFloat(string[0]);
+        System.out.println("Looks like you typed a decimal, \nPlease restart the program and type digits only.");
+      }
+      catch (NumberFormatException e)
+      {
+        System.out.println("Let's see if you mistyped a digit");
+        returnString = string[0];
+        System.out.println("Look's like you mistyped a digit. \nPlease restart the program and type digits.");
+      }
+
     return ; //Must be a String Varaible returning into
   }
 
