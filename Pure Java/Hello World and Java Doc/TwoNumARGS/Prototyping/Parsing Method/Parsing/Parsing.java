@@ -3,13 +3,14 @@ public class Parsing
   //Global Variable
   static int[] num = new int[2];
   static String[] input = new String[2];
+  static String[] parseReturn = new String[2];
 
   String parsingMethod (String[] string)
   {
    //continue with parsing the string in order with specific feedback
-    String returnString;
-    int returnInt; //Input is small, thus int, not long
-    float returnFloat; //Input is small, thus float, not double
+    String returnString=null;
+    int returnInt=null; //Input is small, thus int, not long
+    float returnFloat=null; //Input is small, thus float, not double
     try
     {
       returnInt = Integer.parseInt(string[0]);
@@ -28,6 +29,18 @@ public class Parsing
         System.out.println("Let's see if you mistyped a digit");
         returnString = string[0];
         System.out.println("Look's like you mistyped a digit. \nPlease restart the program and type digits.");
+      }
+      //To Evalaute a Boolean, must use String Functions
+      //Code here to be continued
+      if (returnInt != null) return "integer";
+      if (returnFloat != null) return "decimal";
+      if (returnString != null) {
+        Boolean returnBool = Boolean.parseBoolean(string[0]);
+        if (returnBool == true) return "boolean";
+        return "spelling mistake";
+      } else {
+        System.out.println("Program has malfunctioned. Needs review");
+        System.exit(2);
       }
 
     return ; //Must be a String Varaible returning into
