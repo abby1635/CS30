@@ -281,7 +281,7 @@ JavaDocExample: explore ToString in this
 - See parsing in supporting DOCs
 - see using args[]
 
-AddNum (JavaDocExample- Example for illstrating Javadoc Tool further
+AddNum (JavaDocExample- Example for illustrating Javadoc Tool further
 Complete this program twice
 1. Hardcoded variables
 2. Args-passed variables & use print with escapes to output variables
@@ -292,6 +292,8 @@ Complete this program twice
 - int num = Integer.parseInt ( input );
 3. This program reminds students about how to create a procedure in a class
    that is called anytime it is needed
+
+CAUTION: need to explain purpose of program is to evaluate user input for specific user feedback
 
 Future - Hello World Exercises (Below)
 Future - Fundamentals Exercises by mixing in arrays (Below)
