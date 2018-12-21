@@ -56,4 +56,11 @@ Review these resources
     - Crash Test Computer Science, all videos: https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo
 -
 
+Search Types to Explore (Use Decks of cards)
+- Linear Search
+- Binary Search
+- Exchange sort: bubble sort, cocktail sort, gnome sort, comb sort
+- Selection sort: selection sort, strand sort
+- Insertion sort: insertion sort, library sort
+
 ---
