@@ -54,24 +54,63 @@ Review these resources
 - Algorithms
   - Crash Test Computer Science, Algorithms: https://www.youtube.com/watch?v=rL8X2mlNHPM
     - Crash Test Computer Science, all videos: https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo
--
+
+    Lesson for Sorting
+    - ARGS is populated with "The quick brown fox jumps over the lazy dog."
+    - Vocabulary words are "Fox", "Jump", "Dog"
+      - Issues: proper noun, subject-predicate agreement, punctuation
+    - Linear Sort: most amount of comparison (do not increase comparisons past linear search)
+      - Stop searching when <string.length() (similar to CS10 Music Player Next Button ArrayIndexOutOfBounds Error)
+      - Compare with another array (i.e. array holding vocabulary words)
+    - Exchange Sort: see https://www.youtube.com/watch?v=xnfFS1kl0aM
+    - Insertion Sort: see https://www.youtube.com/watch?v=OGzPmgsI-pQ
+      - Comparisons to index-zero, if necessary (similar to CS10 Music Player Previous Button ArrayIndexOutOfBounds Error)
+
+
 
 Search Types to Explore (Use Decks of cards)
-- Linear Search
-- Binary Search
-- Exchange sort: bubble sort, cocktail sort, gnome sort, comb sort
-- Selection sort: selection sort, strand sort
-- Insertion sort: insertion sort, library sort
+- Linear Search: sequential search, starting at the beginning
+- Binary Search: starts in the middle and tests if it should be left or right
+  - can only be done on sorted data
+  - thus will always be slower than linear
+    - see https://www.youtube.com/watch?v=P3YID7liBug
 
-Lesson for Sorting
-- ARGS is populated with "The quick brown fox jumps over the lazy dog."
-- Vocabulary words are "Fox", "Jump", "Dog"
-  - Issues: proper noun, subject-predicate agreement, punctuation
-- Linear Sort: most amount of comparison (do not increase comparisons past linear search)
-  - Stop searching when <string.length() (similar to CS10 Music Player Next Button ArrayIndexOutOfBounds Error)
-- Exchange Sort: see https://www.youtube.com/watch?v=xnfFS1kl0aM
-- Insertion Sort: see https://www.youtube.com/watch?v=OGzPmgsI-pQ
-  - Comparisons to index-zero, if necessary (similar to CS10 Music Player Previous Button ArrayIndexOutOfBounds Error)
 
+
+Ways for sorting data
+- Exchange sort (Bubble):
+  - Result makes <= operator true in final array
+  - Compares two adjacent items at a time
+  - See: https://www.youtube.com/watch?v=xnfFS1kl0aM
+- Insertion sort
+  - much less efficient on large data than quicksort, heapsort, or merge sort
+  - See: https://www.youtube.com/watch?v=OGzPmgsI-pQ
+- Selection Sort
+  - See https://www.youtube.com/watch?v=xWBP4lzkoyM
+- Merge Sort
+  - https://www.youtube.com/watch?v=4VqmGXwpLqc
+- Cocktail Sort
+  - See: https://www.youtube.com/watch?v=Sn5MAZdnYlY
+- Other Sorts
+  - gnome sort
+  - comb sort
+  - Selection sort: strand sort
+  - Insertion sort: library sort
+  - Quicksort?
+  - Heap sort?
+
+Explore Time Constraints
+
+Use a deck of cards
+Count number of comparisons - What is faster, introduction
+
+---
+
+Basic Notes that need to be changed
+Algorithms
+String Functions, Algorithm based on String Functions
+- Divide Behaviors
+Tuesday - Algorithm
+Creating a toString to output result Strings
 
 ---
