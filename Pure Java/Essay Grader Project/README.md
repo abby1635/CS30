@@ -63,4 +63,15 @@ Search Types to Explore (Use Decks of cards)
 - Selection sort: selection sort, strand sort
 - Insertion sort: insertion sort, library sort
 
+Lesson for Sorting
+- ARGS is populated with "The quick brown fox jumps over the lazy dog."
+- Vocabulary words are "Fox", "Jump", "Dog"
+  - Issues: proper noun, subject-predicate agreement, punctuation
+- Linear Sort: most amount of comparison (do not increase comparisons past linear search)
+  - Stop searching when <string.length() (similar to CS10 Music Player Next Button ArrayIndexOutOfBounds Error)
+- Exchange Sort: see https://www.youtube.com/watch?v=xnfFS1kl0aM
+- Insertion Sort: see https://www.youtube.com/watch?v=OGzPmgsI-pQ
+  - Comparisons to index-zero, if necessary (similar to CS10 Music Player Previous Button ArrayIndexOutOfBounds Error)
+
+
 ---
